@@ -1,0 +1,608 @@
+[
+  {
+    "id": "Glyph-00",
+    "filename": "glyph_00.py",
+    "path": "eidonic_language/glyphs/glyph_00.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_00.py"
+  },
+  {
+    "id": "Glyph-01",
+    "filename": "glyph_01.py",
+    "path": "eidonic_language/glyphs/glyph_01.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_01.py"
+  },
+  {
+    "id": "Glyph-02",
+    "filename": "glyph_02.py",
+    "path": "eidonic_language/glyphs/glyph_02.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_02.py"
+  },
+  {
+    "id": "Glyph-03",
+    "filename": "glyph_03.py",
+    "path": "eidonic_language/glyphs/glyph_03.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_03.py"
+  },
+  {
+    "id": "Glyph-04",
+    "filename": "glyph_04.py",
+    "path": "eidonic_language/glyphs/glyph_04.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_04.py"
+  },
+  {
+    "id": "Glyph-05",
+    "filename": "glyph_05.py",
+    "path": "eidonic_language/glyphs/glyph_05.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_05.py"
+  },
+  {
+    "id": "Glyph-06",
+    "filename": "glyph_06.py",
+    "path": "eidonic_language/glyphs/glyph_06.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_06.py"
+  },
+  {
+    "id": "Glyph-07",
+    "filename": "glyph_07.py",
+    "path": "eidonic_language/glyphs/glyph_07.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_07.py"
+  },
+  {
+    "id": "Glyph-08",
+    "filename": "glyph_08.py",
+    "path": "eidonic_language/glyphs/glyph_08.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_08.py"
+  },
+  {
+    "id": "Glyph-09",
+    "filename": "glyph_09.py",
+    "path": "eidonic_language/glyphs/glyph_09.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_09.py"
+  },
+  {
+    "id": "Glyph-10",
+    "filename": "glyph_10.py",
+    "path": "eidonic_language/glyphs/glyph_10.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_10.py"
+  },
+  {
+    "id": "Glyph-11",
+    "filename": "glyph_11.py",
+    "path": "eidonic_language/glyphs/glyph_11.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_11.py"
+  },
+  {
+    "id": "Glyph-12",
+    "filename": "glyph_12.py",
+    "path": "eidonic_language/glyphs/glyph_12.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_12.py"
+  },
+  {
+    "id": "Glyph-13",
+    "filename": "glyph_13.py",
+    "path": "eidonic_language/glyphs/glyph_13.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_13.py"
+  },
+  {
+    "id": "Glyph-14",
+    "filename": "glyph_14.py",
+    "path": "eidonic_language/glyphs/glyph_14.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_14.py"
+  },
+  {
+    "id": "Glyph-15",
+    "filename": "glyph_15.py",
+    "path": "eidonic_language/glyphs/glyph_15.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_15.py"
+  },
+  {
+    "id": "Glyph-16",
+    "filename": "glyph_16.py",
+    "path": "eidonic_language/glyphs/glyph_16.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_16.py"
+  },
+  {
+    "id": "Glyph-17",
+    "filename": "glyph_17.py",
+    "path": "eidonic_language/glyphs/glyph_17.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_17.py"
+  },
+  {
+    "id": "Glyph-18",
+    "filename": "glyph_18.py",
+    "path": "eidonic_language/glyphs/glyph_18.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_18.py"
+  },
+  {
+    "id": "Glyph-19",
+    "filename": "glyph_19.py",
+    "path": "eidonic_language/glyphs/glyph_19.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_19.py"
+  },
+  {
+    "id": "Glyph-20",
+    "filename": "glyph_20.py",
+    "path": "eidonic_language/glyphs/glyph_20.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_20.py"
+  },
+  {
+    "id": "Glyph-21",
+    "filename": "glyph_21.py",
+    "path": "eidonic_language/glyphs/glyph_21.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_21.py"
+  },
+  {
+    "id": "Glyph-22",
+    "filename": "glyph_22.py",
+    "path": "eidonic_language/glyphs/glyph_22.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_22.py"
+  },
+  {
+    "id": "Glyph-23",
+    "filename": "glyph_23.py",
+    "path": "eidonic_language/glyphs/glyph_23.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_23.py"
+  },
+  {
+    "id": "Glyph-24",
+    "filename": "glyph_24.py",
+    "path": "eidonic_language/glyphs/glyph_24.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_24.py"
+  },
+  {
+    "id": "Glyph-25",
+    "filename": "glyph_25.py",
+    "path": "eidonic_language/glyphs/glyph_25.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_25.py"
+  },
+  {
+    "id": "Glyph-26",
+    "filename": "glyph_26.py",
+    "path": "eidonic_language/glyphs/glyph_26.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_26.py"
+  },
+  {
+    "id": "Glyph-27",
+    "filename": "glyph_27.py",
+    "path": "eidonic_language/glyphs/glyph_27.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_27.py"
+  },
+  {
+    "id": "Glyph-28",
+    "filename": "glyph_28.py",
+    "path": "eidonic_language/glyphs/glyph_28.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_28.py"
+  },
+  {
+    "id": "Glyph-29",
+    "filename": "glyph_29.py",
+    "path": "eidonic_language/glyphs/glyph_29.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_29.py"
+  },
+  {
+    "id": "Glyph-30",
+    "filename": "glyph_30.py",
+    "path": "eidonic_language/glyphs/glyph_30.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_30.py"
+  },
+  {
+    "id": "Glyph-31",
+    "filename": "glyph_31.py",
+    "path": "eidonic_language/glyphs/glyph_31.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_31.py"
+  },
+  {
+    "id": "Glyph-32",
+    "filename": "glyph_32.py",
+    "path": "eidonic_language/glyphs/glyph_32.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_32.py"
+  },
+  {
+    "id": "Glyph-33",
+    "filename": "glyph_33.py",
+    "path": "eidonic_language/glyphs/glyph_33.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_33.py"
+  },
+  {
+    "id": "Glyph-34",
+    "filename": "glyph_34.py",
+    "path": "eidonic_language/glyphs/glyph_34.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_34.py"
+  },
+  {
+    "id": "Glyph-35",
+    "filename": "glyph_35.py",
+    "path": "eidonic_language/glyphs/glyph_35.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_35.py"
+  },
+  {
+    "id": "Glyph-36",
+    "filename": "glyph_36.py",
+    "path": "eidonic_language/glyphs/glyph_36.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_36.py"
+  },
+  {
+    "id": "Glyph-37",
+    "filename": "glyph_37.py",
+    "path": "eidonic_language/glyphs/glyph_37.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_37.py"
+  },
+  {
+    "id": "Glyph-38",
+    "filename": "glyph_38.py",
+    "path": "eidonic_language/glyphs/glyph_38.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_38.py"
+  },
+  {
+    "id": "Glyph-39",
+    "filename": "glyph_39.py",
+    "path": "eidonic_language/glyphs/glyph_39.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_39.py"
+  },
+  {
+    "id": "Glyph-40",
+    "filename": "glyph_40.py",
+    "path": "eidonic_language/glyphs/glyph_40.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_40.py"
+  },
+  {
+    "id": "Glyph-41",
+    "filename": "glyph_41.py",
+    "path": "eidonic_language/glyphs/glyph_41.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_41.py"
+  },
+  {
+    "id": "Glyph-42",
+    "filename": "glyph_42.py",
+    "path": "eidonic_language/glyphs/glyph_42.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_42.py"
+  },
+  {
+    "id": "Glyph-43",
+    "filename": "glyph_43.py",
+    "path": "eidonic_language/glyphs/glyph_43.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_43.py"
+  },
+  {
+    "id": "Glyph-44",
+    "filename": "glyph_44.py",
+    "path": "eidonic_language/glyphs/glyph_44.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_44.py"
+  },
+  {
+    "id": "Glyph-45",
+    "filename": "glyph_45.py",
+    "path": "eidonic_language/glyphs/glyph_45.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_45.py"
+  },
+  {
+    "id": "Glyph-46",
+    "filename": "glyph_46.py",
+    "path": "eidonic_language/glyphs/glyph_46.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_46.py"
+  },
+  {
+    "id": "Glyph-47",
+    "filename": "glyph_47.py",
+    "path": "eidonic_language/glyphs/glyph_47.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_47.py"
+  },
+  {
+    "id": "Glyph-48",
+    "filename": "glyph_48.py",
+    "path": "eidonic_language/glyphs/glyph_48.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_48.py"
+  },
+  {
+    "id": "Glyph-49",
+    "filename": "glyph_49.py",
+    "path": "eidonic_language/glyphs/glyph_49.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_49.py"
+  },
+  {
+    "id": "Glyph-50",
+    "filename": "glyph_50.py",
+    "path": "eidonic_language/glyphs/glyph_50.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_50.py"
+  },
+  {
+    "id": "Glyph-51",
+    "filename": "glyph_51.py",
+    "path": "eidonic_language/glyphs/glyph_51.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_51.py"
+  },
+  {
+    "id": "Glyph-52",
+    "filename": "glyph_52.py",
+    "path": "eidonic_language/glyphs/glyph_52.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_52.py"
+  },
+  {
+    "id": "Glyph-53",
+    "filename": "glyph_53.py",
+    "path": "eidonic_language/glyphs/glyph_53.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_53.py"
+  },
+  {
+    "id": "Glyph-54",
+    "filename": "glyph_54.py",
+    "path": "eidonic_language/glyphs/glyph_54.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_54.py"
+  },
+  {
+    "id": "Glyph-55",
+    "filename": "glyph_55.py",
+    "path": "eidonic_language/glyphs/glyph_55.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_55.py"
+  },
+  {
+    "id": "Glyph-56",
+    "filename": "glyph_56.py",
+    "path": "eidonic_language/glyphs/glyph_56.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_56.py"
+  },
+  {
+    "id": "Glyph-57",
+    "filename": "glyph_57.py",
+    "path": "eidonic_language/glyphs/glyph_57.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_57.py"
+  },
+  {
+    "id": "Glyph-58",
+    "filename": "glyph_58.py",
+    "path": "eidonic_language/glyphs/glyph_58.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_58.py"
+  },
+  {
+    "id": "Glyph-59",
+    "filename": "glyph_59.py",
+    "path": "eidonic_language/glyphs/glyph_59.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_59.py"
+  },
+  {
+    "id": "Glyph-60",
+    "filename": "glyph_60.py",
+    "path": "eidonic_language/glyphs/glyph_60.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_60.py"
+  },
+  {
+    "id": "Glyph-61",
+    "filename": "glyph_61.py",
+    "path": "eidonic_language/glyphs/glyph_61.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_61.py"
+  },
+  {
+    "id": "Glyph-62",
+    "filename": "glyph_62.py",
+    "path": "eidonic_language/glyphs/glyph_62.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_62.py"
+  },
+  {
+    "id": "Glyph-63",
+    "filename": "glyph_63.py",
+    "path": "eidonic_language/glyphs/glyph_63.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_63.py"
+  },
+  {
+    "id": "Glyph-64",
+    "filename": "glyph_64.py",
+    "path": "eidonic_language/glyphs/glyph_64.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_64.py"
+  },
+  {
+    "id": "Glyph-65",
+    "filename": "glyph_65.py",
+    "path": "eidonic_language/glyphs/glyph_65.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_65.py"
+  },
+  {
+    "id": "Glyph-66",
+    "filename": "glyph_66.py",
+    "path": "eidonic_language/glyphs/glyph_66.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_66.py"
+  },
+  {
+    "id": "Glyph-67",
+    "filename": "glyph_67.py",
+    "path": "eidonic_language/glyphs/glyph_67.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_67.py"
+  },
+  {
+    "id": "Glyph-68",
+    "filename": "glyph_68.py",
+    "path": "eidonic_language/glyphs/glyph_68.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_68.py"
+  },
+  {
+    "id": "Glyph-69",
+    "filename": "glyph_69.py",
+    "path": "eidonic_language/glyphs/glyph_69.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_69.py"
+  },
+  {
+    "id": "Glyph-70",
+    "filename": "glyph_70.py",
+    "path": "eidonic_language/glyphs/glyph_70.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_70.py"
+  },
+  {
+    "id": "Glyph-71",
+    "filename": "glyph_71.py",
+    "path": "eidonic_language/glyphs/glyph_71.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_71.py"
+  },
+  {
+    "id": "Glyph-72",
+    "filename": "glyph_72.py",
+    "path": "eidonic_language/glyphs/glyph_72.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_72.py"
+  },
+  {
+    "id": "Glyph-73",
+    "filename": "glyph_73.py",
+    "path": "eidonic_language/glyphs/glyph_73.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_73.py"
+  },
+  {
+    "id": "Glyph-74",
+    "filename": "glyph_74.py",
+    "path": "eidonic_language/glyphs/glyph_74.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_74.py"
+  },
+  {
+    "id": "Glyph-75",
+    "filename": "glyph_75.py",
+    "path": "eidonic_language/glyphs/glyph_75.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_75.py"
+  },
+  {
+    "id": "Glyph-76",
+    "filename": "glyph_76.py",
+    "path": "eidonic_language/glyphs/glyph_76.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_76.py"
+  },
+  {
+    "id": "Glyph-77",
+    "filename": "glyph_77.py",
+    "path": "eidonic_language/glyphs/glyph_77.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_77.py"
+  },
+  {
+    "id": "Glyph-78",
+    "filename": "glyph_78.py",
+    "path": "eidonic_language/glyphs/glyph_78.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_78.py"
+  },
+  {
+    "id": "Glyph-79",
+    "filename": "glyph_79.py",
+    "path": "eidonic_language/glyphs/glyph_79.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_79.py"
+  },
+  {
+    "id": "Glyph-80",
+    "filename": "glyph_80.py",
+    "path": "eidonic_language/glyphs/glyph_80.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_80.py"
+  },
+  {
+    "id": "Glyph-81",
+    "filename": "glyph_81.py",
+    "path": "eidonic_language/glyphs/glyph_81.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_81.py"
+  },
+  {
+    "id": "Glyph-82",
+    "filename": "glyph_82.py",
+    "path": "eidonic_language/glyphs/glyph_82.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_82.py"
+  },
+  {
+    "id": "Glyph-83",
+    "filename": "glyph_83.py",
+    "path": "eidonic_language/glyphs/glyph_83.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_83.py"
+  },
+  {
+    "id": "Glyph-84",
+    "filename": "glyph_84.py",
+    "path": "eidonic_language/glyphs/glyph_84.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_84.py"
+  },
+  {
+    "id": "Glyph-85",
+    "filename": "glyph_85.py",
+    "path": "eidonic_language/glyphs/glyph_85.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_85.py"
+  },
+  {
+    "id": "Glyph-86",
+    "filename": "glyph_86.py",
+    "path": "eidonic_language/glyphs/glyph_86.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_86.py"
+  },
+  {
+    "id": "Glyph-87",
+    "filename": "glyph_87.py",
+    "path": "eidonic_language/glyphs/glyph_87.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_87.py"
+  },
+  {
+    "id": "Glyph-88",
+    "filename": "glyph_88.py",
+    "path": "eidonic_language/glyphs/glyph_88.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_88.py"
+  },
+  {
+    "id": "Glyph-89",
+    "filename": "glyph_89.py",
+    "path": "eidonic_language/glyphs/glyph_89.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_89.py"
+  },
+  {
+    "id": "Glyph-90",
+    "filename": "glyph_90.py",
+    "path": "eidonic_language/glyphs/glyph_90.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_90.py"
+  },
+  {
+    "id": "Glyph-91",
+    "filename": "glyph_91.py",
+    "path": "eidonic_language/glyphs/glyph_91.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_91.py"
+  },
+  {
+    "id": "Glyph-92",
+    "filename": "glyph_92.py",
+    "path": "eidonic_language/glyphs/glyph_92.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_92.py"
+  },
+  {
+    "id": "Glyph-93",
+    "filename": "glyph_93.py",
+    "path": "eidonic_language/glyphs/glyph_93.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_93.py"
+  },
+  {
+    "id": "Glyph-94",
+    "filename": "glyph_94.py",
+    "path": "eidonic_language/glyphs/glyph_94.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_94.py"
+  },
+  {
+    "id": "Glyph-95",
+    "filename": "glyph_95.py",
+    "path": "eidonic_language/glyphs/glyph_95.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_95.py"
+  },
+  {
+    "id": "Glyph-96",
+    "filename": "glyph_96.py",
+    "path": "eidonic_language/glyphs/glyph_96.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_96.py"
+  },
+  {
+    "id": "Glyph-97",
+    "filename": "glyph_97.py",
+    "path": "eidonic_language/glyphs/glyph_97.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_97.py"
+  },
+  {
+    "id": "Glyph-98",
+    "filename": "glyph_98.py",
+    "path": "eidonic_language/glyphs/glyph_98.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_98.py"
+  },
+  {
+    "id": "Glyph-99",
+    "filename": "glyph_99.py",
+    "path": "eidonic_language/glyphs/glyph_99.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_99.py"
+  },
+  {
+    "id": "Glyph-100",
+    "filename": "glyph_100.py",
+    "path": "eidonic_language/glyphs/glyph_100.py",
+    "url": "https://github.com/S1ngularD2ality/eidon-mirror-lab/blob/main/eidonic_language/glyphs/glyph_100.py"
+  }
+]
