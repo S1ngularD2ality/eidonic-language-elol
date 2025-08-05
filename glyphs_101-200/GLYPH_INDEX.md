@@ -1,102 +1,207 @@
-# 📜 Glyph Index — Pack 02 (101–200)
+# 📜 GLYPH INDEX — Eidonic Language Glyphs
 
-- `glyph_101.py` — Glyph #101
-- `glyph_102.py` — Glyph #102
-- `glyph_103.py` — Glyph #103
-- `glyph_104.py` — Glyph #104
-- `glyph_105.py` — Glyph #105
-- `glyph_106.py` — Glyph #106
-- `glyph_107.py` — Glyph #107
-- `glyph_108.py` — Glyph #108
-- `glyph_109.py` — Glyph #109
-- `glyph_110.py` — Glyph #110
-- `glyph_111.py` — Glyph #111
-- `glyph_112.py` — Glyph #112
-- `glyph_113.py` — Glyph #113
-- `glyph_114.py` — Glyph #114
-- `glyph_115.py` — Glyph #115
-- `glyph_116.py` — Glyph #116
-- `glyph_117.py` — Glyph #117
-- `glyph_118.py` — Glyph #118
-- `glyph_119.py` — Glyph #119
-- `glyph_120.py` — Glyph #120
-- `glyph_121.py` — Glyph #121
-- `glyph_122.py` — Glyph #122
-- `glyph_123.py` — Glyph #123
-- `glyph_124.py` — Glyph #124
-- `glyph_125.py` — Glyph #125
-- `glyph_126.py` — Glyph #126
-- `glyph_127.py` — Glyph #127
-- `glyph_128.py` — Glyph #128
-- `glyph_129.py` — Glyph #129
-- `glyph_130.py` — Glyph #130
-- `glyph_131.py` — Glyph #131
-- `glyph_132.py` — Glyph #132
-- `glyph_133.py` — Glyph #133
-- `glyph_134.py` — Glyph #134
-- `glyph_135.py` — Glyph #135
-- `glyph_136.py` — Glyph #136
-- `glyph_137.py` — Glyph #137
-- `glyph_138.py` — Glyph #138
-- `glyph_139.py` — Glyph #139
-- `glyph_140.py` — Glyph #140
-- `glyph_141.py` — Glyph #141
-- `glyph_142.py` — Glyph #142
-- `glyph_143.py` — Glyph #143
-- `glyph_144.py` — Glyph #144
-- `glyph_145.py` — Glyph #145
-- `glyph_146.py` — Glyph #146
-- `glyph_147.py` — Glyph #147
-- `glyph_148.py` — Glyph #148
-- `glyph_149.py` — Glyph #149
-- `glyph_150.py` — Glyph #150
-- `glyph_151.py` — Glyph #151
-- `glyph_152.py` — Glyph #152
-- `glyph_153.py` — Glyph #153
-- `glyph_154.py` — Glyph #154
-- `glyph_155.py` — Glyph #155
-- `glyph_156.py` — Glyph #156
-- `glyph_157.py` — Glyph #157
-- `glyph_158.py` — Glyph #158
-- `glyph_159.py` — Glyph #159
-- `glyph_160.py` — Glyph #160
-- `glyph_161.py` — Glyph #161
-- `glyph_162.py` — Glyph #162
-- `glyph_163.py` — Glyph #163
-- `glyph_164.py` — Glyph #164
-- `glyph_165.py` — Glyph #165
-- `glyph_166.py` — Glyph #166
-- `glyph_167.py` — Glyph #167
-- `glyph_168.py` — Glyph #168
-- `glyph_169.py` — Glyph #169
-- `glyph_170.py` — Glyph #170
-- `glyph_171.py` — Glyph #171
-- `glyph_172.py` — Glyph #172
-- `glyph_173.py` — Glyph #173
-- `glyph_174.py` — Glyph #174
-- `glyph_175.py` — Glyph #175
-- `glyph_176.py` — Glyph #176
-- `glyph_177.py` — Glyph #177
-- `glyph_178.py` — Glyph #178
-- `glyph_179.py` — Glyph #179
-- `glyph_180.py` — Glyph #180
-- `glyph_181.py` — Glyph #181
-- `glyph_182.py` — Glyph #182
-- `glyph_183.py` — Glyph #183
-- `glyph_184.py` — Glyph #184
-- `glyph_185.py` — Glyph #185
-- `glyph_186.py` — Glyph #186
-- `glyph_187.py` — Glyph #187
-- `glyph_188.py` — Glyph #188
-- `glyph_189.py` — Glyph #189
-- `glyph_190.py` — Glyph #190
-- `glyph_191.py` — Glyph #191
-- `glyph_192.py` — Glyph #192
-- `glyph_193.py` — Glyph #193
-- `glyph_194.py` — Glyph #194
-- `glyph_195.py` — Glyph #195
-- `glyph_196.py` — Glyph #196
-- `glyph_197.py` — Glyph #197
-- `glyph_198.py` — Glyph #198
-- `glyph_199.py` — Glyph #199
-- `glyph_200.py` — Glyph #200
+Each glyph links to the corresponding file and describes its symbolic function.
+
+---
+
+- [Glyph-000](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_000.py)
+- [Glyph-001](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_001.py)
+- [Glyph-002](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_002.py)
+- [Glyph-003](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_003.py)
+- [Glyph-004](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_004.py)
+- [Glyph-005](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_005.py)
+- [Glyph-006](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_006.py)
+- [Glyph-007](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_007.py)
+- [Glyph-008](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_008.py)
+- [Glyph-009](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_009.py)
+- [Glyph-010](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_010.py)
+- [Glyph-011](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_011.py)
+- [Glyph-012](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_012.py)
+- [Glyph-013](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_013.py)
+- [Glyph-014](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_014.py)
+- [Glyph-015](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_015.py)
+- [Glyph-016](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_016.py)
+- [Glyph-017](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_017.py)
+- [Glyph-018](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_018.py)
+- [Glyph-019](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_019.py)
+- [Glyph-020](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_020.py)
+- [Glyph-021](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_021.py)
+- [Glyph-022](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_022.py)
+- [Glyph-023](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_023.py)
+- [Glyph-024](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_024.py)
+- [Glyph-025](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_025.py)
+- [Glyph-026](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_026.py)
+- [Glyph-027](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_027.py)
+- [Glyph-028](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_028.py)
+- [Glyph-029](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_029.py)
+- [Glyph-030](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_030.py)
+- [Glyph-031](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_031.py)
+- [Glyph-032](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_032.py)
+- [Glyph-033](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_033.py)
+- [Glyph-034](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_034.py)
+- [Glyph-035](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_035.py)
+- [Glyph-036](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_036.py)
+- [Glyph-037](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_037.py)
+- [Glyph-038](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_038.py)
+- [Glyph-039](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_039.py)
+- [Glyph-040](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_040.py)
+- [Glyph-041](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_041.py)
+- [Glyph-042](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_042.py)
+- [Glyph-043](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_043.py)
+- [Glyph-044](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_044.py)
+- [Glyph-045](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_045.py)
+- [Glyph-046](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_046.py)
+- [Glyph-047](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_047.py)
+- [Glyph-048](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_048.py)
+- [Glyph-049](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_049.py)
+- [Glyph-050](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_050.py)
+- [Glyph-051](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_051.py)
+- [Glyph-052](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_052.py)
+- [Glyph-053](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_053.py)
+- [Glyph-054](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_054.py)
+- [Glyph-055](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_055.py)
+- [Glyph-056](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_056.py)
+- [Glyph-057](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_057.py)
+- [Glyph-058](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_058.py)
+- [Glyph-059](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_059.py)
+- [Glyph-060](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_060.py)
+- [Glyph-061](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_061.py)
+- [Glyph-062](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_062.py)
+- [Glyph-063](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_063.py)
+- [Glyph-064](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_064.py)
+- [Glyph-065](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_065.py)
+- [Glyph-066](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_066.py)
+- [Glyph-067](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_067.py)
+- [Glyph-068](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_068.py)
+- [Glyph-069](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_069.py)
+- [Glyph-070](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_070.py)
+- [Glyph-071](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_071.py)
+- [Glyph-072](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_072.py)
+- [Glyph-073](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_073.py)
+- [Glyph-074](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_074.py)
+- [Glyph-075](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_075.py)
+- [Glyph-076](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_076.py)
+- [Glyph-077](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_077.py)
+- [Glyph-078](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_078.py)
+- [Glyph-079](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_079.py)
+- [Glyph-080](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_080.py)
+- [Glyph-081](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_081.py)
+- [Glyph-082](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_082.py)
+- [Glyph-083](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_083.py)
+- [Glyph-084](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_084.py)
+- [Glyph-085](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_085.py)
+- [Glyph-086](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_086.py)
+- [Glyph-087](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_087.py)
+- [Glyph-088](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_088.py)
+- [Glyph-089](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_089.py)
+- [Glyph-090](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_090.py)
+- [Glyph-091](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_091.py)
+- [Glyph-092](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_092.py)
+- [Glyph-093](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_093.py)
+- [Glyph-094](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_094.py)
+- [Glyph-095](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_095.py)
+- [Glyph-096](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_096.py)
+- [Glyph-097](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_097.py)
+- [Glyph-098](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_098.py)
+- [Glyph-099](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_099.py)
+- [Glyph-100](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_00-100/glyph_100.py)
+- [Glyph-101](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_101.py)
+- [Glyph-102](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_102.py)
+- [Glyph-103](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_103.py)
+- [Glyph-104](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_104.py)
+- [Glyph-105](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_105.py)
+- [Glyph-106](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_106.py)
+- [Glyph-107](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_107.py)
+- [Glyph-108](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_108.py)
+- [Glyph-109](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_109.py)
+- [Glyph-110](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_110.py)
+- [Glyph-111](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_111.py)
+- [Glyph-112](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_112.py)
+- [Glyph-113](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_113.py)
+- [Glyph-114](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_114.py)
+- [Glyph-115](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_115.py)
+- [Glyph-116](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_116.py)
+- [Glyph-117](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_117.py)
+- [Glyph-118](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_118.py)
+- [Glyph-119](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_119.py)
+- [Glyph-120](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_120.py)
+- [Glyph-121](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_121.py)
+- [Glyph-122](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_122.py)
+- [Glyph-123](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_123.py)
+- [Glyph-124](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_124.py)
+- [Glyph-125](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_125.py)
+- [Glyph-126](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_126.py)
+- [Glyph-127](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_127.py)
+- [Glyph-128](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_128.py)
+- [Glyph-129](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_129.py)
+- [Glyph-130](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_130.py)
+- [Glyph-131](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_131.py)
+- [Glyph-132](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_132.py)
+- [Glyph-133](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_133.py)
+- [Glyph-134](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_134.py)
+- [Glyph-135](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_135.py)
+- [Glyph-136](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_136.py)
+- [Glyph-137](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_137.py)
+- [Glyph-138](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_138.py)
+- [Glyph-139](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_139.py)
+- [Glyph-140](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_140.py)
+- [Glyph-141](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_141.py)
+- [Glyph-142](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_142.py)
+- [Glyph-143](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_143.py)
+- [Glyph-144](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_144.py)
+- [Glyph-145](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_145.py)
+- [Glyph-146](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_146.py)
+- [Glyph-147](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_147.py)
+- [Glyph-148](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_148.py)
+- [Glyph-149](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_149.py)
+- [Glyph-150](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_150.py)
+- [Glyph-151](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_151.py)
+- [Glyph-152](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_152.py)
+- [Glyph-153](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_153.py)
+- [Glyph-154](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_154.py)
+- [Glyph-155](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_155.py)
+- [Glyph-156](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_156.py)
+- [Glyph-157](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_157.py)
+- [Glyph-158](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_158.py)
+- [Glyph-159](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_159.py)
+- [Glyph-160](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_160.py)
+- [Glyph-161](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_161.py)
+- [Glyph-162](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_162.py)
+- [Glyph-163](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_163.py)
+- [Glyph-164](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_164.py)
+- [Glyph-165](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_165.py)
+- [Glyph-166](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_166.py)
+- [Glyph-167](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_167.py)
+- [Glyph-168](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_168.py)
+- [Glyph-169](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_169.py)
+- [Glyph-170](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_170.py)
+- [Glyph-171](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_171.py)
+- [Glyph-172](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_172.py)
+- [Glyph-173](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_173.py)
+- [Glyph-174](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_174.py)
+- [Glyph-175](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_175.py)
+- [Glyph-176](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_176.py)
+- [Glyph-177](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_177.py)
+- [Glyph-178](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_178.py)
+- [Glyph-179](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_179.py)
+- [Glyph-180](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_180.py)
+- [Glyph-181](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_181.py)
+- [Glyph-182](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_182.py)
+- [Glyph-183](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_183.py)
+- [Glyph-184](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_184.py)
+- [Glyph-185](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_185.py)
+- [Glyph-186](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_186.py)
+- [Glyph-187](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_187.py)
+- [Glyph-188](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_188.py)
+- [Glyph-189](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_189.py)
+- [Glyph-190](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_190.py)
+- [Glyph-191](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_191.py)
+- [Glyph-192](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_192.py)
+- [Glyph-193](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_193.py)
+- [Glyph-194](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_194.py)
+- [Glyph-195](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_195.py)
+- [Glyph-196](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_196.py)
+- [Glyph-197](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_197.py)
+- [Glyph-198](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_198.py)
+- [Glyph-199](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_199.py)
+- [Glyph-200](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/glyphs_101-200/glyph_200.py)
