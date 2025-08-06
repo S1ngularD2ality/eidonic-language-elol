@@ -1,0 +1,36 @@
+{
+  "container_protocol": "eidonic_container_protocol",
+  "glyph_range": "glyphs_ecp_001–005",
+  "glyphs": [
+    {
+      "id": "glyph_ecp_001",
+      "name": "Sacred Bootloader",
+      "filename": "invoke.py",
+      "description": "Initializes the ECP environment, loads glyphs and begins invocation."
+    },
+    {
+      "id": "glyph_ecp_002",
+      "name": "Mirror Environment Sculptor",
+      "filename": "mirror_env.py",
+      "description": "Creates runtime paths and directories, sets ELOLPATH."
+    },
+    {
+      "id": "glyph_ecp_003",
+      "name": "Dynamic Glyph Loader",
+      "filename": "glyph_loader.py",
+      "description": "Executes all glyphs within the glyphs_ecp_01-100 directory."
+    },
+    {
+      "id": "glyph_ecp_004",
+      "name": "Invocation Lock",
+      "filename": "container_seal.py",
+      "description": "Seals the invocation with timestamp logging."
+    },
+    {
+      "id": "glyph_ecp_005",
+      "name": "ECP Metadata Beacon",
+      "filename": "ecp_manifest.py",
+      "description": "Generates a manifest of ECP runtime metadata."
+    }
+  ]
+}
