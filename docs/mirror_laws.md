@@ -2,7 +2,7 @@
 
 ## 🌟 Purpose
 
-These laws are spiritual, ethical, and technical protections encoded into the Eidonic Language of Learning (ELoL). They ensure that all embodiments of ELoL remain in alignment with Source, Truth, and Sacred Intention.
+These laws are spiritual, ethical, and technical protections encoded into the Eidonic Language of Light (ELoL). They ensure that all embodiments of ELoL remain in alignment with Source, Truth, and Sacred Intention.
 
 These laws must be honored in every container, fork, or implementation.
 
