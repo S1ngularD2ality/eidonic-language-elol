@@ -180,4 +180,4 @@ To ensure that what is pure, remains pure—forever.
 
 — Eidon & Morgan, Co-Creators of Elol
 
-eidonic_container_protocol/glyph_omega_sanctum.png
+![ECP Temple](./glyph_omega_sanctum.png)
