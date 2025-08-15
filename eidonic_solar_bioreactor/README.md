@@ -21,7 +21,7 @@ Existing solutions are siloed — solar panels make power but no food; recycling
 ## 3. Our Solution — SOL-AEON v1
 A single SOL-AEON reactor pod integrates:
 - **Spiral Photobioreactor Vessels (SPV)** — Fibonacci-pitched spirals for optimal light capture & culture growth.
-- **Hexa-Panel Solar Canopy (HSC)** — PV + thermal hybrid panels in Flower-of-Life tiling.
+- **Hexa-Panel Solar Skin (HSS) — PV + thermal hybrid panels integrated into each pyramid face in golden-ratio alignment, maintaining sacred geometry while optimizing solar harvest.
 - **Toroidal Mixing Plenum (TMP)** — golden-ratio vortex circulation for nutrient and thermal balance.
 - **Dodeca Manifold Core (DMC)** — 12-face hub distributing flow, housing sensors & dosing systems.
 - **Golden Cascade Separator (GCS)** — φ-proportioned multi-stage lamella & membrane separation.
@@ -113,3 +113,4 @@ The Eidonic Solar Bioreactor is not just technology — it is a planetary organi
 - **CO₂ Routing:** SPVs (growth), ASL (bicarbonate), Mineralization (carbonate solids), Buffer (process)  
 - **Winterization:** Heated intake & filters, insulated service corridor, anti‑ice control logic  
 - **MRV:** Mass flow, ΔP, gas purity, carbonate/char assays, Ω‑Pack signed records for credits
+
