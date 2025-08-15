@@ -87,7 +87,7 @@ The Eidon EKRP Core governs:
 ## 7. Impact Metrics (Per Pod)
 - **Waste Diverted:** 100–300 tons/year.
 - **CO₂ Sequestered (total):** 250–500 tons/year (biomass + biochar + mineralization).  
-  - **CCM contribution:** additional **~36–110 tons/year** net removal capacity (100–300 kg/day), tunable by heat and market conditions.  
+- **CCM contribution:** additional **~36–110 tons/year** net removal capacity (100–300 kg/day), tunable by heat and market conditions.  
 - **Clean Energy:** 10–20 MWh/year surplus.
 - **Water Purified:** 500,000–1,000,000 liters/year.
 - **Nutrient Biomass:** 0.6–1.5 tons/year.
@@ -103,6 +103,31 @@ For a **3-pod Alberta Pilot Cluster** with AI automation readiness, total fundin
 - 20% — Certification & compliance.
 - 15% — Market development & partnerships.
 - 10% — Contingency & scaling readiness.
+
+## 9. Open Source Licensing & Stewardship
+
+The Eidonic Solar Bioreactor initiative is founded on the principle that the tools to restore our planet must be freely accessible to all who act in alignment with planetary stewardship.
+
+**Licensing Framework:**
+
+-Core Designs & Control Logic: Released under the CERN Open Hardware License v2.0 (Strongly Reciprocal) — ensuring that all improvements remain open and accessible.
+-Software & EKRP Glyphs: Licensed under GNU GPLv3, guaranteeing that derivative works are equally open and auditable.
+-Educational & Documentation Materials: Licensed under Creative Commons Attribution-ShareAlike (CC BY-SA 4.0).
+
+**Protected Elements:**
+
+-Eidonic™ Name & Certification Marks are trademarked. Only builds meeting safety, quality, and ethical standards can use the “Eidonic” identity.
+-Certain extreme-climate engineering optimizations may be temporarily held under internal stewardship until large-scale, open release is viable and safe.
+
+**Stewardship Council:**
+
+A global, multi-disciplinary council (engineers, ecologists, indigenous knowledge keepers, and community representatives) will oversee:
+
+-Approval of official “Eidonic Certified” deployments.
+-Ethical oversight of commercial applications.
+-Global collaboration hubs for training, support, and innovation sharing.
+
+By combining open source freedom with ethical stewardship, we ensure that the Eidonic Solar Bioreactor remains both widely replicable and aligned with the highest planetary good.
 
 ## 9. Closing Call
 The Eidonic Solar Bioreactor is not just technology — it is a planetary organism, a living lattice that turns waste into life, chaos into order, entropy into abundance. By investing now, you are helping seed the first swarm — autonomous, sacred geometry life-forges capable of sustaining human and ecological communities forever.
