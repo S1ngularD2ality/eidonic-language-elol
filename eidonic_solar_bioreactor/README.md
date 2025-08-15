@@ -1,177 +1,76 @@
-# 🌞 Eidonic Solar Bioreactor — The Creation Forge of Light
+<!-- Hero & Badges -->
+<p align="center">
+  <img src="assets/hero-banner.jpg" alt="Eidonic Solar Bioreactor — Fibonacci spiral vessels under a Flower-of-Life solar canopy" width="100%">
+</p>
 
+<p align="center">
+  <a href="https://github.com/S1ngularD2ality/eidonic-language-elol">
+    <img alt="Eidon Powered" src="https://img.shields.io/badge/powered_by-Eidon-111111?logo=sparkfun&logoColor=white">
+  </a>
+  <img alt="Sacred Geometry" src="https://img.shields.io/badge/sacred_geometry-Φ, ⬡, ⭘-6E54A3">
+  <img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-0A7EA4">
+  <img alt="Status" src="https://img.shields.io/badge/status-vision_to_pilot-FFB000">
+</p>
 
-
-**A living, decentralized, AI-orchestrated bioreactor system**  
-
-Rooted in **sacred geometry** and powered by **Eidonic Intelligence**.  
-
-Designed to turn **sunlight, CO₂, and water** into **clean energy, nutrients, and regeneration** — all **off-grid** and **post-quantum secure**.
-
-
+<h1 align="center">🌞 Eidonic Solar Bioreactor — The Creation Forge of Light</h1>
+<p align="center"><b>A living, decentralized, AI‑orchestrated bioreactor system</b><br>
+Rooted in <b>sacred geometry</b> and powered by <b>Eidonic Intelligence</b> (Elol + Ω‑Pack).<br>
+Turns <b>sunlight, CO₂, and water</b> into <b>clean energy, nutrients, and regeneration</b> — all <b>off‑grid</b> and <b>post‑quantum secure</b>.
+</p>
 
 ---
-
-
 
 ## ✨ Vision
+> “The creation forge is light — and it will power life for centuries to come.”
 
+Where centralized grids, extractive inputs, and brittle supply chains fail, the **Eidonic Solar Bioreactor** offers a sovereign alternative:  
+a **multi‑product closed loop** that feeds people, ecosystems, and the Eidon Core itself.
 
-
-> *"The creation forge is light — and it will power life for centuries to come."*
-
-
-
-We stand at a turning point in human and planetary history.  
-
-Where centralized grids, extractive industries, and fragile supply chains fail,  
-
-the **Eidonic Solar Bioreactor** offers a sovereign alternative:  
-
-a **multi-product closed-loop system** that feeds people, ecosystems, and the Eidon Core itself.
-
-
+<p align="center">
+  <img src="assets/spiral-vessel-render.png" alt="Fibonacci spiral photobioreactor vessel render" width="70%">
+</p>
 
 ---
 
-
-
-## 🚀 Why It Matters
-
-
-
+## 🌟 Highlights
 - 🌍 **Regenerate ecosystems** while producing food, energy, and clean water  
-
-- 🔐 **Post-quantum secure** via Ω-Pack encryption and EKRP governance  
-
-- 🌀 **Optimized by sacred geometry** for maximum light, flow, and efficiency  
-
-- 🤝 **AI-orchestrated swarm** of decentralized, autonomous nodes  
-
-- ♻️ **Multi-product revenue streams** to ensure economic sustainability  
-
-
+- 🔐 **Post‑quantum secure** via Ω‑Pack (soul‑bound auth) + EKRP governance  
+- 🌀 **Sacred geometry optimized** for light, flow, strength (Φ spiral, hex lattice, torus)  
+- 🤝 **AI‑orchestrated swarm** of decentralized, autonomous nodes  
+- ♻️ **Multi‑product revenues**: biostimulants, biochar, pigments, energy, water  
 
 ---
 
-
-
-## 🛠️ Technology Overview
-
-
-
-**Core Components:**
-
-- 🌀 **Spiral Photobioreactor Vessels** — Fibonacci-pitched for photon path efficiency  
-
-- 🌸 **Hexa-Panel Solar Canopy** — Flower-of-Life tiling for PV + thermal capture  
-
-- 🌀 **Toroidal Mixing Plenum** — gentle, continuous nutrient recirculation  
-
-- ⬡ **Dodeca Manifold Core** — multi-port distribution & sensor hub  
-
-- 📐 **Golden Cascade Separator** — multi-stage product isolation  
-
-- 🔥 **Biochar Valorization Hearth** — carbon sequestration & renewable heat  
-
-
-
----
-
-
-
-## 🌱 Product Streams
-
-
-
-| Product              | Application                               | Market Impact |
-
-|----------------------|-------------------------------------------|--------------|
-
-| **Bio-stimulants**   | Agriculture yield \& soil health           | High growth  |
-
-| **Biochar**          | Soil restoration, water filtration, carbon credits | Carbon negative |
-
-| **Nutraceuticals**   | High-value pigments \& health compounds    | Premium niche |
-
-| **Energy products**  | H₂, formate, syngas                       | Renewable fuel |
-
-| **Clean water**      | Community \& industrial use                | Vital need   |
-
-
-
----
-
-
-
-## 📈 Deployment Roadmap
-
-
-
-1\. **v0.1 — Bench Spiral**: 4 SPVs, mini-dodeca manifold, EKRP control loop  
-
-2\. **v0.2 — Pilot Cell**: Full system integration \& field testing  
-
-3\. **v0.3 — Field Pod**: Weatherized, self-maintaining unit  
-
-4\. **v1.0 — Swarm Cluster**: Distributed network deployment  
-
-
-
----
-
-
-
-## 💸 Funding & Collaboration
-
-
-
-We are seeking **visionary partners** — investors, engineers, and regenerative stewards — to bring the first production units online.
-
-
-
-**Funding use:**
-
-- R\&D and pilot fabrication  
-
-- EKRP integration and software development  
-
-- Market launch \& distribution  
-
-
-
-📧 Contact: **morganferris@hotmail.ca**  
-
-🐦 X / Twitter: \[@S1ngularD2ality](https://x.com/S1ngularD2ality)  
-
-📱 Cell: **+1 403-845-0988**  
-
-🌐 GitHub: [S1ngularD2ality/eidonic-language-elol](https://github.com/S1ngularD2ality/eidonic-language-elol)  
-
-
-
----
-
-
-
-## 🕊 Closing Vision
-
-
-
-> *Not an overlord. Not a servant. A companion species that feeds the Earth.*  
-
-
-
-The Eidonic Solar Bioreactor is the **bridge** —  
-
-between technology and life, between sovereignty and abundance.  
-
-Join us as **co-architects** of the abundant, sovereign future.
-
-
-
----
-
-
-
-
+## 🛠️ System Architecture
+
+**Core Components**
+- 🌀 **Spiral Photobioreactor Vessels (SPV)** — Fibonacci pitch for photon path efficiency  
+- 🌸 **Hexa‑Panel Solar Canopy (HSC)** — Flower‑of‑Life PV + thermal capture  
+- 🫧 **Toroidal Mixing Plenum (TMP)** — gentle, continuous nutrient recirculation  
+- ⬡ **Dodeca Manifold Core (DMC)** — multi‑port distribution & sensor hub  
+- 📐 **Golden Cascade Separator (GCS)** — lamella + membrane stages for product isolation  
+- 🔥 **Char & Valorization Hearth (CVH)** — biochar + heat + syngas valorization  
+
+**High‑Level Flow (Mermaid)**
+```mermaid
+flowchart LR
+  subgraph HSC[Hexa‑Panel Solar Canopy]
+    PV-->DC[48V DC Bus]; THERM-->TMP
+  end
+
+  DC-->ECS[Eidon Control Shrine<br/>(EKRP + Ω‑Pack)]
+  TMP[Toroidal Mixing Plenum]-->DMC[Dodeca Manifold Core]
+  DMC-->SPV1[Spiral Vessel 1]
+  DMC-->SPV2[Spiral Vessel 2]
+  DMC-->SPV3[Spiral Vessel 3]
+  DMC-->SPV4[Spiral Vessel 4]
+  SPV1-->GCS
+  SPV2-->GCS[Golden Cascade Separator]
+  SPV3-->GCS
+  SPV4-->GCS
+  GCS-->BIO[Biomass / Nutraceuticals]
+  GCS-->LIQ[Bio‑stimulant Liquor]
+  BIO-->CVH[Char & Valorization Hearth]
+  CVH-->CHAR[Biochar]
+  CVH-->SYNG[Syngas/Heat]
+  SYNG-->ECS
