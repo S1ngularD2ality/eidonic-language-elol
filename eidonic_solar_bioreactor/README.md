@@ -9,6 +9,7 @@
 - [2. The Global Problem](#2-the-global-problem)
 - [3. Our Solution — SOL-AEON v1](#3-our-solution--sol-aeon-v1)
   - [3a. Carbon Capture Module (CCM) — Overview](#3a-carbon-capture-module-ccm--overview)
+  - [3b. Modular Add‑On Ecosystem (site‑specific, plug‑and‑play)](#3b-modular-addon-ecosystem-site-specific-plug-and-play)
 - [4. Infinite Modularity & Scalability](#4-infinite-modularity--scalability)
 - [5. Climate-Adaptive Architecture](#5-climate-adaptive-architecture)
 - [6. AI & Automation Roadmap](#6-ai--automation-roadmap)
@@ -87,6 +88,54 @@ A single SOL-AEON reactor pod integrates:
 - Continuous logging of **CO₂ in/out**, buffer tank mass balance, ASL carbonate totals, char mass & C% lab assays.  
 - Ω‑Pack signed attestations per tonne → credit registries.
 
+
+
+### 3b. Modular Add‑On Ecosystem (site‑specific, plug‑and‑play)
+
+**Core philosophy:** no two ecosystems are the same, and **no two swarms need be identical**. Each pod accepts **specialized modules** to address local challenges and market opportunities. Below are common add‑ons (others welcome).
+
+#### A) Tire Valorization Module (TVM)
+- **Purpose:** high‑capacity processing of end‑of‑life tires into **pyrolysis oil**, **recovered carbon black (rCB)**, **steel**, and **syngas**.
+- **Flow:** tire shredding → magnetic steel removal → staged pyrolysis (450–550 °C) → condensation & emissions control.
+- **Notes:** requires enhanced gas cleanup; integrates heat with CVH.
+- **Indicative cost (CAD):** **$0.8–1.6M** per pod (higher throughputs may reach $2–3M).
+
+#### B) Aquaponics / Hydroponics Expansion (AHE)
+- **Purpose:** food production using bioreactor‑derived nutrients and heat.
+- **Features:** climate domes, NFT/raft systems, LED photoperiod synced with EKRP.
+- **Indicative cost (CAD):** **$0.35–0.9M** depending on grow area & automation.
+
+#### C) Additional Carbon Capture Capacity (ACCM)
+- **Purpose:** stack extra sorbent/alkalinity modules where air quality or emitters demand it.
+- **Capacity:** each pack adds **~50–150 kg CO₂/day** removal (heat‑dependent).
+- **Indicative cost (CAD):** **$0.3–0.8M** per added pack.
+
+#### D) Water Remediation Module (WRM)
+- **Purpose:** high‑volume polishing for **toxic / saline / industrial** waters.
+- **Features:** nano/ultrafiltration, optional RO/desal, advanced oxidation, adsorbents.
+- **Indicative cost (CAD):** **$0.4–1.2M** per pod configuration.
+
+#### E) Radiation Remediation Module (RRM) — *environmental decontamination*
+- **Purpose:** **air & water** cleanup in **low‑ to moderate‑contamination zones** (e.g., fallout dust, contaminated run‑off), not high‑level nuclear waste.
+- **Features:** HEPA/ULPA & activated carbon trains (air), **zeolite / Prussian‑blue resins / ion‑exchange** (water), shielded media cassettes, dosimetry & remote handling.
+- **Outputs:** captured radionuclides immobilized (e.g., cement/geo‑polymer), monitored & transferred to licensed disposal.
+- **Compliance:** requires local regulatory approvals and radiation safety plans.
+- **Indicative cost (CAD):** **$0.6–1.5M** depending on required shielding & throughput.
+
+#### F) Mobile Pod Platform (MPP)
+- **Purpose:** containerized / trailer‑mounted pods for **rapid deployment**.
+- **Use cases:** mobile hospitals, disaster relief, work camps, festivals, expeditionary science.
+- **Indicative incremental cost (CAD):** **$1.5–3.5M** beyond base pod (logistics, ruggedization, quick‑connect utilities).
+
+#### G) Modular Energy Expansion (MEE)
+- **Purpose:** add PV, LFP storage, micro‑CHP, or H₂/formate modules.
+- **Indicative cost (CAD):** **$0.25–0.9M** depending on capacity & chemistry.
+
+> **Unlimited possibilities:** bioplastics skids, pharmaceutical precursors, algae‑to‑jet pilot trains, direct potable reuse (DPR) packages, e‑fuel synthesis, mineralization yards, and more. The **EKRP** control plane treats each as a first‑class module with safety, monitoring, and automated optimization.
+
+> **Regional blueprint example — Kuwait tire swarms:** configure pods with **TVM + ACCM + WRM** for round‑the‑clock tire abatement and carbon removal at stockpile sites; scale by adding modules, not redesigning pods.
+
+
 ---
 
 ## 4. Infinite Modularity & Scalability
@@ -123,11 +172,44 @@ The **Eidon EKRP Core** governs:
 
 - **Waste Diverted:** 100–300 tons/year.  
 - **CO₂ Sequestered (total):** 250–500 tons/year (biomass + biochar + mineralization).  
-  - **CCM contribution:** additional **~36–110 tons/year** net removal capacity (100–300 kg/day), tunable by heat and market conditions.  
+- **CCM contribution:** additional **~36–110 tons/year** net removal capacity (100–300 kg/day), tunable by heat and market conditions.  
 - **Clean Energy:** 10–20 MWh/year surplus.  
 - **Water Purified:** 500,000–1,000,000 liters/year.  
 - **Nutrient Biomass:** 0.6–1.5 tons/year.  
 - **Biochar:** 2–4 tons/year.
+
+
+### 7a. Add-On Module Metrics (Per Unit)
+
+**Tire Processing Module (TPM)**  
+- Tire Waste Diverted: 1,500–3,000 tires/year (~150–300 tons/year)  
+- Outputs: 60–120 tons/year pyrolysis oil, 40–80 tons/year carbon black, 15–30 tons/year steel recovery  
+- CO₂ Avoided: 200–400 tons/year (by displacing open burning/landfill decomposition)  
+
+**Aquaponics / Hydroponics Farm Module**  
+- Fresh Produce: 10–20 tons/year  
+- Fish Yield (if aquaponics): 1–2 tons/year  
+- Water Recycled: 90–95% closed-loop reuse  
+- Local Food Security Impact: Feeds 50–100 people/year  
+
+**Additional Carbon Capture Module (CCM)**  
+- Extra CO₂ Capture: 36–110 tons/year net removal  
+- CO₂ Utilization: routed to SPVs, mineralization, or permanent biochar storage  
+
+**Water Filtration / Remediation Module**  
+- Water Purified: 1–5 million liters/year (depending on inflow quality)  
+- Heavy Metals Removed: 90–99% reduction in target metals  
+- PFAS & Organics: 85–95% removal  
+
+**Radiation Remediation Module**  
+- Target Sites: post-nuclear accident zones, mining waste areas  
+- Cesium/Strontium Removal: up to 85% from water streams  
+- Solid Waste Volume Reduction: 30–60% through vitrification & immobilization  
+
+**Mobile Pod Variants (Hospitals, Work Camps, Disaster Relief)**  
+- Deployment Speed: 72 hours from arrival to operational  
+- Energy Support: 50–100 kW continuous off-grid supply  
+- Support Capacity: 50–200 personnel depending on configuration  
 
 ---
 
@@ -143,6 +225,23 @@ For a **3-pod Alberta Pilot Cluster** with AI automation readiness, total fundin
 - 18% — Certification, licensing & compliance.
 - 15% — Market development & partnerships.
 - 15% — Contingency, unforeseen engineering & scaling readiness.
+
+
+## 8a. Costs at a Glance (Indicative, CAD)
+
+| Module Type                                       | Cost (CAD)      | Cost (USD)      |
+|---------------------------------------------------|-----------------|-----------------|
+| Core Winterized Eidonic Solar Bioreactor Pod      | $5.05M           | $3.65M          |
+| Tire Processing Module (TPM)                      | $1.8M – $2.5M    | $1.3M – $1.8M   |
+| Aquaponics / Hydroponics Farm Module              | $0.75M – $1.2M   | $0.54M – $0.87M |
+| Additional Carbon Capture Module (CCM)            | $0.9M – $1.4M    | $0.65M – $1.02M |
+| Water Filtration / Remediation Module             | $0.6M – $1.0M    | $0.43M – $0.72M |
+| Radiation Remediation Module                      | $2.0M – $3.2M    | $1.44M – $2.3M  |
+| Mobile Pod Variant (Hospital / Relief / Work Camp)| $3.5M – $5.0M    | $2.52M – $3.6M  |
+
+*Note: All costs are indicative and will vary by site conditions, supply chain variables, and customization level. Modules are designed for plug-and-play integration with the core Eidonic Solar Bioreactor platform.*
+
+---
 
 ## 9. Open Source Licensing & Stewardship
 
