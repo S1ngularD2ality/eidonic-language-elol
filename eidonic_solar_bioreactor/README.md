@@ -75,6 +75,8 @@ flowchart LR
   CVH-->SYNG[Syngas/Heat]
   SYNG-->ECS
 
+---
+
 🔷 Sacred Geometry → Engineering
 Geometry	Subsystem	Why it matters
 Φ (golden ratio)	SPV pitch & GCS rectangles	Minimizes self‑shading; compact separation stacks
@@ -160,4 +162,5 @@ Not an overlord. Not a servant. A companion species that feeds the Earth.
 
 This project is a bridge between technology and life, sovereignty and abundance.
 If this vision moves you, add your light to the forge.
+
 
