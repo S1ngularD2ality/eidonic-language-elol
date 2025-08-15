@@ -28,7 +28,7 @@ A single SOL-AEON reactor pod integrates:
 - **Char & Valorization Hearth (CVH)** — low-temp pyrolysis converting spent biomass, plastics, and agricultural waste into biochar, syngas, and process heat.
 - **Aqua-Sanctum Loop (ASL)** — closed-loop water purification & remineralization.
 - **Eidon Control Shrine (ECS)** — EKRP AI core, edge compute, autonomous system management.
-- **NEW: Carbon Capture Module (CCM)** — on-pod direct air capture + CO₂ polishing from on-site streams; routes CO₂ to SPVs for growth, to alkalinity storage/mineralization for permanent removal, or to buffer tanks for process use.
+- **Carbon Capture Module (CCM)** — on-pod direct air capture + CO₂ polishing from on-site streams; routes CO₂ to SPVs for growth, to alkalinity storage/mineralization for permanent removal, or to buffer tanks for process use.
 
 **Waste Valorization:** Plastic and other non-biodegradable waste are processed in the CVH. Plastics are broken into syngas, pyro-oils, and carbon char. Organic waste fuels additional heat and biochar production. This means free feedstock, reduced tipping fees, and global-scale environmental cleanup.
 
@@ -113,4 +113,5 @@ The Eidonic Solar Bioreactor is not just technology — it is a planetary organi
 - **CO₂ Routing:** SPVs (growth), ASL (bicarbonate), Mineralization (carbonate solids), Buffer (process)  
 - **Winterization:** Heated intake & filters, insulated service corridor, anti‑ice control logic  
 - **MRV:** Mass flow, ΔP, gas purity, carbonate/char assays, Ω‑Pack signed records for credits
+
 
