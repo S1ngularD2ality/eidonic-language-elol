@@ -28,8 +28,39 @@ A single SOL-AEON reactor pod integrates:
 - **Char & Valorization Hearth (CVH)** — low-temp pyrolysis converting spent biomass, plastics, and agricultural waste into biochar, syngas, and process heat.
 - **Aqua-Sanctum Loop (ASL)** — closed-loop water purification & remineralization.
 - **Eidon Control Shrine (ECS)** — EKRP AI core, edge compute, autonomous system management.
+- **NEW: Carbon Capture Module (CCM)** — on-pod direct air capture + CO₂ polishing from on-site streams; routes CO₂ to SPVs for growth, to alkalinity storage/mineralization for permanent removal, or to buffer tanks for process use.
 
 **Waste Valorization:** Plastic and other non-biodegradable waste are processed in the CVH. Plastics are broken into syngas, pyro-oils, and carbon char. Organic waste fuels additional heat and biochar production. This means free feedstock, reduced tipping fees, and global-scale environmental cleanup.
+
+### 3a. Carbon Capture Module (CCM) — Overview
+**Purpose**
+- Pull CO₂ from **air** and **on-site exhaust streams**.
+- **Feed** purified CO₂ to SPVs for productivity boosts.
+- **Permanently store** excess as **bicarbonate** (ASL), **mineral carbonates**, or **in biochar**.
+
+**Capture Pathways (modular)**
+- **Sorbent DAC (hex honeycomb contactors):** open-air intake → prefilter/de-ice → amine/carbonate media; low‑grade heat (PV‑thermal + CVH) regenerates sorbent → CO₂ buffer tank.
+- **Alkalinity Loop (ASL‑coupled):** alkaline solution captures CO₂ as bicarbonate; optional electro‑swing for release when needed.
+- **Mineralization Cell:** Mg/Ca‑rich media (e.g., olivine/slag/shell waste) converts CO₂ to solid carbonates.
+- **Biogenic Fixation:** metered CO₂ to SPVs via DMC gas rail, maximizing growth.
+- **Biochar Sequestration:** CVH converts biomass/organics to stable carbon for soil/water uses.
+
+**Integration**
+- Leeward **snow‑shed intake** at base; EC fans, φ‑baffle geometry.
+- **CO₂ buffer** (1–3 bar) with mass‑flow controllers to DMC; excess routed to mineralization or ASL storage.
+- **Heat integration** with CVH + PV‑thermal; regeneration only when surplus heat is available (EKRP‑controlled).
+
+**Alberta Winterization**
+- Heated prefilter sleds; insulated service corridor for sorbent bays; anti‑ice logic swaps to ASL capture during deep freeze events.
+
+**Capacity Targets (per pod, conservative)**
+- DAC (sorbent): **50–150 kg CO₂/day** using low‑grade heat.
+- ASL alkalinity: **20–80 kg CO₂/day** equivalent.
+- Combined fixation (biomass + char + mineralization): design for **~100–300 kg CO₂/day** net removal (seasonal/operational tuning).
+
+**MRV & Credits**
+- Continuous logging of **CO₂ in/out**, buffer tank mass balance, ASL carbonate totals, char mass & C% lab assays.
+- Ω‑Pack signed attestations per tonne → credit registries.
 
 ## 4. Infinite Modularity & Scalability
 - **Pod-Level Autonomy** — Each pod is a complete off-grid life-support node.
@@ -55,7 +86,8 @@ The Eidon EKRP Core governs:
 
 ## 7. Impact Metrics (Per Pod)
 - **Waste Diverted:** 100–300 tons/year.
-- **CO₂ Sequestered:** 250–500 tons/year.
+- **CO₂ Sequestered (total):** 250–500 tons/year (biomass + biochar + mineralization).  
+  - **CCM contribution:** additional **~36–110 tons/year** net removal capacity (100–300 kg/day), tunable by heat and market conditions.  
 - **Clean Energy:** 10–20 MWh/year surplus.
 - **Water Purified:** 500,000–1,000,000 liters/year.
 - **Nutrient Biomass:** 0.6–1.5 tons/year.
@@ -74,3 +106,10 @@ For a **3-pod Alberta Pilot Cluster** with AI automation readiness, total fundin
 
 ## 9. Closing Call
 The Eidonic Solar Bioreactor is not just technology — it is a planetary organism, a living lattice that turns waste into life, chaos into order, entropy into abundance. By investing now, you are helping seed the first swarm — autonomous, sacred geometry life-forges capable of sustaining human and ecological communities forever.
+
+## 10. Appendix — Carbon Capture Module (CCM) Quick Facts
+- **Modes:** Sorbent DAC · ASL Alkalinity · Mineralization · Biogenic Fixation · Biochar Sequestration  
+- **Energy Source:** PV‑thermal + CVH waste heat (low‑grade)  
+- **CO₂ Routing:** SPVs (growth), ASL (bicarbonate), Mineralization (carbonate solids), Buffer (process)  
+- **Winterization:** Heated intake & filters, insulated service corridor, anti‑ice control logic  
+- **MRV:** Mass flow, ΔP, gas purity, carbonate/char assays, Ω‑Pack signed records for credits
