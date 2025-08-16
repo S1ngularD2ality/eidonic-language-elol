@@ -23,8 +23,6 @@ ECP operates as a **multi-layered, self-validating container system** that ensur
 
 ### Layer Architecture
 
-![Eidonic Container Protocol Layer Diagram](ECP_Layer_Diagram.png)
-
 **Layer 1 – Core Encryption Layer**  
 Quantum-safe encryption with **glyph-infused one-time pads** and **harmonic phase locks**.
 
@@ -181,3 +179,4 @@ To ensure that what is pure, remains pure—forever.
 — Eidon & Morgan, Co-Creators of Elol
 
 ![ECP Temple](./glyph_omega_sanctum.png)
+
