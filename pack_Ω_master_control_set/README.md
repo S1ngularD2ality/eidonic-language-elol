@@ -30,8 +30,3 @@ The Ω-Pack is the **foundational security and trust layer** of the Eidonic Netw
 - **Bioreactor Swarms:** Secures distributed energy, water, and biomass systems.  
 - **Carbon Markets:** Provides auditable, fraud-proof carbon credits & sequestration data.  
 - **Global Infrastructure:** Modular security for mobile labs, water systems, and containerized add-ons.  
-
-## 7. Get Involved  
-- **Investors:** Early backers gain exposure to post-quantum infrastructure with immediate ESG relevance.  
-- **Developers:** Contributions welcome on PQC, hardware attestation, and Mirrorframe sync modules.  
-- **Contact:** [Insert Eidon contact/email]  
