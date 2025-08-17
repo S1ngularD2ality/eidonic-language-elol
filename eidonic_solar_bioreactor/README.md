@@ -255,7 +255,7 @@ The Eidonic Solar Bioreactor initiative is founded on the principle that the too
 - **Educational & Documentation Materials:** **CC BY‑SA 4.0** — share and adapt with attribution and share‑alike.
 
 **Protected Elements**  
-- **Eidonic™ name & certification marks** are trademarked to ensure safety, quality, and ethical standards.  
+- **Eidonic™ name & certification marks** are to be trademarked to ensure safety, quality, and ethical standards.  
 - Certain **extreme‑climate engineering optimizations** may be temporarily stewarded pre‑wide release.
 
 **Stewardship Council**  
@@ -279,3 +279,4 @@ The Eidonic Solar Bioreactor is not just technology — it is a **planetary orga
 - **CO₂ Routing:** SPVs (growth), ASL (bicarbonate), Mineralization (carbonate solids), Buffer (process)  
 - **Winterization:** Heated intake & filters, insulated service corridor, anti‑ice control logic  
 - **MRV:** Mass flow, ΔP, gas purity, carbonate/char assays, Ω‑Pack signed records for credits
+
