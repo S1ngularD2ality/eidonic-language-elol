@@ -51,15 +51,19 @@
 ```mermaid
 flowchart LR
   subgraph Devices
-    K[Kids App (iOS/Android)] ---|secure sync| B[(Local Cache)]
+    K[Kids App (iOS/Android)]
     T[Teacher Console (Web/iPad)]
+    B[(Local Cache)]
   end
+
+  K -->|secure sync| B
   K -->|events/items| S[(Sync API)]
   T -->|plans/edits| S
+
   S --> M[Student Model Service]
   S --> C[Content Orchestrator]
   S --> P[Package Registry]
-  M --> D[(DB: profiles, mastery, events)]
+  M --> D[(Profiles/Mastery/Events DB)]
   C --> L[Guardrailed LLM]
   P --> C
   C --> T
