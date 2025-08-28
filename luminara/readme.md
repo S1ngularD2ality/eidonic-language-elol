@@ -50,35 +50,35 @@
 
 ## 🏗️ Architecture
 
-```mermaid
 flowchart LR
   subgraph Devices
-    K[Kids App (iOS/Android)]
-    T[Teacher Console (Web/iPad)]
-    B[(Local Cache)]
+    K[Kids App iOS/Android]
+    T[Teacher Console Web/iPad]
+    B[Local Cache]
   end
 
   subgraph Runtime
-    ECPr[ECP Runtime]
+    ECP[ECP Runtime]
     G[Elol Guardian Layer]
   end
 
   K -->|secure sync| B
-  K -->|events/items| S[(Sync API)]
+  K -->|events/items| S[Sync API]
   T -->|plans/edits| S
 
-  ECPr --> S
+  ECP --> S
   S --> M[Student Model Service]
   S --> C[Content Orchestrator]
   S --> P[Package Registry]
   C --> G
   G --> L[Guardrailed LLM]
-  G --> E[(Guardian Events)]
-  M --> D[(Profiles/Mastery/Events DB)]
+  G --> E[Guardian Events]
+  M --> D[Profiles / Mastery / Events DB]
   P --> C
   L --> C
   C --> T
   M --> T
+
 ```
 
 - **Student Model**: Bayesian/Deep Knowledge Tracing + IRT priors; spaced‑retrieval scheduler.
