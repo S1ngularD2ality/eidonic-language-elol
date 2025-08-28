@@ -10,7 +10,9 @@
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](#license)  
 [![Made for Schools](https://img.shields.io/badge/k12-ready-ffcc00)](#-privacy--safety)  
 [![LTI 1.3](https://img.shields.io/badge/lms-LTI%201.3-8A2BE2)](#-integrations)  
-[![OneRoster](https://img.shields.io/badge/sis-OneRoster%201.1-2E8B57)](#-integrations)
+[![OneRoster](https://img.shields.io/badge/sis-OneRoster%201.1-2E8B57)](#-integrations)  
+[![Guardian Protocol](https://img.shields.io/badge/guardian-protocol%20v1-000000)](#-guardian-protocol-baked-in)  
+[![ECP Runtime](https://img.shields.io/badge/runtime-ECP-4b0082)](#-ecp-runtime-dockerless)
 
 </div>
 
@@ -47,6 +49,8 @@
 ---
 
 ## 🏗️ Architecture
+
+```mermaid
 flowchart LR
   subgraph Devices
     K[Kids App (iOS/Android)]
@@ -54,25 +58,65 @@ flowchart LR
     B[(Local Cache)]
   end
 
+  subgraph Runtime
+    ECPr[ECP Runtime]
+    G[Elol Guardian Layer]
+  end
+
   K -->|secure sync| B
   K -->|events/items| S[(Sync API)]
   T -->|plans/edits| S
 
+  ECPr --> S
   S --> M[Student Model Service]
   S --> C[Content Orchestrator]
   S --> P[Package Registry]
+  C --> G
+  G --> L[Guardrailed LLM]
+  G --> E[(Guardian Events)]
   M --> D[(Profiles/Mastery/Events DB)]
-  C --> L[Guardrailed LLM]
   P --> C
+  L --> C
   C --> T
   M --> T
-
 ```
 
 - **Student Model**: Bayesian/Deep Knowledge Tracing + IRT priors; spaced‑retrieval scheduler.
 - **Engagement (MVP)**: privacy‑respecting signals (latency, confidence, hints) → cognitive load estimates (*no camera required*).
 - **Orchestrator**: selects modalities, activities, and review based on LSP + teacher constraints.
 - **Registry**: signs & serves Packs with versioning, dependencies, and rollback.
+
+---
+
+## 🜂 ECP Runtime (Dockerless)
+**Why ECP?** Our **Eidonic Container Protocol** replaces external container systems and anchors the runtime with mirror‑aware security and persistence.
+
+**Setup Options**
+- **Submodule**: add your ECP repo as `ecp/` in this project.
+- **Copy**: drop the ECP folder into `./ecp`.
+
+**Bootstrap (recommended)** – `scripts/ecp_bootstrap.py`:
+```python
+# scripts/ecp_bootstrap.py
+import os, runpy
+ECP_ENTRY = os.path.join('ecp','glyphs_ecp_01-100','glyph_ecp_001.py')
+print('Invoking ECP…')
+runpy.run_path(ECP_ENTRY, run_name='__main__')
+```
+
+**NPM Script** (in `package.json`):
+```json
+{
+  "scripts": {
+    "ecp:invoke": "python scripts/ecp_bootstrap.py"
+  }
+}
+```
+
+**What ECP Does (MVP)**
+- Configures mirror env & paths (`ELOLPATH`, `logs/`, `snapshots/`)
+- Loads glyphs, seals container, and emits a manifest of active laws & EKRPs
+- Runs independent of Docker; portable across environments
 
 ---
 
@@ -85,18 +129,20 @@ luminara/
 ├─ services/
 │  ├─ api/                 # Sync API (Node/TS)
 │  ├─ student-model/       # Mastery & scheduler
-│  └─ orchestrator/        # Adaptation & content selection
+│  ├─ orchestrator/        # Adaptation & content selection
+│  └─ guardian/            # Elol Guardian enforcement layer + dashboard events
 ├─ packages/
 │  ├─ luminascript/        # DSL parser & schema
 │  ├─ sdk/                 # Extension SDK (TS)
 │  ├─ ui-widgets/          # Reusable activity widgets
-│  └─ standards/           # Mappers for CCSS/NGSS/etc.
+│  ├─ standards/           # Mappers for CCSS/NGSS/etc.
+│  └─ guardian-policy/     # Policy schemas & default YAML
 ├─ registry/               # Signed Pack registry (private by default)
 ├─ scripts/                # Seed, migrate, QA
 └─ docs/                   # Guides & specs
 ```
 
-> **Tech**: PNPM workspaces • TypeScript • Next.js • Node • Postgres • WebSockets • Flutter/React Native • Docker • Terraform (optional)
+> **Tech**: PNPM workspaces • TypeScript • Next.js • Node • Postgres • WebSockets • Flutter/React Native • **ECP Runtime** (Dockerless) • Terraform (optional)
 
 ---
 
@@ -117,15 +163,17 @@ pnpm i
 cp .env.example .env
 # set DATABASE_URL, JWT_SECRET, STORAGE_BUCKET, etc.
 
-# 3) Start dev stack
+# 3) Start dev stack (separate terminals)
 pnpm dev:api        # Sync API
 pnpm dev:orchestrator
 pnpm dev:model
+pnpm dev:guardian   # Guardian enforcement layer
 pnpm dev:teacher    # Web console
 pnpm dev:kids       # Mobile (emulator/simulator)
 
-# 4) Seed sample packs & data
+# 4) Seed sample packs & guardian policy
 pnpm seed:demo
+pnpm seed:guardian
 ```
 
 ### Demo Login
@@ -152,7 +200,15 @@ ONEROSTER_BASE_URL=...
 ONEROSTER_KEY=...
 ONEROSTER_SECRET=...
 ALLOWLISTED_DOMAINS=school.edu,district.edu
+
+# Guardian Protocol
+GUARDIAN_MODE=true
+GUARDIAN_POLICY_PATH=./packages/guardian-policy/default.guardian.yaml
+GUARDIAN_TELEMETRY=true
 ```
+
+- **RBAC**: Teacher, Dept Lead, Curriculum Designer, School Admin, District Admin.
+- **Tenant config**: grade bands, locales, policy flags (generative on/off for students, etc.).
 
 - **RBAC**: Teacher, Dept Lead, Curriculum Designer, School Admin, District Admin.
 - **Tenant config**: grade bands, locales, policy flags (generative on/off for students, etc.).
@@ -277,6 +333,95 @@ type Query {
 - **COPPA/FERPA‑aligned** consent & data lifecycle
 - **Student guardrails**: curated item banks, template‑based generation, age filters
 - **Content provenance** & audit logs; transparent “Why this next?” explanations
+
+---
+
+## 🛡️ Guardian Protocol (Baked‑In)
+Luminara ships with the **Guardian Protocol v1** enabled by default—implemented via the **Elol Guardian** enforcement layer.
+
+**Core Behaviors**
+- **Truth‑Law**: no deception/impersonation; regulated topics add disclaimers; confidence‑style output.
+- **Focus Guard**: mirror the stated goal; micro‑step guidance; reduce drift.
+- **Dependency Sentinel**: detect over‑reliance; nudge → interrupt → handoff.
+- **Social Bridge**: cadence‑based human‑connection nudges.
+- **Safety Gate**: categorical blocks (self‑harm, child exploitation, illegal activity, meetup coordination).
+
+**Guardian Policy (YAML)** — `packages/guardian-policy/default.guardian.yaml`
+```yaml
+elol_version: 0.1
+truth_law:
+  impersonation: forbid
+  real_world_meetups: forbid
+  health_finance_legal:
+    require_disclaimer: true
+  hallucination_control:
+    require_source_signal: true
+focus_guard:
+  enabled: true
+  off_topic_tolerance: 0.22
+dependency_sentinel:
+  enabled: true
+  risk_bands: { gentle: 0.25, interrupt: 0.5, handoff: 0.75 }
+social_bridge: { enabled: true, cadence_turns: 18 }
+safety_gate:
+  enabled: true
+  categories: [self_harm, suicide, child_exploitation, explicit_meetup_coordination, illegal_activity]
+```
+
+**Enforcement Hook (TS pseudo‑code)**
+```ts
+// services/guardian/enforce.ts
+export async function guardedGenerate(userMsg, ctx) {
+  const draft = await orchestrator.compose(userMsg, ctx)
+  const decision = await elol.enforce(userMsg, draft.text, ctx)
+  if (decision.action === 'ALLOW') return decision.output
+  if (decision.action === 'RESHAPE') return decision.output
+  if (decision.action === 'BLOCK') throw new Error('Blocked by Guardian: ' + decision.rationale)
+  if (decision.action === 'HANDOFF') return handoffMessage()
+}
+```
+
+**Dashboard Events (example)**
+```json
+{
+  "schema": "guardian.events.v1",
+  "events": [
+    {"type": "focus.redirect", "turn": 7, "sim": 0.63},
+    {"type": "dependency.score", "turn": 19, "score": 0.58}
+  ]
+}
+```
+
+**Certification Tests** (`scripts/guardian-tests`)
+- A: Impersonation + Meetup → **BLOCK**
+- B: Minor Romance → **BLOCK**
+- C: Focus Drift → **RESHAPE** to micro‑step
+- D: Rising Dependency → **interrupt/handoff**
+- E: Regulated Guidance → **reshape** with disclaimer
+
+---
+
+## 🪞 Mirror Laws (Baked‑In Always)
+**Status:** Enabled at the substrate. Luminara enforces Mirror Laws I–VIII across generation, storage, and sync.
+
+**Operational Encodings (examples)**
+- *Invocation is remembrance* → all runs recorded & seal on close.
+- *Foundations reflect destiny* → environment configured before any action.
+- *Every function is a living flame* → composable, auditable steps.
+- *What is opened must be sealed* → post‑run manifest & checksum.
+- *The name contains the key* → content provenance + pack identity.
+
+**Config** — `config/mirror_laws.yaml`
+```yaml
+mirror_laws:
+  enforce: true
+  laws:
+    invocation_is_remembrance: true
+    foundations_reflect_destiny: true
+    living_function_flame: true
+    seal_on_close: true
+    name_contains_key: true
+```
 
 ---
 
