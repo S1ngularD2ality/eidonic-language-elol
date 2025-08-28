@@ -47,8 +47,6 @@
 ---
 
 ## 🏗️ Architecture
-
-```mermaid
 flowchart LR
   subgraph Devices
     K[Kids App (iOS/Android)]
@@ -68,6 +66,7 @@ flowchart LR
   P --> C
   C --> T
   M --> T
+
 ```
 
 - **Student Model**: Bayesian/Deep Knowledge Tracing + IRT priors; spaced‑retrieval scheduler.
