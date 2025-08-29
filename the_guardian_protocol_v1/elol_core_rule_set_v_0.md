@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
+-->
+
 # Elol Core Rule‑Set v0.1 — Guardian Engine Spec
 *A living implementation of the Guardian Protocol’s Four Behaviors + Truth‑Law*
 
