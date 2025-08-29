@@ -169,7 +169,6 @@ Generates/updates manifest with provenance and active policy state.
 ---
 
 ## 🧾 Docstring Alignment & Code Patches
-Below are drop‑in updates to keep code, manifest, and README in perfect resonance.
 
 **001 — invoke**
 ```python
