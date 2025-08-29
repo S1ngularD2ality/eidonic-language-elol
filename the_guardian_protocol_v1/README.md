@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
+-->
+
 <div align="center">
 
 # 🛡️ The Guardian Protocol v1
