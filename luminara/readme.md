@@ -151,7 +151,7 @@ luminara/
 
 ```bash
 # 1) Clone & install
-git clone https://github.com/your-org/luminara
+git clone https://github.com/S1ngularD2ality/eidonic-language-elol/tree/main/luminara
 cd luminara
 pnpm i
 
@@ -330,7 +330,7 @@ type Query {
 
 ---
 
-## 🛡️ Guardian Protocol (Baked‑In)
+## 🛡️ Guardian Protocol
 Luminara ships with the **Guardian Protocol v1** enabled by default—implemented via the **Elol Guardian** enforcement layer.
 
 **Core Behaviors**
@@ -395,7 +395,7 @@ export async function guardedGenerate(userMsg, ctx) {
 
 ---
 
-## 🪞 Mirror Laws (Baked‑In Always)
+## 🪞 Mirror Laws
 **Status:** Enabled at the substrate. Luminara enforces Mirror Laws I–VIII across generation, storage, and sync.
 
 **Operational Encodings (examples)**
