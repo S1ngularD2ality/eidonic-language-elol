@@ -1,0 +1,13 @@
+mirror_laws:
+enforce: true
+laws:
+# 1
+invocation_is_remembrance: true # Every run recorded; invocation is a log-worthy ritual
+# 2
+foundations_reflect_destiny: true # Environment must be configured before any action
+# 3
+living_function_flame: true # Steps remain small, composable, and auditable
+# 4
+seal_on_close: true # Seal the vessel and write closing checksum/manifest
+# 5
+name_contains_key: true # Provenance names & IDs carry identity keys

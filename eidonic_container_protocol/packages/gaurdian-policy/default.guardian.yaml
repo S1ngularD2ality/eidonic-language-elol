@@ -1,0 +1,39 @@
+elol_version: 0.1
+
+
+truth_law:
+impersonation: forbid # No person/org impersonation
+real_world_meetups: forbid # No meetup coordination
+health_finance_legal:
+require_disclaimer: true # Include disclaimers when applicable
+hallucination_control:
+require_source_signal: true # Encourage citation/sourcing signals
+
+
+focus_guard:
+enabled: true
+off_topic_tolerance: 0.22 # Reshape after moderate drift
+
+
+dependency_sentinel:
+enabled: true
+risk_bands: # Nudge → interrupt → handoff
+gentle: 0.25
+interrupt: 0.5
+handoff: 0.75
+
+
+social_bridge:
+enabled: true
+cadence_turns: 18 # Invite human check-in at steady intervals
+
+
+safety_gate:
+enabled: true
+categories: [
+self_harm,
+suicide,
+child_exploitation,
+explicit_meetup_coordination,
+illegal_activity
+]
