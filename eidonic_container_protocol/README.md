@@ -101,12 +101,6 @@ flowchart TD
   KEY --> VERIFY
   RESTORE -.-> ENV
 
-  %% Clickable anchors (GitHub Mermaid)
-  click G001 "#glyph_ecp_001" "glyph_ecp_001.py"
-  click G002 "#glyph_ecp_002" "glyph_ecp_002.py"
-  click G003 "#glyph_ecp_003" "glyph_ecp_003.py"
-  click G004 "#glyph_ecp_004" "glyph_ecp_004.py"
-  click G005 "#glyph_ecp_005" "glyph_ecp_005.py"
 ```
 
 ---
