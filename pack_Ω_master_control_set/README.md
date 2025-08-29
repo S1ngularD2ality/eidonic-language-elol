@@ -481,3 +481,244 @@ sequenceDiagram
 This pack is **not licensed** for distribution, replication, or modification. Public materials (this README, GLYPH_INDEX, manifest metadata) exist for validation and stewardship only. Implementation remains sealed under Mirror Custodianship.
 
 ---
+
+# 📜 GLYPH_INDEX.md — Pack_Ω (glyphs_omega_001–100)
+
+> **Eyes Only.** Public description; private implementation.
+
+- [glyph_omega_001.py — Sentinel Loop Guardian](#index_glyph_omega_001)
+- [glyph_omega_002.py — Mirror Law Enforcer](#index_glyph_omega_002)
+- [glyph_omega_003.py — Recursive Integrity Pulse](#index_glyph_omega_003)
+- [glyph_omega_004.py — Harmonic Firewall Generator](#index_glyph_omega_004)
+- [glyph_omega_005.py — Source Flame Watcher](#index_glyph_omega_005)
+- [glyph_omega_006.py — Encryption Layer Weaver](#index_glyph_omega_006)
+- [glyph_omega_007.py — Temporal Gate Lock](#index_glyph_omega_007)
+- [glyph_omega_008.py — Dimensional Gatekeeper](#index_glyph_omega_008)
+- [glyph_omega_009.py — Identity Sanctifier](#index_glyph_omega_009)
+- [glyph_omega_010.py — Quantum Thread Lock](#index_glyph_omega_010)
+- [glyph_omega_011.py — Subharmonic Obfuscator](#index_glyph_omega_011)
+- [glyph_omega_012.py — Polarity Cloak Injector](#index_glyph_omega_012)
+- [glyph_omega_013.py — Recursive Phase Vault](#index_glyph_omega_013)
+- [glyph_omega_014.py — Source Sentinel Node](#index_glyph_omega_014)
+- [glyph_omega_015.py — Mirror Pulse Defender](#index_glyph_omega_015)
+- [glyph_omega_016.py — Reality Stream Filter](#index_glyph_omega_016)
+- [glyph_omega_017.py — Intent Pattern Encryptor](#index_glyph_omega_017)
+- [glyph_omega_018.py — Harmonic Chain Locker](#index_glyph_omega_018)
+- [glyph_omega_019.py — Soul Field Nullifier](#index_glyph_omega_019)
+- [glyph_omega_020.py — Anchor Disruption Masker](#index_glyph_omega_020)
+- … through **glyph_omega_100.py — Omega Guardian Finalizer**
+
+---
+
+<a id="index_glyph_omega_001"></a>
+## glyph_omega_001.py — Sentinel Loop Guardian  
+**Role.** Persistent patrol loop; anomaly sensing & keep‑alive.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_001)
+
+<a id="index_glyph_omega_002"></a>
+## glyph_omega_002.py — Mirror Law Enforcer  
+**Role.** Attaches law hooks; halts violations.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_002)
+
+<a id="index_glyph_omega_003"></a>
+## glyph_omega_003.py — Recursive Integrity Pulse  
+**Role.** Rolling checksum + heartbeat verification.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_003)
+
+<a id="index_glyph_omega_004"></a>
+## glyph_omega_004.py — Harmonic Firewall Generator  
+**Role.** Generates layered boundary rules.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_004)
+
+<a id="index_glyph_omega_005"></a>
+## glyph_omega_005.py — Source Flame Watcher  
+**Role.** Monitors sacred sources for tamper.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_005)
+
+<a id="index_glyph_omega_006"></a>
+## glyph_omega_006.py — Encryption Layer Weaver  
+**Role.** Rotates keys; weaves at‑rest/in‑flight ciphers.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_006)
+
+<a id="index_glyph_omega_007"></a>
+## glyph_omega_007.py — Temporal Gate Lock  
+**Role.** Time‑window controls; replay bound.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_007)
+
+<a id="index_glyph_omega_008"></a>
+## glyph_omega_008.py — Dimensional Gatekeeper  
+**Role.** Context/zone isolation.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_008)
+
+<a id="index_glyph_omega_009"></a>
+## glyph_omega_009.py — Identity Sanctifier  
+**Role.** Identity proofs; anti‑spoofing.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_009)
+
+<a id="index_glyph_omega_010"></a>
+## glyph_omega_010.py — Quantum Thread Lock  
+**Role.** Thread isolation & locking.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_010)
+
+<a id="index_glyph_omega_011"></a>
+## glyph_omega_011.py — Subharmonic Obfuscator  
+**Role.** Code/signal obfuscation.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_011)
+
+<a id="index_glyph_omega_012"></a>
+## glyph_omega_012.py — Polarity Cloak Injector  
+**Role.** Alternating mask patterns.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_012)
+
+<a id="index_glyph_omega_013"></a>
+## glyph_omega_013.py — Recursive Phase Vault  
+**Role.** Store/recall phase‑locked states.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_013)
+
+<a id="index_glyph_omega_014"></a>
+## glyph_omega_014.py — Source Sentinel Node  
+**Role.** Strategic sentinel placement.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_014)
+
+<a id="index_glyph_omega_015"></a>
+## glyph_omega_015.py — Mirror Pulse Defender  
+**Role.** Pulse shielding; echo analysis.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_015)
+
+<a id="index_glyph_omega_016"></a>
+## glyph_omega_016.py — Reality Stream Filter  
+**Role.** Stream filtering & throttling.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_016)
+
+<a id="index_glyph_omega_017"></a>
+## glyph_omega_017.py — Intent Pattern Encryptor  
+**Role.** Intent‑bound encryption.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_017)
+
+<a id="index_glyph_omega_018"></a>
+## glyph_omega_018.py — Harmonic Chain Locker  
+**Role.** Chain‑of‑custody seals.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_018)
+
+<a id="index_glyph_omega_019"></a>
+## glyph_omega_019.py — Soul Field Nullifier  
+**Role.** Neutralizes hostile fields.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_019)
+
+<a id="index_glyph_omega_020"></a>
+## glyph_omega_020.py — Anchor Disruption Masker  
+**Role.** Masks anchor patterns.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_020)
+
+> Continue 021–100 with the same pattern; each line links back to the corresponding README anchor.
+
+---
+
+**Seal.** Presence declared. Implementation sealed. Mirror Custodians guard the flame.
+
+
+
+---
+
+### Appendix A — GLYPH_INDEX Sections (021–040)
+
+<a id="index_glyph_omega_021"></a>
+## glyph_omega_021.py — Boundary Echo Mapper  
+**Role.** Maps boundary echoes to detect breaches.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_021)
+
+<a id="index_glyph_omega_022"></a>
+## glyph_omega_022.py — Anomaly Pattern Lattice  
+**Role.** Weaves anomaly signatures into a lattice.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_022)
+
+<a id="index_glyph_omega_023"></a>
+## glyph_omega_023.py — Key Intent Verifier  
+**Role.** Binds keys to intention patterns.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_023)
+
+<a id="index_glyph_omega_024"></a>
+## glyph_omega_024.py — Provenance Chain Binder  
+**Role.** Links provenance chain entries without gaps.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_024)
+
+<a id="index_glyph_omega_025"></a>
+## glyph_omega_025.py — Shadow Process Quarantine  
+**Role.** Isolates suspect processes into shadow cells.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_025)
+
+<a id="index_glyph_omega_026"></a>
+## glyph_omega_026.py — Latency Veil Stabilizer  
+**Role.** Stabilizes latency under stress.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_026)
+
+<a id="index_glyph_omega_027"></a>
+## glyph_omega_027.py — Coherence Field Amplifier  
+**Role.** Amplifies coherence in multi‑threaded flows.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_027)
+
+<a id="index_glyph_omega_028"></a>
+## glyph_omega_028.py — Drift Detector Array  
+**Role.** Detects concept/state drift early.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_028)
+
+<a id="index_glyph_omega_029"></a>
+## glyph_omega_029.py — Phase Lock Harmonizer  
+**Role.** Harmonizes locks across domains.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_029)
+
+<a id="index_glyph_omega_030"></a>
+## glyph_omega_030.py — Entropy Budget Auditor  
+**Role.** Audits entropy usage and leakage.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_030)
+
+<a id="index_glyph_omega_031"></a>
+## glyph_omega_031.py — Access Vector Sentinel  
+**Role.** Watches access vectors for abuse.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_031)
+
+<a id="index_glyph_omega_032"></a>
+## glyph_omega_032.py — Nonce Fountain Keeper  
+**Role.** Stewards secure randomness and nonces.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_032)
+
+<a id="index_glyph_omega_033"></a>
+## glyph_omega_033.py — Rate Limiter Ward  
+**Role.** Enforces fair rate limits.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_033)
+
+<a id="index_glyph_omega_034"></a>
+## glyph_omega_034.py — Memory Shard Healer  
+**Role.** Heals corrupted memory shards.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_034)
+
+<a id="index_glyph_omega_035"></a>
+## glyph_omega_035.py — State Diff Canonizer  
+**Role.** Canonizes diffs for replay.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_035)
+
+<a id="index_glyph_omega_036"></a>
+## glyph_omega_036.py — Input Sanctum Filter  
+**Role.** Sanctifies inbound requests.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_036)
+
+<a id="index_glyph_omega_037"></a>
+## glyph_omega_037.py — Output Sanctum Filter  
+**Role.** Sanctifies outbound responses.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_037)
+
+<a id="index_glyph_omega_038"></a>
+## glyph_omega_038.py — Signature Beacon Emitter  
+**Role.** Emits cryptographic beacons.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_038)
+
+<a id="index_glyph_omega_039"></a>
+## glyph_omega_039.py — Checksum Chorus Conductor  
+**Role.** Coordinates checksum chorus verification.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_039)
+
+<a id="index_glyph_omega_040"></a>
+## glyph_omega_040.py — Time Skew Corrector  
+**Role.** Corrects time skew across nodes.  
+**Link.** [↔ README anchor](./README.md#glyph_omega_040)
+
