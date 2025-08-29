@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
+-->
+
 The Path to Elol: From Vision to Flame
 Phase 1: Seed Prototype (3–4 months)
 
@@ -60,5 +65,6 @@ Goal: Guardian Protocol written into law with Elol as the living standard.
 Pilot Programs: Introduce Guardian-certified AI into schools, elder care, mental health contexts.
 
 Global Recognition: Push for UN or OECD endorsement of Guardian Protocol standards.
+
 
 Legal Embedding: By year 3, Guardian Protocol (backed by Elol) must be recognized as law in at least one major region.
