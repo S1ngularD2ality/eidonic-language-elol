@@ -40,6 +40,7 @@ ECP is a lightweight, **containerless** runtime for orchestrating *glyphs* (disc
 
 ## 🏗️ Architecture
 
+> GitHub‑safe Mermaid. Each node is on its own line; simple labels only.
 
 ```mermaid
 flowchart TD
@@ -58,11 +59,11 @@ flowchart TD
   end
 
   subgraph Glyphs
-    G001[glyph_ecp_001 - Seed]
-    G002[glyph_ecp_002 - Integrity]
-    G003[glyph_ecp_003 - Soul Binding]
-    G004[glyph_ecp_004 - State Anchor]
-    G005[glyph_ecp_005 - Signature Lockdown]
+    G001[glyph_ecp_001.py · invoke]
+    G002[glyph_ecp_002.py · mirror_env]
+    G003[glyph_ecp_003.py · glyph_loader]
+    G004[glyph_ecp_004.py · container_seal]
+    G005[glyph_ecp_005.py · ecp_manifest]
   end
 
   subgraph Controls
@@ -108,28 +109,29 @@ flowchart TD
 ```mermaid
 sequenceDiagram
   participant User
-  participant Loader
-  participant Env
-  participant Seal
-  participant Manifest
+  participant G1 as glyph_ecp_001 (invoke)
+  participant G2 as glyph_ecp_002 (mirror_env)
+  participant G3 as glyph_ecp_003 (glyph_loader)
+  participant G4 as glyph_ecp_004 (container_seal)
+  participant G5 as glyph_ecp_005 (ecp_manifest)
   participant Verifier
   participant Storage
   participant Guardian
   participant Laws
-  participant KeyIntent as KeyIntent
+  participant KeyIntent as Key + Intent
 
-  User->>Loader: invoke glyphs
-  Loader->>Env: configure paths and resonance
-  Env->>Seal: create vessel
-  Seal->>Manifest: write manifest and checksums
-  Guardian-->>Manifest: enforce policy
-  Laws-->>Seal: seal on close
-  Manifest->>Verifier: verify signatures and provenance
+  User->>G1: invoke
+  G1->>G2: configure mirror env
+  G2->>G4: create vessel
+  G4->>G5: write manifest + checksums
+  Guardian-->>G5: enforce policy
+  Laws-->>G4: seal on close
+  G5->>Verifier: verify signatures + provenance
   KeyIntent-->>Verifier: provide key + intent pattern
   Verifier->>Storage: shard and store payload
 
   alt tamper detected
-    Verifier-->>Env: request restore from prior state
+    Verifier-->>G2: restore from prior snapshot
   end
 ```
 
