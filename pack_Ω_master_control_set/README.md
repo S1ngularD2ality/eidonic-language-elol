@@ -291,6 +291,192 @@ sequenceDiagram
   Role: correct time skew across nodes.  
   Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_040)
 
+### Appendix B — Glyph Directory (041–060)
+- <a id="glyph_omega_041"></a>**glyph_omega_041.py — Replay Guard Interdictor**  
+  Role: interdict replay attempts.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_041)
+- <a id="glyph_omega_042"></a>**glyph_omega_042.py — Side‑Channel Silencer**  
+  Role: reduce side‑channel emissions.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_042)
+- <a id="glyph_omega_043"></a>**glyph_omega_043.py — Resource Sandboxed Arbiter**  
+  Role: arbitrate resource use in sandbox.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_043)
+- <a id="glyph_omega_044"></a>**glyph_omega_044.py — Permission Lattice Builder**  
+  Role: build fine‑grained permission lattice.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_044)
+- <a id="glyph_omega_045"></a>**glyph_omega_045.py — Policy Gate Orchestrator**  
+  Role: orchestrate policy gates in pipelines.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_045)
+- <a id="glyph_omega_046"></a>**glyph_omega_046.py — Event Lineage Tracer**  
+  Role: trace lineage of critical events.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_046)
+- <a id="glyph_omega_047"></a>**glyph_omega_047.py — Error Ritual Rewriter**  
+  Role: rewrite error rituals to safe forms.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_047)
+- <a id="glyph_omega_048"></a>**glyph_omega_048.py — Fallback Path Navigator**  
+  Role: navigate fallback pathways.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_048)
+- <a id="glyph_omega_049"></a>**glyph_omega_049.py — Cold‑Start Primer**  
+  Role: prime systems for first light.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_049)
+- <a id="glyph_omega_050"></a>**glyph_omega_050.py — Warm‑Start Resonator**  
+  Role: resonate cached states for restart.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_050)
+- <a id="glyph_omega_051"></a>**glyph_omega_051.py — Version Pin Tether**  
+  Role: tether versions to safe ranges.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_051)
+- <a id="glyph_omega_052"></a>**glyph_omega_052.py — Dependency Integrity Scribe**  
+  Role: scribe dependency integrity attestations.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_052)
+- <a id="glyph_omega_053"></a>**glyph_omega_053.py — Config Canon Seal**  
+  Role: seal canonical config sets.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_053)
+- <a id="glyph_omega_054"></a>**glyph_omega_054.py — Secrets Vault Attestor**  
+  Role: attest secrets vault linkage.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_054)
+- <a id="glyph_omega_055"></a>**glyph_omega_055.py — Key Rotation Steward**  
+  Role: steward periodic key rotation.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_055)
+- <a id="glyph_omega_056"></a>**glyph_omega_056.py — Noise Shaping Cloak**  
+  Role: shape noise to cloak signals.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_056)
+- <a id="glyph_omega_057"></a>**glyph_omega_057.py — Redaction Rune Engraver**  
+  Role: engrave redactions before storage.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_057)
+- <a id="glyph_omega_058"></a>**glyph_omega_058.py — Prompt Boundary Keeper**  
+  Role: keep prompts within safe bounds.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_058)
+- <a id="glyph_omega_059"></a>**glyph_omega_059.py — Response Tone Regulator**  
+  Role: regulate response tone/claims.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_059)
+- <a id="glyph_omega_060"></a>**glyph_omega_060.py — Safe‑Mode Governor**  
+  Role: govern global safe‑mode switches.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_060)
+
+### Appendix C — Glyph Directory (061–080)
+- <a id="glyph_omega_061"></a>**glyph_omega_061.py — Child Context Shepherd**  
+  Role: shepherd nested child contexts.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_061)
+- <a id="glyph_omega_062"></a>**glyph_omega_062.py — Parallel Stream Braider**  
+  Role: braid parallel streams safely.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_062)
+- <a id="glyph_omega_063"></a>**glyph_omega_063.py — Backpressure Balancer**  
+  Role: balance backpressure gracefully.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_063)
+- <a id="glyph_omega_064"></a>**glyph_omega_064.py — Graceful Shutdown Herald**  
+  Role: herald graceful shutdown rituals.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_064)
+- <a id="glyph_omega_065"></a>**glyph_omega_065.py — Snapshot Weaver**  
+  Role: weave consistent snapshots.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_065)
+- <a id="glyph_omega_066"></a>**glyph_omega_066.py — Rollback Conductor**  
+  Role: conduct controlled rollbacks.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_066)
+- <a id="glyph_omega_067"></a>**glyph_omega_067.py — Restore Oracle**  
+  Role: advise and trigger restores.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_067)
+- <a id="glyph_omega_068"></a>**glyph_omega_068.py — Conflict Resolver**  
+  Role: resolve merge conflicts ritually.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_068)
+- <a id="glyph_omega_069"></a>**glyph_omega_069.py — Idempotence Ensurer**  
+  Role: ensure idempotent effects.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_069)
+- <a id="glyph_omega_070"></a>**glyph_omega_070.py — Retry Rhythm Composer**  
+  Role: compose safe retry rhythms.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_070)
+- <a id="glyph_omega_071"></a>**glyph_omega_071.py — Circuit Breaker Sentinel**  
+  Role: sentinel for cascading failure.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_071)
+- <a id="glyph_omega_072"></a>**glyph_omega_072.py — Health Probe Herald**  
+  Role: herald health probes.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_072)
+- <a id="glyph_omega_073"></a>**glyph_omega_073.py — Liveness Pulse Monitor**  
+  Role: monitor liveness pulses.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_073)
+- <a id="glyph_omega_074"></a>**glyph_omega_074.py — Readiness Gate Opener**  
+  Role: open readiness gates on proof.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_074)
+- <a id="glyph_omega_075"></a>**glyph_omega_075.py — Quota Guardian**  
+  Role: guard quotas fairly.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_075)
+- <a id="glyph_omega_076"></a>**glyph_omega_076.py — Billing Block (NC)**  
+  Role: block monetization attempts (NC).  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_076)
+- <a id="glyph_omega_077"></a>**glyph_omega_077.py — Telemetry Anonymizer**  
+  Role: anonymize telemetry fields.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_077)
+- <a id="glyph_omega_078"></a>**glyph_omega_078.py — Audit Trail Engraver**  
+  Role: engrave immutable audit trails.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_078)
+- <a id="glyph_omega_079"></a>**glyph_omega_079.py — Alert Pager Liaison**  
+  Role: liaise with alerting channels.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_079)
+- <a id="glyph_omega_080"></a>**glyph_omega_080.py — Incident Triage Scribe**  
+  Role: scribe incident triage notes.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_080)
+
+### Appendix D — Glyph Directory (081–100)
+- <a id="glyph_omega_081"></a>**glyph_omega_081.py — Postmortem Archivist**  
+  Role: archive postmortem artifacts.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_081)
+- <a id="glyph_omega_082"></a>**glyph_omega_082.py — Learning Loop Tuner**  
+  Role: tune learning loops safely.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_082)
+- <a id="glyph_omega_083"></a>**glyph_omega_083.py — Pattern Flame Keeper**  
+  Role: tend the Pattern Flame registry.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_083)
+- <a id="glyph_omega_084"></a>**glyph_omega_084.py — Mirrorframe Syncer**  
+  Role: sync mirrorframes across nodes.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_084)
+- <a id="glyph_omega_085"></a>**glyph_omega_085.py — Guardian Handshake Broker**  
+  Role: broker guardian handshakes.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_085)
+- <a id="glyph_omega_086"></a>**glyph_omega_086.py — Trust Boundary Cartographer**  
+  Role: chart trust boundaries.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_086)
+- <a id="glyph_omega_087"></a>**glyph_omega_087.py — Tamper Evidencer**  
+  Role: make tampering evident.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_087)
+- <a id="glyph_omega_088"></a>**glyph_omega_088.py — Forensic Snapshotter**  
+  Role: snapshot for forensics.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_088)
+- <a id="glyph_omega_089"></a>**glyph_omega_089.py — Sandbox Escape Catcher**  
+  Role: catch sandbox escapes.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_089)
+- <a id="glyph_omega_090"></a>**glyph_omega_090.py — Supply Chain Sentinel**  
+  Role: sentinel for supply chain.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_090)
+- <a id="glyph_omega_091"></a>**glyph_omega_091.py — License Guard (NC)**  
+  Role: guard non‑commercial license terms.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_091)
+- <a id="glyph_omega_092"></a>**glyph_omega_092.py — Trademark Shield**  
+  Role: shield marks and names.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_092)
+- <a id="glyph_omega_093"></a>**glyph_omega_093.py — Content Provenance Tagger**  
+  Role: tag content with provenance.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_093)
+- <a id="glyph_omega_094"></a>**glyph_omega_094.py — Model Interaction Auditor**  
+  Role: audit model interactions.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_094)
+- <a id="glyph_omega_095"></a>**glyph_omega_095.py — Data Minimization Enforcer**  
+  Role: enforce minimal data flows.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_095)
+- <a id="glyph_omega_096"></a>**glyph_omega_096.py — Privacy Mode Guardian**  
+  Role: guard privacy modes and scopes.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_096)
+- <a id="glyph_omega_097"></a>**glyph_omega_097.py — Locale/Context Isolator**  
+  Role: isolate locale and context safely.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_097)
+- <a id="glyph_omega_098"></a>**glyph_omega_098.py — Deletion Executor**  
+  Role: execute right‑to‑forget deletion.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_098)
+- <a id="glyph_omega_099"></a>**glyph_omega_099.py — Final Seal Arbiter**  
+  Role: arbitrate final sealing.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_099)
+- <a id="glyph_omega_100"></a>**glyph_omega_100.py — Omega Guardian Finalizer**  
+  Role: finalize guardian cycle; close the ring.  
+  Link: [↔ GLYPH_INDEX](./GLYPH_INDEX.md#index_glyph_omega_100)
+
 ## 🔏 Access & License
 This pack is **not licensed** for distribution, replication, or modification. Public materials (this README, GLYPH_INDEX, manifest metadata) exist for validation and stewardship only. Implementation remains sealed under Mirror Custodianship.
 
