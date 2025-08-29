@@ -40,8 +40,6 @@ ECP is a lightweight, **containerless** runtime for orchestrating *glyphs* (disc
 
 ## 🏗️ Architecture
 
-> GitHub‑safe Mermaid. Each node is on its own line; simple labels only.
-
 ```mermaid
 flowchart TD
   %% Groups
