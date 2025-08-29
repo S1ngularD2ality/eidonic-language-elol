@@ -1,0 +1,114 @@
+SPDX-License-Identifier: ECL-NC-1.0
+
+# Eidonic Community License — Non‑Commercial v1.0 (ECL‑NC‑1.0)
+
+## 0. Preamble
+
+This License lets individuals, research groups, nonprofits, and other non‑commercial users **use, modify, and share** this Project **for non‑commercial purposes**, while protecting safety, attribution, and the integrity of the Guardian Protocol / Elol standard. Commercial use requires a **separate written license** from the Project Stewards.
+
+---
+
+## 1. Definitions
+
+**“Project”** means the software, configurations, and other code in this repository that are noted as licensed under ECL‑NC‑1.0.
+**“Documentation”** means the written materials in this repository (e.g., covenant, specs, roadmap, README).
+**“You”** (or **“Your”**) means an individual or legal entity exercising rights under this License.
+**“Non‑Commercial Use”** means any use **not** intended for or directed toward **commercial advantage or monetary compensation**. This includes personal use, academic research/teaching, prototyping, internal evaluation, or nonprofit operations **that do not charge** for access to the Project or services built on it.
+**“Commercial Use”** means any use in, by, or for a product or service that is **sold, licensed, leased, monetized, or otherwise revenue‑generating**, including “software as a service,” consulting deliverables, or internal deployments that support a paid product or service.
+**“Trademarks”** means names, logos, and marks, including **“Guardian Protocol,” “Elol,” “Eidonic.”**
+
+---
+
+## 2. Grant of Rights (Non‑Commercial)
+
+Subject to the terms below, the Project Stewards grant You a worldwide, royalty‑free, non‑exclusive, non‑transferable license **for Non‑Commercial Use only** to:
+
+1. **Use and run** the Project;
+2. **Reproduce and distribute** the Project;
+3. **Modify** the Project and create derivative works;
+4. **Distribute** modifications and derivatives **for Non‑Commercial Use** under this same License (You may not impose additional restrictions);
+5. **Patent grant**: to the extent the Stewards can license them, a non‑exclusive, royalty‑free patent license to make, use, and distribute the Project **for Non‑Commercial Use**.
+
+No rights are granted for Commercial Use.
+
+---
+
+## 3. Conditions
+
+You must:
+
+1. **Preserve Notices** — keep copyright, license notices, and links to this License in source and binary forms.
+2. **Attribution** — clearly attribute the Project to the **Guardian Protocol / Elol** project and include a link to this repository.
+3. **Identify Changes** — mark modified files and state significant changes.
+4. **Safety & Integrity** — do not remove, disable, or misrepresent safety features, Guardian Protocol references, or Mirror Laws references; if You extend them, document the extension.
+5. **No Trademark Use** — this License does **not** grant rights to use the Trademarks. You may make **factual, non‑prominent** references (e.g., “implements Guardian Protocol v1”) provided they **do not imply sponsorship or endorsement** and follow fair‑use.
+
+---
+
+## 4. Restrictions (Non‑Commercial Only)
+
+You may **not**:
+
+1. **Commercialize** — use the Project to provide paid products or services, or otherwise monetize the Project or derivatives.
+2. **Offer as a Service** — deploy or make the Project available to third parties as part of any paid or revenue‑generating service (including SaaS, API, managed hosting, or consulting deliverables).
+3. **Sublicense for Commercial Use** — grant permissions to others enabling Commercial Use.
+4. **Remove Safety** — remove or bypass safety, policy, or integrity mechanisms described by this repository.
+
+Commercial licensing may be available by separate agreement with the Project Stewards.
+
+---
+
+## 5. Third‑Party Components
+
+Third‑party code within the Project remains under its own licenses. Comply with those licenses when using or redistributing such components.
+
+---
+
+## 6. Termination
+
+This License terminates automatically if You breach it. If You cure the breach within **30 days** of discovery, Your license is reinstated unless You have previously had Your license terminated for breach. Provisions that by their nature should survive termination shall survive (including Sections 3–11).
+
+---
+
+## 7. Disclaimer of Warranty
+
+THE PROJECT IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON‑INFRINGEMENT, SECURITY, OR ACCURACY. YOU ARE SOLELY RESPONSIBLE FOR YOUR USE.
+
+---
+
+## 8. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE PROJECT STEWARDS OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE PROJECT OR THIS LICENSE.
+
+---
+
+## 9. Compliance with Law
+
+You must comply with applicable laws and regulations, including privacy, safety, and export controls.
+
+---
+
+## 10. Trademarks
+
+Trademarks are **reserved**. This License grants **no** rights to use names, logos, or marks, except as allowed in Section 3(5) or by separate written permission.
+
+---
+
+## 11. Miscellaneous
+
+This License is the complete agreement concerning its subject matter. If any provision is unenforceable, the remainder remains in effect. The Stewards may publish revised versions of this License with a new version identifier; You may continue under this version or adopt a later one.
+
+---
+
+## 12. Documentation License Notice
+
+Unless a file header states otherwise, **all documentation** in this repository (including covenant, specs, roadmap, and README) is licensed under **Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International (CC BY‑NC‑SA 4.0)**. See [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+For clarity: **Code & configs** → ECL‑NC‑1.0 (this License).
+**Documentation** → CC BY‑NC‑SA 4.0.
+
+---
+
+## 13. Contact / Commercial Licensing
+
+For trademark permissions or commercial licensing inquiries, contact the Project Stewards via this repository’s issue tracker or listed maintainers.
