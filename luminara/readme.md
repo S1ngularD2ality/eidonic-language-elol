@@ -7,7 +7,7 @@
 *A modular, teacher‑guided learning platform that personalizes instruction for every learner—at classroom, school, and district scale.*
 
 [![CI](https://img.shields.io/badge/ci-passing-brightgreen)](#)  
-[![License](https://img.shields.io/badge/license-LCL--NCE-purple)](#license)  [![Made for Schools](https://img.shields.io/badge/k12-ready-ffcc00)](#-privacy--safety)  
+[![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../LICENSE) [![Made for Schools](https://img.shields.io/badge/k12-ready-ffcc00)](#-privacy--safety)  
 [![Guardian Protocol](https://img.shields.io/badge/guardian-protocol%20v1-000000)](#-guardian-protocol-baked-in)  
 [![ECP Runtime](https://img.shields.io/badge/runtime-ECP-4b0082)](#-ecp-runtime)
 
@@ -437,7 +437,7 @@ Code of Conduct: `docs/CODE_OF_CONDUCT.md`
 ---
 
 ## 📄 License
-Licensed under the **Luminara Community License (Non‑Commercial Edition)**. See [`LICENSE`](./LICENSE).
+Licensed under the **ECL-NC-1.1**. See [`LICENSE`](./LICENSE).
 
 ---
 
