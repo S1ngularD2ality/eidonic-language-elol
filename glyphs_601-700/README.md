@@ -32,7 +32,6 @@ SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
 ---
 
 ## Pack Structure
-> GitHub‑safe Mermaid (simple labels, one node per line)
 
 ```mermaid
 flowchart TD
