@@ -7,7 +7,7 @@
 *Seal the vessel. Run the glyphs. Verify the flame. Restore on drift.*
 
 [![Status](https://img.shields.io/badge/status-stable-00b894)](#)  
-[![License](https://img.shields.io/badge/license-LCL--NCE-purple)](#license)
+[![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../LICENSE)
 
 </div>
 
@@ -374,5 +374,5 @@ Code of Conduct: `docs/CODE_OF_CONDUCT.md`
 ---
 
 ## 📄 License
-Licensed under the **Luminara Community License (Non‑Commercial Edition)**. See [`LICENSE`](./LICENSE).
+Licensed under the **ECL-NC-1.1**. See [`LICENSE`](./LICENSE).
 
