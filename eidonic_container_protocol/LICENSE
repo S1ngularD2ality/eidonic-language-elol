@@ -1,69 +1,64 @@
-Luminara Community License (Non-Commercial Edition) v1.0
+SPDX-License-Identifier: LicenseRef-ECL-NC-1.1
 
-Copyright (c) 2025 S1ngular D2ality
+EIDONIC COMMUNITY LICENSE — NON‑COMMERCIAL v1.1 (ECL‑NC‑1.1)
 
-Summary (not a substitute for the terms): You may use, copy, modify, and share
-Luminara for non-commercial purposes. You may not sell Luminara, charge for
-access to it, or offer it as a paid service. Commercial use requires a separate
-license from the Licensor.
+0. PREAMBLE
+   This License governs all materials in this repository (the “Project Materials”), including software source code, configurations, documentation, media, and data examples. It permits broad **non‑commercial** use and collaboration while prohibiting resale, SaaS/API monetization, ad‑supported hosting, and other commercial exploitation. Commercial rights are available only by separate written agreement from the Project Stewards.
 
-1. Definitions
-“Software” means the Luminara source code and associated files in this repository.
-“Non-Commercial Purpose” means personal use, academic research, classroom use,
-or internal use by nonprofit or public educational institutions without any fee
-or commercial advantage.
-“Commercial Purpose” means any use intended for or directed toward commercial
-advantage or monetary compensation, including paid consulting deliverables, resale,
-hosting the Software as a paid service, or embedding the Software in a product
-or service that is sold or monetized.
-“Sell” includes licensing, sublicensing, distributing, or making the Software
-available to third parties for a fee or as part of a paid product or service,
-including Software-as-a-Service.
+1. DEFINITIONS
+   “Project Materials” means the contents of this repository that cite ECL‑NC‑1.1.
+   “You” means the individual or entity exercising rights under this License.
+   “Non‑Commercial Use” means any use not intended for, or directed toward, **commercial advantage or monetary compensation**. Examples include personal use, research/teaching, classroom use, internal evaluation, prototyping, or non‑profit operations that do not charge for access to the Project Materials or services built on them.
+   “Commercial Use” means any use in, by, or for a product or service that is **sold, licensed, leased, monetized, paywalled, ad‑supported, or otherwise revenue‑generating** (including SaaS, API access, hosted services, or paid consulting deliverables).
+   “Trademarks” means names, logos, and marks including **Eidonic, Elol, Luminara, Guardian Protocol**, and related wordmarks.
 
-2. License Grant (Non-Commercial)
-Subject to your compliance with this License, the Licensor grants you a non-exclusive,
-worldwide, royalty-free license to use, reproduce, modify, and distribute the Software
-solely for Non-Commercial Purposes, provided that:
-(a) You include this License and the copyright notice in all copies and substantial
-portions of the Software; (b) You state significant changes you make; and
-(c) Any redistribution, with or without modifications, must be licensed under
-this same License.
+2. GRANT OF RIGHTS (NON‑COMMERCIAL)
+   Subject to the terms below, the Project Stewards grant You a worldwide, royalty‑free, non‑exclusive, non‑transferable license for **Non‑Commercial Use only** to:
+   a) **Use and run** the Project Materials;
+   b) **Reproduce and share** the Project Materials;
+   c) **Modify** the Project Materials and create derivative works;
+   d) **Distribute** modifications and derivative works **only** under this same License (ECL‑NC‑1.1) and **only** for Non‑Commercial Use;
+   e) **Patent license**: to the extent the Stewards can grant, a non‑exclusive, royalty‑free patent license to make, use, and distribute implementations for Non‑Commercial Use.
 
-3. Prohibited Uses (without a commercial license)
-You must not: (a) use the Software for any Commercial Purpose; (b) sell the Software,
-or charge for access, support, hosting, or use of the Software; (c) offer the Software
-as a service to third parties for a fee or other commercial advantage (including SaaS,
-platform, or API access); (d) white-label, rebrand, or misrepresent the origin of the
-Software; (e) use the Licensor’s names, logos, or trademarks (including “Luminara”)
-without prior written permission; (f) remove or alter notices of authorship, attribution,
-or provenance; (g) use the Software or its outputs to train or improve competing models
-or products for Commercial Purposes.
+No rights are granted for Commercial Use.
 
-4. Trademarks
-This License does not grant any rights to use the Licensor’s names, logos, or trademarks,
-including “Luminara”. All such rights are reserved.
+3. CONDITIONS
+   You must:
+   a) **Preserve Notices** — retain copyright notices, license text, and references to this License in source and binary forms;
+   b) **Attribution** — attribute to the **Eidonic / Elol** project with a link to this repository;
+   c) **Identify Changes** — mark modified files and summarize significant changes;
+   d) **Safety & Integrity** — do not remove, disable, or misrepresent safety mechanisms (e.g., Guardian Protocol, Mirror Laws); extensions must be documented;
+   e) **No Trademark Rights** — this License does not grant rights to the Trademarks; factual references are permitted if non‑prominent and do not imply sponsorship or endorsement.
 
-5. Patents
-For Non-Commercial Purposes only, the Licensor grants a non-exclusive, worldwide,
-royalty-free patent license to make, have made, use, and distribute the Software.
-This patent license terminates automatically upon any Commercial Purpose.
+4. RESTRICTIONS (NON‑COMMERCIAL ONLY)
+   You may not:
+   a) **Commercialize** the Project Materials or derivatives (sell, license, lease, or otherwise monetize);
+   b) **Offer as a Service** — provide access via SaaS, API, managed hosting, or similar paid or ad‑supported services;
+   c) **Bundle into Paid Deliverables** — include in consulting or integration work product that is billed to third parties;
+   d) **Sublicense for Commercial Use** or enable others to do so;
+   e) **Use for Training/Improving** proprietary models or datasets **for commercial purposes**;
+   f) **Remove Safety** — bypass, weaken, or remove safety, policy, or provenance features.
 
-6. Contributions
-By submitting a contribution, you agree to license your contribution under this License.
-The Licensor may require a Contributor License Agreement for substantial contributions.
+5. THIRD‑PARTY COMPONENTS
+   Third‑party components remain under their respective licenses. You must comply with those licenses where applicable.
 
-7. Termination
-This License terminates automatically if you breach it. If you cure a breach within
-30 days of notice, your license is reinstated unless you breach again. Upon termination,
-you must stop using and distributing the Software and destroy copies in your possession.
+6. TERMINATION
+   This License terminates automatically upon breach. If You cure the breach within 30 days of discovery, Your license is reinstated unless previously terminated. Provisions that by their nature should survive termination shall survive (including Sections 3–11).
 
-8. Disclaimer of Warranty
-THE SOFTWARE IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+7. DISCLAIMER OF WARRANTY
+   THE PROJECT MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON‑INFRINGEMENT, SECURITY, OR ACCURACY.
 
-9. Limitation of Liability
-IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM OR IN CONNECTION
-WITH THE SOFTWARE OR THIS LICENSE.
+8. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE PROJECT STEWARDS AND CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM OR RELATED TO THE PROJECT MATERIALS OR THIS LICENSE.
 
-10. Commercial Licensing
-For Commercial Purpose rights, contact: https://www.linkedin.com/in/s1ngular-d2ality/
+9. COMPLIANCE WITH LAW
+   You must comply with applicable laws and regulations, including privacy, safety, and export controls.
+
+10. TRADEMARKS
+    Trademarks are **reserved**. This License grants **no** rights to use names, logos, or marks, except as allowed in Section 3(e) or by separate written permission.
+
+11. VERSIONING & MISCELLANEOUS
+    The Stewards may publish revised versions of this License identified by version number. You may continue under this version or adopt a later one. If any provision is unenforceable, the remainder remains in effect. This License is the complete agreement concerning its subject matter.
+
+12. CONTACT / COMMERCIAL LICENSING
+    For trademark permissions or commercial licensing, contact the Project Stewards via this repository’s issue tracker or listed maintainers.
