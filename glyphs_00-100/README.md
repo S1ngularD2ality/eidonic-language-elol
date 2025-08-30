@@ -9,8 +9,7 @@ SPDX-FileCopyrightText: © 2024–2025 S1ngular D2ality
 
 [![Scope](https://img.shields.io/badge/scope-00–100-informational)](#overview)
 [![Status](https://img.shields.io/badge/status-stable-00b894)](#overview)
-[![License](https://img.shields.io/badge/license-ECL-NC%201.1-111111)](../LICENSE)
-
+[![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../LICENSE)
 
 ---
 
