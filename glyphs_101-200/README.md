@@ -110,5 +110,5 @@ All examples and references in this pack assume the repository’s Guardian/Mirr
 
 ## License
 This README is licensed **ECL-NC-1.1**.  
-Code in this pack inherits repository terms: **ECL‑NC‑1.0** for code/configs, see [`LICENSE`](../LICENSE).
+Code in this pack inherits repository terms: **ECL-NC-1.1** for code/configs, see [`LICENSE`](../LICENSE).
 
