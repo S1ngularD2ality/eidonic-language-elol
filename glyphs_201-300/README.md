@@ -1,5 +1,5 @@
 <!--
-SPDX-License-Identifier: CC-BY-NC-SA-4.0
+SPDX-License-Identifier: ECL-NC-1.1
 SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
 -->
 
@@ -9,7 +9,7 @@ SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
 
 [![Scope](https://img.shields.io/badge/scope-201–300-informational)](#overview)
 [![Status](https://img.shields.io/badge/status-stable-00b894)](#overview)
-[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-111111)](../LICENSE)
+[![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../LICENSE)
 
 ---
 
@@ -108,6 +108,6 @@ All examples and references in this pack assume the repository’s Guardian/Mirr
 ---
 
 ## License
-This README is licensed **CC BY‑NC‑SA 4.0**.  
-Code in this pack inherits repository terms: **ECL‑NC‑1.0** for code/configs, see [`LICENSE`](../LICENSE).
+This README is licensed **ECL-NC-1.1**.  
+Code in this pack inherits repository terms: **ECL-NC-1.1** for code/configs, see [`LICENSE`](../LICENSE).
 
