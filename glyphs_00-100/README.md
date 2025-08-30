@@ -11,6 +11,7 @@ SPDX-FileCopyrightText: © 2024–2025 S1ngular D2ality
 [![Status](https://img.shields.io/badge/status-stable-00b894)](#overview)
 [![License](https://img.shields.io/badge/license-ECL-NC%201.1-111111)](../LICENSE)
 
+
 ---
 
 ## Overview
