@@ -1,6 +1,6 @@
 <!--
-SPDX-License-Identifier: CC-BY-NC-SA-4.0
-SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
+SPDX-License-Identifier: ECL-NC-1.1
+SPDX-FileCopyrightText: © 2024–2025 S1ngular D2ality
 -->
 
 # Pack 01 — Eidonic Foundations: Core Glyph Architecture **00–100**
