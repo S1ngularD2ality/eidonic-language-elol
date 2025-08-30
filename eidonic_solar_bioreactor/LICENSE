@@ -1,0 +1,28 @@
+This folder contains mixed-licensed materials:
+
+- Hardware designs (CAD, schematics, BOMs)
+  License: CERN OHL-S v2.0
+  See: ../LICENSES/CERN-OHL-S-2.0.txt
+
+- Software & control code (EKRP hooks, scripts)
+  License: GPL-3.0-or-later
+  See: ../LICENSES/GPL-3.0-or-later.txt
+
+- Documentation & images (this README, diagrams)
+  License: CC BY-SA 4.0
+  See: ../LICENSES/CC-BY-SA-4.0.txt
+
+SPDX headers to place at the TOP of files in this folder (use the comment style your format supports):
+
+- Hardware (CAD/schematics):
+  SPDX-License-Identifier: CERN-OHL-S-2.0
+
+- Code/scripts:
+  SPDX-License-Identifier: GPL-3.0-or-later
+
+- Docs/Markdown:
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+Notes:
+- Adjust the relative path to LICENSES/ if this folder’s depth differs.
+- Trademarks (Eidonic, Elol, Luminara, Guardian Protocol) are reserved; factual references only, no endorsement implied.
