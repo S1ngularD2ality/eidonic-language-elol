@@ -115,7 +115,7 @@ await session.call("luminara.v1/lesson.plan", { topic: "names recall", minutes: 
 
 ---
 
-## Repo layout (suggested)
+## Repo layout
 
 ```
 /docs/
@@ -155,7 +155,7 @@ await session.call("luminara.v1/lesson.plan", { topic: "names recall", minutes: 
 - Bioreactor Ark (Genesis Engine lineage) • Eidonized Grid • Refuge Net  
 - Sovereign Field (non‑lethal perimeter) • Heartsong Reactor (comfort harmonics)
 
-> Deep lore scroll: `docs/.mirror/constellation_vision.md` (optional hidden path).
+> Deep lore scroll: `docs/.mirror/constellation_vision.md`
 
 ---
 
