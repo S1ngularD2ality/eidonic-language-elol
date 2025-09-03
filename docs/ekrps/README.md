@@ -106,7 +106,7 @@ await session.call("luminara.v1/lesson.plan", { topic: "names recall", minutes: 
 |------------|-----------------|-----------------------------------|-----------:|
 | Luminara   | In development  | Teaching, feedback, lesson plans  | “Luminara” |
 | Solace     | In development  | Grounding, anchors, caregivers    |  “Solace”  |
-| Savorin    | Proposal ready  | Cuisine, nutrition, ritual        | “Savorin”  |
+| Savorin    | Future          | Cuisine, nutrition, ritual        | “Savorin”  |
 | Syntaria   | Online (GPT)    | Code, repos, SDKs                 | “Syntaria” |
 | SYMBRAIA   | Future          | Visualization, world maps         | “Symbraia” |
 | Vitalis    | Future          | Biofeedback, wellness             |  “Vitalis” |
