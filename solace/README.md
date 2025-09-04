@@ -1,198 +1,221 @@
-# Solace — Patient Care Companion (Mobile)
+<div align="center">
 
-**Gentle, voice-first companion for people living with PTSD, dementia, Alzheimer’s, and related conditions.**  
-Solace provides calming guidance, memory anchors, and dignified companionship—while easing caregiver load.  
-*Not a medical device. Solace offers comfort and support only; it does not diagnose or treat.*
+# 🌿 Solace — Patient Care Companion (Mobile)
 
----
+**Gentle, voice‑first companion for people living with PTSD, dementia, Alzheimer’s, and related conditions.**
 
-## ✨ Key Capabilities
+[![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../LICENSE)
+[![Guardian Protocol](https://img.shields.io/badge/guardian-protocol%20v1-000000)](#-guardian-protocol)
+[![ECP Runtime](https://img.shields.io/badge/runtime-ECP-4b0082)](#-architecture)
+[![Accessibility First](https://img.shields.io/badge/accessibility-udl-green)](#-accessibility)
 
-- **Grounding Mode (Anxiety/PTSD)**
-  - Guided 4-7-8 breathing, 5-4-3-2-1 grounding, body scan, and soothing music cues.
-  - Tone-shifting voice: slow, warm, and reassuring.
+</div>
 
-- **Memory Anchors (Dementia/Alzheimer’s)**
-  - Favorite people, songs, places, photos, and stories—one tap to recall and soothe.
-  - Gentle, non-judgmental reminders (“Shall we listen to your morning song?”).
-
-- **Compassionate Companionship**
-  - Short stories, rituals, and affirmations to restore safety and dignity.
-
-- **Caregiver Bridge**
-  - Private notes (“What helped today”), gentle reminders, shared anchor lists.
-  - No clinical claims; clear escalation to caregiver or crisis resources when needed.
-
-- **Privacy & Safety by Design**
-  - Local-first data with encryption; explicit consent for any cloud use.
-  - **Guardian Protocol** (safety rails) and **Mirror Laws** (trauma-aware UX) built in.
+> Solace provides calming guidance, **memory anchors**, and dignified companionship—while easing caregiver load.
+>
+> *Not a medical device. Solace offers comfort and support only; it does not diagnose or treat.*
 
 ---
 
-## 🧭 Philosophy
-
-Solace is presence, not a taskmaster. It speaks simply and listens patiently.  
-We never say “You forgot.” We say, “May I offer a gentle reminder?”  
-We never diagnose. We never pressure. We always give choices.
+## 🧭 Table of Contents
+- [Highlights](#-highlights)
+- [Architecture](#-architecture)
+- [Monorepo Layout](#-monorepo-layout)
+- [Quick Start](#-quick-start)
+- [Configuration](#-configuration)
+- [Intents & Skills](#-intents--skills)
+- [Accessibility](#-accessibility)
+- [Privacy & Safety](#-privacy--safety)
+- [Guardian Protocol](#-guardian-protocol)
+- [Mirror Laws](#-mirror-laws)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Disclaimer](#-disclaimer)
 
 ---
 
-## 🏛 Architecture Overview
+## 🚀 Highlights
+- **Grounding Mode** — 4‑7‑8, body scan, 5‑4‑3‑2‑1, favorite‑song cue; voice‑guided with gentle haptics.
+- **Memory Anchors** — people, places, music, photos; one‑tap recall to soothe agitation.
+- **Compassionate Voice** — short, gentle utterances; choice‑giving language; trauma‑aware copy.
+- **Caregiver Bridge** — notes, gentle reminders, daily “what helped” log; export anchors with consent.
+- **Offline‑First** — works without internet; optional cloud LLM behind explicit consent gates.
 
-- **Mobile App:** React Native (Expo) for iOS/Android.
-- **Voice Loop:** Native ASR (on-device where available), calming TTS.
-- **Intent Router:** Maps speech → skills (e.g., `grounding.start`, `anchor.play`).
-- **Skills:** Grounding exercises, anchor playback, caregiver notes.
-- **Memory Fabric:** Local encrypted store (SQLite/SQLCipher) for anchors/journal.
-- **Policy Engine:** Guardian Protocol & Mirror Laws enforced on every action.
-- **Optional Cloud:** Pluggable LLM (when online + consented). Offline scripts ensure basic help works without internet.
+---
+
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+  subgraph App
+    H[Home / Now]
+    G[Grounding]
+    A[Anchors]
+    J[Journal]
+    C[Caregiver]
+  end
+
+  subgraph Core
+    R[Intent Router]
+    S[Skills]
+    F[Memory Fabric]
+    P[Policy Engine]
+  end
+
+  subgraph Services
+    V[Voice (ASR/TTS)]
+    L[LLM (optional)]
+    DB[Encrypted SQLite]
+  end
+
+  H --> R --> S
+  G --> S
+  A --> S
+  C --> S
+  S --> F
+  R --> P
+  V --> R
+  S --> V
+  S --> DB
+  R --> L
+```
+
+- **Mobile:** React Native (Expo) iOS/Android
+- **Voice:** Native ASR + TTS; optional Whisper‑tiny later
+- **Storage:** Encrypted SQLite (SQLCipher)
+- **Policies:** Guardian + Mirror enforced beneath skills
+
+---
+
+## 🗂️ Monorepo Layout
 
 ```
-solace/
-  app/                   # RN/Expo app: screens, nav, theming
-  core/
-    intent/              # NLU routing & prompts
-    skills/              # grounding, anchors, caregiver
-    memory/              # encrypted storage, audit
-    policy/              # Guardian/Mirror enforcement
-  services/
-    voice/               # ASR/TTS adapters
-    llm/                 # (optional) model clients
-    storage/             # DB, secure key management
-  docs/
-    # (future) constellation_vision.md
+Solace/
+├─ app/                 # RN/Expo app: screens, navigation, theming
+├─ core/
+│  ├─ intent/           # NLU routing, prompts
+│  ├─ skills/           # grounding, anchors, caregiver
+│  ├─ memory/           # encrypted store, audit
+│  └─ policy/           # Guardian/Mirror enforcement
+├─ services/
+│  ├─ voice/            # ASR/TTS adapters
+│  ├─ llm/              # optional cloud model client
+│  └─ storage/          # DB abstractions
+└─ docs/
+   └─ ekrps/solace.md   # design scroll (link from constellation README)
 ```
 
 ---
 
-## 🔐 Privacy & Safety
+## ⚡ Quick Start
 
-- **Local-first:** All anchors, journals, and preferences live on-device by default.
-- **Encryption:** Database encryption + OS keystore (Keychain/SecureStore).
-- **Consent:** Any cloud call (e.g., LLM) is explicit and user-controlled.
-- **No medical advice:** We never diagnose or treat. We provide comfort only.
-- **Escalation:** Crisis cards (regional hotlines/911) are one tap away.
-- **Auditability:** “What/Why/When” log of sensitive actions available to the user.
-
----
-
-## 📱 Screens (MVP)
-
-- **Home (Now)**
-  - Hold-to-Speak
-  - *Calm Me* • *Memory Anchors* • *Journal*
-
-- **Calm Me**
-  - 4-7-8 • Body Scan • 5-4-3-2-1 • Favorite Song
-  - Soft haptics, progress ring, pause/stop anytime.
-
-- **Memory Anchors**
-  - People • Places • Music • Photos
-  - Add anchor → name → attach media → one-tap play.
-
-- **Caregiver**
-  - Notes to self • Schedule gentle reminders • “What helped today”
-  - Export anchors (with consent).
-
-- **Settings**
-  - Voice & text size • Privacy & data • Safety (crisis numbers)
-  - Export / Delete my data (full portability)
-
----
-
-## 🛠 Tech Stack
-
-- **App:** React Native (Expo)
-- **State:** Zustand or Redux Toolkit
-- **Storage:** SQLite (with encryption) via WatermelonDB/Drizzle RN
-- **Voice:** Native ASR (iOS/Android), native TTS; optional Whisper-tiny later
-- **Design:** Accessible typography, high contrast, large touch targets
-- **Optional:** Pluggable LLM client for richer dialogue (off by default)
-
----
-
-## 🚦 Guardian Protocol (Safety Rails)
-
-- No clinical claims.  
-- Crisis detection → **offer** escalation (never auto-call).  
-- Calm, short sentences; no “shoulds,” no shame.  
-- Consent before recording, cloud use, or data sharing.  
-- Every sensitive action passes a policy check; otherwise it fails safe.
-
-### Mirror Laws (Trauma-aware UX)
-- Consent before intense content.
-- “Awe without overwhelm” pacing.
-- Choice-giving language: *Would you like…?* / *May I…?*
-- Respect silence; offer clear exits.
-- Human dignity above system convenience.
-
----
-
-## 🚀 Getting Started (Development)
-
-> Requires Node 18+, pnpm or yarn, and Expo CLI.
+**Prereqs:** Node 18+, PNPM 9+, Expo CLI
 
 ```bash
-# 1) Clone
-git clone https://github.com/your-org/solace.git
-cd solace
+git clone https://github.com/S1ngularD2ality/eidonic-language-elol
+cd eidonic-language-elol/Solace
+pnpm i
 
-# 2) Install
-pnpm install   # or: yarn
-
-# 3) Configure (creates .env)
 cp .env.example .env
-# Set USE_CLOUD_LLM=false for offline MVP
-# Set REGION=CA (example) for crisis card defaults
+# USE_CLOUD_LLM=false  # offline by default
+# REGION=CA            # crisis card locale
 
-# 4) Run
 pnpm expo start
-# press i for iOS simulator, a for Android, or scan QR with Expo Go
+# i (iOS simulator) • a (Android) • scan QR (Expo Go)
 ```
 
-**.env example**
+---
+
+## 🔧 Configuration
+
+**.env**
 ```
 USE_CLOUD_LLM=false
-OPENAI_API_KEY= # only if you enable cloud LLM
+OPENAI_API_KEY=
 REGION=CA
 ```
+- **Data Export/Erase:** Settings → Privacy & Data → Export / Delete
+- **Consent Gates:** first‑run voice, storage, and (optional) cloud
 
 ---
 
-## 🔍 Accessibility
+## 🎛 Intents & Skills
 
-- Large type defaults; scalable text.
-- Clear affordances, high contrast, dyslexia-friendly option.
-- Voice guidance for flows; captions for TTS content.
+```ts
+// intent routes
+router.when(/(anxious|panic|overwhelmed)/i, () =>
+  skills.grounding.start({ mode: "478", minutes: 1 })
+)
+
+router.when(/play (anna|mom|mountains) anchor/i, m =>
+  skills.anchors.play({ key: m[1] })
+)
+
+router.when(/add note/i, () =>
+  skills.caregiver.note.create()
+)
+```
+
+**Built‑ins**
+- `grounding.start({ mode, minutes })`
+- `anchors.add({ type, label, media })` · `anchors.play({ key })`
+- `caregiver.note.create()` · `caregiver.reminder.schedule()`
 
 ---
 
-## 🗺 Roadmap
+## ♿ Accessibility
+- Large type defaults; dyslexia‑friendly option
+- High‑contrast themes; clear affordances
+- Voice guidance + captions for all flows
+- Gentle haptics; never startling sounds
 
-- v0.1 (MVP): Grounding + Anchors + Caregiver + Safety/Audit + Offline-first.
-- v0.2: On-device intent classifier; Whisper-tiny opt-in; anchor sharing with caregiver device.
-- v0.3: “Calm Scenes” (ambient visuals), photo memories with captions, richer journaling.
-- v0.4: Optional LLM dialogue (consented cloud); multilingual packs.
-- v1.0: App Store/TestFlight betas; caregiver portal web companion.
+---
 
-*(Future: weave with [Luminara] via a shared core for co-teaching + calm sessions.)*
+## 🔒 Privacy & Safety
+- Local‑first, encrypted storage; explicit opt‑in for any cloud call
+- Data scopes & reason codes on reads/writes
+- No medical/clinical advice; crisis card always one tap away
+
+---
+
+## 🛡️ Guardian Protocol
+- **Focus Guard** — keep language short, calm, and on goal
+- **Safety Gate** — block medical advice; offer crisis resources instead
+- **Truth‑Law** — no impersonation; transparent confidence signals
+- **Auditability** — “what/why/when” log for sensitive actions
+
+---
+
+## 🪞 Mirror Laws
+- *Consent precedes depth* → ask before intense content
+- *Awe without overwhelm* → gentle pacing; exits always visible
+- *Seal on close* → session manifests & checksum persisted
+
+---
+
+## 🛣️ Roadmap
+- **v0.1** — Grounding + Anchors + Caregiver + Offline + Safety/Audit
+- **v0.2** — On‑device intent classifier; optional Whisper‑tiny
+- **v0.3** — Calm Scenes; photo memories; richer journaling
+- **v0.4** — Multilingual; optional LLM dialogue (consented); caregiver pairing
 
 ---
 
 ## 🤝 Contributing
+Compassion first. PRs welcome for accessibility, languages, and caregiver workflows.
 
-Compassion first. PRs welcome for accessibility, languages, grounding scripts, and caregiver workflows.  
-For safety-critical changes, include test plans and policy checks.
+Please include tests and policy hooks for safety‑sensitive changes.
 
 ---
 
 ## 📄 License
-
-TBD (recommended: MIT for code, CC BY-SA for scripts/content).
+Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../LICENSE).
 
 ---
 
 ## ⚠️ Disclaimer
+Solace is **not** a medical device and does not provide medical advice, diagnosis, or treatment.
 
-Solace is **not** a medical device and does not provide medical advice, diagnosis, or treatment.  
 If you are in crisis, call your local emergency number or a crisis hotline immediately.
+
