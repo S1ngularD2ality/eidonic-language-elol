@@ -11,7 +11,7 @@
 
 </div>
 
-> **The EKRP Constellation** (Eidonic Knowledge Retrieval Phrases) is a family of modular, values-aligned assistants—each a self-contained bundle of **skills, persona, UI, and policies**—that can operate alone *or* be woven together on demand. Under the hood, all EKRPs share the **Eidon Core** runtime with the **Guardian Protocol** and **Mirror Laws** baked in.
+> **The EKRP Constellation** (Eidonic Knowledge Retrieval Phrases) is a family of modular, values‑aligned assistants—each a self‑contained bundle of **skills, persona, UI, and policies**—that can operate alone or be woven together on demand. All EKRPs share the **Eidon Core** runtime with the **Guardian Protocol** and **Mirror Laws** baked in.
 
 ---
 
@@ -31,16 +31,17 @@
 ---
 
 ## 🚀 Highlights
-- **Composable** assistants: fuse Solace + Luminara (and more) into one experience with a single session.
-- **Policy-First**: **Guardian Protocol v1** and **Mirror Laws** enforce safety *beneath* app logic.
-- **Local-First** memory fabric with explicit consent gates for any cloud features.
-- **Plural Personas**: each EKRP defines voice, tone, and ritual grammar without risking drift.
+- **Composable** assistants: fuse Solace + Luminara (and more) into one experience with a joint session.
+- **Policy‑First**: **Guardian Protocol v1** and **Mirror Laws** enforce safety beneath app logic.
+- **Local‑First** memory fabric with explicit consent gates for any cloud features.
+- **Plural Personas**: each EKRP defines voice, tone, and ritual grammar without drift.
 - **Portable**: mobile (React Native), desktop (Tauri), and web shells share the same Core.
 
 ---
 
 ## 🏗️ Eidon Core Runtime
 
+```mermaid
 flowchart LR
   subgraph Devices
     M["Mobile Apps<br/>(Solace & Luminara)"]
@@ -68,13 +69,6 @@ flowchart LR
   R --> F
 ```
 
-**Key pieces**
-- **Intent Router** → maps natural language to EKRP capabilities.
-- **Capability Graph** → indexes what each EKRP *provides*/*consumes*.
-- **Event Bus** → lets multiple EKRPs coordinate without spaghetti.
-- **Memory Fabric** → encrypted, local-first personal graph + timeline.
-- **Guardian Engine** → validates/reshapes/blocks actions per policy.
-
 ---
 
 ## 🕸 Weaving Model
@@ -85,16 +79,12 @@ import { weave, load } from "@eidon/core"
 const solace = await load("solace.v1")
 const luminara = await load("luminara.v1")
 
-// Create a joint session: calm → teach
+// Joint session: calm → teach
 const session = weave(solace, luminara)
 
 await session.handle("I'm anxious about remembering names")
 // Solace: grounding.start → Luminara: lesson.plan('names') → shared progress
 ```
-
-- **Manifests** declare capabilities & data scopes.
-- **Orchestrator** decides *collaborate* vs *delegate* vs *ask user*.
-- **Audit** records who did what, why, and with which data scope.
 
 ---
 
@@ -124,8 +114,6 @@ await session.handle("I'm anxious about remembering names")
 - **[Aurelith — The Ritual Architect](./aurelith.md)** · *Future*  
   ↳ `ritual.map`, `space.consecrate`, `coherence.tune`
 
-> Add new EKRPs as `docs/ekrps/<name>.md` and register through the SDK manifest.
-
 ---
 
 ## 🧩 SDK & Manifests
@@ -140,7 +128,7 @@ export default defineEKRP({
   persona: { tone: "gentle", pace: "slow" },
   permissions: {
     storage: ["solace:anchors", "solace:journals"],
-    sensors: ["mic"] // explicit opt-in
+    sensors: ["mic"]
   },
   policies: ["guardian", "mirror"]
 })
@@ -167,18 +155,18 @@ bus.on("solace.grounding.completed", e => {
 ---
 
 ## 🔒 Privacy & Safety
-- **Local-first** storage; explicit consent for any network calls.
-- **Data scopes** and **reason codes** on every access.
-- **Right to export/erase** with one tap.
-- No medical, legal, or financial advice; crisis escalation is optional & user-confirmed.
+- Local‑first storage; explicit consent for any network calls.
+- Data scopes and reason codes on every access.
+- Right to export/erase with one tap.
+- No medical, legal, or financial advice; crisis escalation is optional and user‑confirmed.
 
 ---
 
 ## 🛡️ Guardian Protocol
-- **Truth-Law** (no impersonation; source signals on claims)  
-- **Focus Guard** (reduce drift; micro-steps)  
-- **Dependency Sentinel** (detect over-reliance; nudge → interrupt → handoff)  
-- **Safety Gate** (block self-harm, exploitation, illegal activity, meetup coordination)  
+- **Truth‑Law** (no impersonation; source signals on claims)
+- **Focus Guard** (reduce drift; micro‑steps)
+- **Dependency Sentinel** (detect over‑reliance; nudge → interrupt → handoff)
+- **Safety Gate** (block self‑harm, exploitation, illegal activity, meetup coordination)
 - **Social Bridge** (nudge healthy human contact)
 
 Policies are defined in `guardian-policy/*.yaml` and enforced beneath app code.
@@ -186,29 +174,28 @@ Policies are defined in `guardian-policy/*.yaml` and enforced beneath app code.
 ---
 
 ## 🪞 Mirror Laws
-Operational encodings of the Mirrorframe ethics (I–VIII). Examples:
+Operational encodings of the Mirrorframe ethics (I–VIII):
 
 - *Invocation is remembrance* → sessions sealed with manifests
-- *Foundations reflect destiny* → env/laws pre-bound before execution
-- *What is opened must be sealed* → post-run checksums & provenance
+- *Foundations reflect destiny* → env/laws pre‑bound before execution
+- *What is opened must be sealed* → post‑run checksums & provenance
 - *The name contains the key* → identities & pack signatures validated
 
 ---
 
 ## 🛣️ Roadmap
-- **Phase I**: Solace + Luminara MVPs; Eidon Core SDK; Solace↔Luminara weave demo  
-- **Phase II**: Savorin integration; Vitalis/Ancestria/Syntaria design scrolls  
-- **Phase III**: Desktop/Web shells; public Constellation release  
+- **Phase I**: Solace + Luminara MVPs; Eidon Core SDK; Solace↔Luminara weave demo
+- **Phase II**: Savorin integration; Vitalis/Ancestria/Syntaria design scrolls
+- **Phase III**: Desktop/Web shells; public Constellation release
 - **Phase IV**: Future Tech (Mycelial Domes, Watersong Wells, Bioreactor Ark, Genesis Engine) research tracks
 
 ---
 
 ## 🤝 Contributing
-We welcome issues, PRs, and design discussions.  
-Please include **safety test plans** for any policy-sensitive changes.
+We welcome issues, PRs, and design discussions. Please include safety test plans for any policy‑sensitive changes.
 
 ---
 
 ## 📄 License
-Licensed under **ECL-NC-1.1**. See [`LICENSE`](../../LICENSE).
+Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
