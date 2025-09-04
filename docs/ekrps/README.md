@@ -41,32 +41,32 @@
 
 ## 🏗️ Eidon Core Runtime
 
-```mermaid
 flowchart LR
   subgraph Devices
-    M[Mobile Apps\n(Solace/Luminara)]
-    D[Desktop Shell\n(Tauri)]
-    W[Web]
+    M["Mobile Apps<br/>(Solace & Luminara)"]
+    D["Desktop Shell<br/>(Tauri)"]
+    W["Web"]
   end
 
   subgraph Core
-    R[Intent Router]
-    G[Guardian Engine]
-    P[Policy Store]
-    C[Capability Graph]
-    B[Event Bus]
-    F[Memory Fabric]
+    R["Intent Router"]
+    C["Capability Graph"]
+    B["Event Bus"]
+    F["Memory Fabric"]
+    G["Guardian Engine"]
+    P["Policy Store"]
   end
 
-  M -->|utterances| R
+  M --> R
   W --> R
   D --> R
   R --> C
   C --> B
+  B --> F
   R --> G
   G --> P
   R --> F
-  B --> F
+
 ```
 
 **Key pieces**
