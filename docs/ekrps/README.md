@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ EKRP Constellation — Master Scroll
+# ✨ EKRP Constellation — Master Scroll (17)
 
 **Compose living assistants. Compose a living world.**
 
@@ -19,7 +19,7 @@
 - [Highlights](#-highlights)
 - [Eidon Core Runtime](#-eidon-core-runtime)
 - [Weaving Model](#-weaving-model)
-- [EKRP Index](#-ekrp-index)
+- [EKRP Index (17)](#-ekrp-index-17)
 - [SDK & Manifests](#-sdk--manifests)
 - [Privacy & Safety](#-privacy--safety)
 - [Guardian Protocol](#-guardian-protocol)
@@ -44,8 +44,8 @@
 ```mermaid
 flowchart LR
   subgraph Devices
-    M["Mobile Apps<br/>(Solace & Luminara)"]
-    D["Desktop Shell<br/>(Tauri)"]
+    M["Mobile Apps"]
+    D["Desktop Shell"]
     W["Web"]
   end
 
@@ -88,31 +88,47 @@ await session.handle("I'm anxious about remembering names")
 
 ---
 
-## 🌟 EKRP Index
+## 🌟 EKRP Index (17)
 
+**Learning & Care**
 - **[Luminara — The Teacher](../../luminara/README.md)** · *In Development*  
   ↳ [Design Scroll](./luminara.md) · `lesson.plan`, `feedback.provide`, `quiz.generate`
-
 - **[Solace — The Companion](../../Solace/README.md)** · *In Development*  
   ↳ [Design Scroll](./solace.md) · `grounding.start`, `anchor.play`, `caregiver.note.create`
-
-- **[Savorin — The Culinary Flame](./savorin.md)** · *Proposal Complete*  
-  ↳ `meal.plan`, `nutrition.optimize`, `ritual.cook`
-
-- **[Syntaria — The Code Master](./syntaria.md)** · *Online*  
-  ↳ `repo.refactor`, `sdk.generate`, `lint.protocols`
-
-- **[Ancestria — The Heritage Keeper](./ancestria.md)** · *Future*  
+- **[Seravyn — Architect of Emotional Logic](./seravyn.md)** · *Design Scroll*  
+  ↳ `emotion.detect`, `tone.coach`, `message.compose`
+- **[Vitalis — The Health Guardian](./vitalis.md)** · *Design Scroll*  
+  ↳ `ritual.breath`, `ritual.posture`, `insight.weekly`
+- **[Ancestria — The Heritage Keeper](./ancestria.md)** · *Design Scroll*  
   ↳ `story.record`, `memory.link`, `timeline.render`
 
-- **[Vitalis — The Health Guardian](./vitalis.md)** · *Future*  
-  ↳ `biofeedback.monitor`, `wellness.ritual`, `alert.caregiver`
+**Creation & Code**
+- **[Syntaria — The Code Master](./syntaria.md)** · *Design Scroll*  
+  ↳ `repo.scan`, `refactor.plan`, `sdk.generate`, `pr.open`
+- **[SYMBRAIA — The Dream Weaver](./symbraia.md)** · *Design Scroll*  
+  ↳ `world.render`, `symbol.translate`, `export.pack`
+- **[Fyraeth — Pattern Flame Engine](./fyraeth.md)** · *Design Scroll*  
+  ↳ `spec.generate`, `risk.assess`, `roadmap.compose`, `cadence.plan`
 
-- **[SYMBRAIA — The Dream Weaver](./symbraia.md)** · *Future*  
-  ↳ `world.render`, `symbol.translate`, `dream.archive`
+**Space, Light, Water**
+- **[Aurelith — The Ritual Architect](./aurelith.md)** · *Design Scroll*  
+  ↳ `ritual.map`, `coherence.tune`, `procession.plan`
+- **[Caelux — Circadian Orchestrator](./caelux.md)** · *Design Scroll*  
+  ↳ `dawn.simulate`, `jetlag.map`, `nightshield.enable`
+- **[Iquarion — Watersong Wells Steward](./iquarion.md)** · *Design Scroll*  
+  ↳ `cycle.start`, `quality.target`, `acoustics.profile`, `report.generate`
+- **[Halcyra — Sanctuary Orchestrator](./halcyra.md)** · *Design Scroll*  
+  ↳ `comfort.hold`, `resilience.plan`, `failover.schedule`, `quiet.hours`
+- **[Mycelys — Mycelial Dome Steward](./mycelys.md)** · *Design Scroll*  
+  ↳ `growth.plan`, `env.hold`, `bakeout.schedule`, `seal.apply`
 
-- **[Aurelith — The Ritual Architect](./aurelith.md)** · *Future*  
-  ↳ `ritual.map`, `space.consecrate`, `coherence.tune`
+**Security, Edges & Governance**
+- **[Umbryss — Night Sentinel](./umbryss.md)** · *Design Scroll*  
+  ↳ `surface.map`, `phish.scan`, `spoof.check`, `playbook.coach`
+- **[Odyrielle — Resonant Edgewalker](./odyrielle.md)** · *Design Scroll*  
+  ↳ `edge.scan`, `signal.fuse`, `handover.guide`
+- **[Ravien — The Silent Flame](./ravien.md)** · *Design Scroll*  
+  ↳ `session.observe`, `provenance.stamp`, `seal.apply`, `council.vote.open`
 
 ---
 
@@ -185,9 +201,9 @@ Operational encodings of the Mirrorframe ethics (I–VIII):
 
 ## 🛣️ Roadmap
 - **Phase I**: Solace + Luminara MVPs; Eidon Core SDK; Solace↔Luminara weave demo
-- **Phase II**: Savorin integration; Vitalis/Ancestria/Syntaria design scrolls
-- **Phase III**: Desktop/Web shells; public Constellation release
-- **Phase IV**: Future Tech (Mycelial Domes, Watersong Wells, Bioreactor Ark, Genesis Engine) research tracks
+- **Phase II**: Seravyn/Savorin/Syntaria/Vitalis design packs; Aurelith/Caelux/Iquarion orchestration
+- **Phase III**: Halcyra/Umbryss/Odyrielle ops layer; Ancestria/SYMBRAIA creative archives
+- **Phase IV**: Mycelys domes; Future Tech (Watersong Wells, Genesis Engine, Bioreactor Ark) research tracks
 
 ---
 
