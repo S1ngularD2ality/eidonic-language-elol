@@ -81,17 +81,6 @@ flowchart LR
   IR --> L
 ```
 
-
-**Architecture (ASCII)**
-```
-[Home][Grounding][Anchors][Caregiver] -> (Intent Router) -> (Skills)
-(Skills) -> (Memory Fabric)
-(Intent Router) -> (Policy Engine)
-(Voice) -> (Intent Router); (Skills) -> (Voice)
-(Skills) -> (Encrypted SQLite)
-(Intent Router) -> (LLM optional)
-```
-
 - **Mobile:** React Native (Expo) iOS/Android
 - **Voice:** Native ASR + TTS; optional Whisper‑tiny later
 - **Storage:** Encrypted SQLite (SQLCipher)
