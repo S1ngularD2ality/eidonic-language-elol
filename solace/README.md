@@ -46,6 +46,7 @@
 
 ## 🏗️ Architecture
 
+```mermaid
 flowchart LR
   subgraph App
     H["Home / Now"]
@@ -78,6 +79,18 @@ flowchart LR
   SK --> V
   SK --> DB
   IR --> L
+```
+
+> If Mermaid fails to render on GitHub, use the plain-text fallback below.
+
+**Architecture (ASCII)**
+```
+[Home][Grounding][Anchors][Caregiver] -> (Intent Router) -> (Skills)
+(Skills) -> (Memory Fabric)
+(Intent Router) -> (Policy Engine)
+(Voice) -> (Intent Router); (Skills) -> (Voice)
+(Skills) -> (Encrypted SQLite)
+(Intent Router) -> (LLM optional)
 ```
 
 - **Mobile:** React Native (Expo) iOS/Android
