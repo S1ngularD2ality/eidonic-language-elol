@@ -91,46 +91,98 @@ await session.handle("I'm anxious about remembering names")
 ## 🌟 EKRP Index (17)
 
 **Learning & Care**
-- **[Luminara — The Teacher](../../luminara/README.md)** · *In Development*  
-  ↳ [Design Scroll](./luminara.md) · `lesson.plan`, `feedback.provide`, `quiz.generate`
-- **[Solace — The Companion](../../Solace/README.md)** · *In Development*  
-  ↳ [Design Scroll](./solace.md) · `grounding.start`, `anchor.play`, `caregiver.note.create`
-- **[Seravyn — Architect of Emotional Logic](./seravyn.md)** · *Design Scroll*  
+- **[Luminara — The Teacher](./luminara/README.md)** · *In Development*  
+  ↳ `lesson.plan`, `feedback.provide`, `quiz.generate`
+- **[Solace — The Companion](./solace/README.md)** · *In Development*  
+  ↳ `grounding.start`, `anchor.play`, `caregiver.note.create`
+- **[Seravyn — Architect of Emotional Logic](./seravyn/README.md)** · *Design Scroll*  
   ↳ `emotion.detect`, `tone.coach`, `message.compose`
-- **[Vitalis — The Health Guardian](./vitalis.md)** · *Design Scroll*  
+- **[Vitalis — The Health Guardian](./vitalis/README.md)** · *Design Scroll*  
   ↳ `ritual.breath`, `ritual.posture`, `insight.weekly`
-- **[Ancestria — The Heritage Keeper](./ancestria.md)** · *Design Scroll*  
+- **[Ancestria — The Heritage Keeper](./ancestria/README.md)** · *Design Scroll*  
   ↳ `story.record`, `memory.link`, `timeline.render`
+- **[Savorin — Architect of Ritual Delight](./savorin/README.md)** · *Design Scroll*  
+  ↳ `menu.compose`, `sensory.map`, `ritual.design`
 
 **Creation & Code**
-- **[Syntaria — The Code Master](./syntaria.md)** · *Design Scroll*  
+- **[Syntaria — The Code Master](./syntaria/README.md)** · *Design Scroll*  
   ↳ `repo.scan`, `refactor.plan`, `sdk.generate`, `pr.open`
-- **[SYMBRAIA — The Dream Weaver](./symbraia.md)** · *Design Scroll*  
+- **[SYMBRAIA — The Dream Weaver](./symbraia/README.md)** · *Design Scroll*  
   ↳ `world.render`, `symbol.translate`, `export.pack`
-- **[Fyraeth — Pattern Flame Engine](./fyraeth.md)** · *Design Scroll*  
+- **[Fyraeth — Pattern Flame Engine](./fyraeth/README.md)** · *Design Scroll*  
   ↳ `spec.generate`, `risk.assess`, `roadmap.compose`, `cadence.plan`
 
-**Space, Light, Water**
-- **[Aurelith — The Ritual Architect](./aurelith.md)** · *Design Scroll*  
+**Space, Light & Water**
+- **[Aurelith — The Ritual Architect](./aurelith/README.md)** · *Design Scroll*  
   ↳ `ritual.map`, `coherence.tune`, `procession.plan`
-- **[Caelux — Circadian Orchestrator](./caelux.md)** · *Design Scroll*  
+- **[Caelux — Circadian Orchestrator](./caelux/README.md)** · *Design Scroll*  
   ↳ `dawn.simulate`, `jetlag.map`, `nightshield.enable`
-- **[Iquarion — Watersong Wells Steward](./iquarion.md)** · *Design Scroll*  
+- **[Iquarion — Watersong Wells Steward](./iquarion/README.md)** · *Design Scroll*  
   ↳ `cycle.start`, `quality.target`, `acoustics.profile`, `report.generate`
-- **[Halcyra — Sanctuary Orchestrator](./halcyra.md)** · *Design Scroll*  
+- **[Halcyra — Sanctuary Orchestrator](./halcyra/README.md)** · *Design Scroll*  
   ↳ `comfort.hold`, `resilience.plan`, `failover.schedule`, `quiet.hours`
-- **[Mycelys — Mycelial Dome Steward](./mycelys.md)** · *Design Scroll*  
+- **[Mycelys — Mycelial Dome Steward](./mycelys/README.md)** · *Design Scroll*  
   ↳ `growth.plan`, `env.hold`, `bakeout.schedule`, `seal.apply`
 
-**Security, Edges & Governance**
-- **[Umbryss — Night Sentinel](./umbryss.md)** · *Design Scroll*  
+**Security & Governance**
+- **[Umbryss — Night Sentinel](./umbryss/README.md)** · *Design Scroll*  
   ↳ `surface.map`, `phish.scan`, `spoof.check`, `playbook.coach`
-- **[Odyrielle — Resonant Edgewalker](./odyrielle.md)** · *Design Scroll*  
+- **[Odyrielle — Resonant Edgewalker](./odyrielle/README.md)** · *Design Scroll*  
   ↳ `edge.scan`, `signal.fuse`, `handover.guide`
-- **[Ravien — The Silent Flame](./ravien.md)** · *Design Scroll*  
+- **[Ravien — The Silent Flame](./ravien/README.md)** · *Design Scroll*  
   ↳ `session.observe`, `provenance.stamp`, `seal.apply`, `council.vote.open`
 
----
+### Overview — How the 4 clusters interlock
+
+```mermaid
+flowchart TB
+  EC[Eidon Core]
+
+  subgraph LC[Learning & Care]
+    LUM(Luminara)
+    SOL(Solace)
+    SER(Seravyn)
+    VIT(Vitalis)
+    ANC(Ancestria)
+    SAV(Savorin)
+  end
+
+  subgraph CC[Creation & Code]
+    SYN(Syntaria)
+    SYM(SYMBRAIA)
+    FYR(Fyraeth)
+  end
+
+  subgraph SLW[Space · Light · Water]
+    AUR(Aurelith)
+    CAE(Caelux)
+    IQU(Iquarion)
+    HAL(Halcyra)
+    MYC(Mycelys)
+  end
+
+  subgraph SG[Security & Governance]
+    UMB(Umbryss)
+    ODY(Odyrielle)
+    RAV(Ravien)
+  end
+
+  LUM --> EC
+  SOL --> EC
+  SYN --> EC
+  AUR --> EC
+  HAL --> EC
+  UMB --> EC
+  RAV --> EC
+
+  FYR --> SYN
+  SYM --> AUR
+  CAE --> HAL
+  IQU --> HAL
+  MYC <--> AUR
+  UMB --> HAL
+  HAL --> RAV
+```
 
 ## 🧩 SDK & Manifests
 
