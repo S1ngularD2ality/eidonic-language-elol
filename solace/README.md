@@ -46,39 +46,38 @@
 
 ## 🏗️ Architecture
 
-```mermaid
 flowchart LR
   subgraph App
-    H[Home / Now]
-    G[Grounding]
-    A[Anchors]
-    J[Journal]
-    C[Caregiver]
+    H["Home / Now"]
+    G["Grounding"]
+    A["Anchors"]
+    J["Journal"]
+    CG["Caregiver"]
   end
 
   subgraph Core
-    R[Intent Router]
-    S[Skills]
-    F[Memory Fabric]
-    P[Policy Engine]
+    IR["Intent Router"]
+    SK["Skills"]
+    MF["Memory Fabric"]
+    PE["Policy Engine"]
   end
 
   subgraph Services
-    V[Voice (ASR/TTS)]
-    L[LLM (optional)]
-    DB[Encrypted SQLite]
+    V["Voice (ASR/TTS)"]
+    L["LLM (optional)"]
+    DB["Encrypted SQLite"]
   end
 
-  H --> R --> S
-  G --> S
-  A --> S
-  C --> S
-  S --> F
-  R --> P
-  V --> R
-  S --> V
-  S --> DB
-  R --> L
+  H --> IR --> SK
+  G --> SK
+  A --> SK
+  CG --> SK
+  SK --> MF
+  IR --> PE
+  V --> IR
+  SK --> V
+  SK --> DB
+  IR --> L
 ```
 
 - **Mobile:** React Native (Expo) iOS/Android
