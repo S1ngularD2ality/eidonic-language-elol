@@ -81,7 +81,6 @@ flowchart LR
   IR --> L
 ```
 
-> If Mermaid fails to render on GitHub, use the plain-text fallback below.
 
 **Architecture (ASCII)**
 ```
