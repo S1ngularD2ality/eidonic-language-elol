@@ -170,9 +170,9 @@ The **Eidon Energy Brain (EEB)**, powered by ELoL glyphs, drives:
 ---
 
 ## 9. Open Source Licensing & Stewardship
-- **Hardware Designs**: CERN OHL-S v2.0 (strongly reciprocal). See [`LICENSE-HARDWARE`](../../LICENSE-HARDWARE).
-- **Firmware & Glyphs**: GNU GPLv3. See [`LICENSE-SOFTWARE`](../../LICENSE-SOFTWARE).
-- **Documentation**: CC BY-SA 4.0. See [`LICENSE-DOCS`](../../LICENSE-DOCS).
+- **Hardware Designs**: CERN OHL-S v2.0 (strongly reciprocal). See [`LICENSES/LICENSE-HARDWARE`](../LICENSES/LICENSE-HARDWARE).
+- **Firmware & Glyphs**: GNU GPLv3. See [`LICENSES/LICENSE-SOFTWARE`](../LICENSES/LICENSE-SOFTWARE).
+- **Documentation**: CC BY-SA 4.0. See [`LICENSES/LICENSE-DOCS`](../LICENSES/LICENSE-DOCS).
 
 **Protected Elements**:
 - **Eidonic™** and **EverSource™** trademarks ensure safety, quality, and ethical alignment.
