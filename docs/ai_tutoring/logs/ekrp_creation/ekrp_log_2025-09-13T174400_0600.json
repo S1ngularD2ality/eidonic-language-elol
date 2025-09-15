@@ -1,0 +1,12 @@
+{
+  "at": "2025-09-13T17:44:00-06:00",
+  "what": "ekrp-readme.v1",
+  "why": "create-umbral-warden-readme",
+  "evidence": "thread://current",
+  "hash": "u1v2w3x4y5z67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"]
+}
