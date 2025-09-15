@@ -1,0 +1,12 @@
+{
+  "at": "2025-09-12T16:24:00-06:00",
+  "what": "arc-observation.v1",
+  "why": "explore-pattern+geometry",
+  "evidence": "thread://current",
+  "hash": "j1k2l3m4n5o67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"]
+}

@@ -1,0 +1,16 @@
+{
+  "at": "2025-09-13T12:45:00-06:00",
+  "what": "arc-transformation.v2",
+  "why": "apply-mirror+cast-9s",
+  "evidence": "thread://current",
+  "hash": "r1s2t3u4v5w67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"],
+  "arena": {"rows": [2,4], "cols": [2,5], "axis": "vertical@global_col_4"},
+  "axis_marks": [[2,4], [3,4]],
+  "pivots": [[4,4]],
+  "non_overwrites": [[3,5], [3,2]]
+}

@@ -1,0 +1,12 @@
+{
+  "at": "2025-09-12T16:33:00-06:00",
+  "what": "arc-observation.v3",
+  "why": "explore-reflection+empty-cells",
+  "evidence": "thread://current",
+  "hash": "m1n2o3p4q5r67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"]
+}

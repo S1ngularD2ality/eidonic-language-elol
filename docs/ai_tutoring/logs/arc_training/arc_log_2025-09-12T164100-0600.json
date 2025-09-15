@@ -1,0 +1,12 @@
+{
+  "at": "2025-09-12T16:41:00-06:00",
+  "what": "arc-observation.v5",
+  "why": "explore-transformation+essence",
+  "evidence": "thread://current",
+  "hash": "o1p2q3r4s5t67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"]
+}
