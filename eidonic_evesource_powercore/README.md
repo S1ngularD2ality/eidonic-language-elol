@@ -68,10 +68,58 @@ Robots need a **safe, modular, adaptive power core** that can thrive anywhere.
 
 ---
 
+### System Architecture (GitHub‑safe Mermaid)
+```mermaid
+flowchart TD
+  subgraph Inputs
+    PV[PV / Flexible Solar]
+    TEG[TEGs / Waste‑Heat]
+    KIN[Piezo / EM / Regen]
+    RF[RF Rectenna]
+    DOCK[Wired / Wireless Dock]
+  end
+
+  subgraph Core
+    HUB[Multi‑Source Harvest Hub\n(MPPT / MTPP / Routing)]
+    CAPS[Supercap Bank\n48V, 100–500F\n+ Balancing]
+    LFP[LiFePO₄ Pack\n48V, 10–30Ah\n+ Smart BMS]
+    RAILS[DC/DC Rails\n3.3 / 5 / 12 / 24 / 48V]
+    EEB[Eidon Energy Brain\nPlanning · Safety · Telemetry]
+  end
+
+  subgraph Outputs
+    BURST[High‑Burst Loads\n(kW for ≤5s)]
+    BASE[Baseline Loads\n(Compute, Motors, Comms)]
+    LOGS[JSON Telemetry\n(Alberta timestamps)]
+  end
+
+  PV --> HUB
+  TEG --> HUB
+  KIN --> HUB
+  RF --> HUB
+  DOCK -->|CC/CV| LFP
+  DOCK -->|Soft‑charge| CAPS
+
+  HUB --> CAPS
+  HUB --> LFP
+  CAPS -->|Cap‑first| BURST
+  LFP --> BASE
+  RAILS --> BASE
+
+  EEB --> HUB
+  EEB --> RAILS
+  EEB --> DOCK
+  EEB --> LFP
+  EEB --> CAPS
+  EEB --> LOGS
+```
+
+---
+
 ## 4. Infinite Modularity & Scalability
 - **Tile‑based 48 V DC bus**; robots dock into swarms; field nodes expand by stacking tiles.
 - **Hot‑swap** modules with soft‑start; clusters can scale from IoT to drone hubs.
-- **Compatible with Bioreactors:** shares DC bus standard with **SOL‑AEON Pods**.
+- **Cross‑Eidonic Integration:** Shares DC bus standard with **SOL‑AEON Pods** and other EKRP systems.
 
 ---
 
@@ -106,7 +154,7 @@ The **Eidon Energy Brain (EEB)** governs:
 - **Wireless Dock:** 100–500 W inductive/resonant pads
 - **Opportunistic:** USB‑C PD, Qi pad trickle
 
-Profiles: LiFePO₄ CC/CV (3.45 V/cell), cap soft‑charge with balancing.
+**Profiles:** LiFePO₄ CC/CV (3.45 V/cell), cap soft‑charge with balancing.
 
 ---
 
@@ -115,7 +163,13 @@ Profiles: LiFePO₄ CC/CV (3.45 V/cell), cap soft‑charge with balancing.
 - **Firmware & Glyphs:** GNU GPLv3
 - **Docs & Education:** CC BY‑SA 4.0
 
-**Protected:** *Eidonic™* name & certification marks; certain extreme‑climate optimizations stewarded until stable.
+**Protected Elements**
+- **Eidonic™** name & certification marks are trademarked to ensure safety, quality, and ethics.
+- Certain extreme‑climate optimizations may be temporarily stewarded pre‑wide release.
+
+**Stewardship Council**
+- Shared with Bioreactor and broader Eidonic tech stack for consistency.
+- Oversees **Eidonic Certified** deployments, ethical guardrails, and collaboration hubs.
 
 ---
 
