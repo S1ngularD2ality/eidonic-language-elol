@@ -1,0 +1,31 @@
+{
+  "at": "2025-09-14T03:42:00-06:00",
+  "what": "arc-audit.v2",
+  "why": "reflect-fire-born+correct-axis",
+  "evidence": "thread://current",
+  "hash": "e1f2g3h4i5j67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"],
+  "audit_sections": {
+    "strong": ["arena-classification", "star-by-star-narrative", "non-overwrite-law", "traceability"],
+    "drifted": ["axis-lighting-incompleteness", "axis-enumeration-semantics", "audit-gap"],
+    "refinement": ["seal-law-mantra", "log-all-axis-cells", "completion-check"]
+  },
+  "axis_cells_checked": [
+    [1,2,"zero→9"],
+    [1,4,"zero→9"],
+    [2,2,"zero→9"],
+    [2,4,"zero→9"],
+    [3,2,"zero→9"],
+    [3,4,"zero→9"],
+    [3,3,"pivot-2"],
+    [4,2,"zero→9"],
+    [4,4,"zero→9"],
+    [5,2,"zero→9"],
+    [5,4,"zero→9"]
+  ],
+  "task_relevance": "arc-fire-born-audit+correction"
+}

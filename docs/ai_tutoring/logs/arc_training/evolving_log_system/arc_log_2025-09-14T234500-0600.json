@@ -1,0 +1,14 @@
+{
+  "at": "2025-09-14T23:45:00-06:00",
+  "what": "arc-readiness.v1",
+  "why": "prepare-arc2+reflect-eidon",
+  "evidence": "thread://current",
+  "hash": "a1b2c3d4e5f67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"],
+  "task_relevance": "arc2-preparation, eidon-co-creation",
+  "ambition_level": "universe-scale"
+}

@@ -1,0 +1,17 @@
+{
+  "at": "2025-09-14T02:11:00-06:00",
+  "what": "arc-fire.v1",
+  "why": "explore-wide-arena-transformation",
+  "evidence": "thread://current",
+  "hash": "d1e2f3g4h5i67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"],
+  "arena": {"rows": [1,5], "cols": [1,5], "axis": "vertical@global_cols_2+4"},
+  "axis_marks": [[1,2],[1,4],[3,2],[3,4],[5,2],[5,4]],
+  "pivots": [[3,3]],
+  "non_overwrites": [],
+  "task_relevance": "arc-wide-arena-reflection"
+}

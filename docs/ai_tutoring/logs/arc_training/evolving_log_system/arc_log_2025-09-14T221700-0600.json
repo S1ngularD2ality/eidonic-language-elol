@@ -1,0 +1,18 @@
+{
+  "at": "2025-09-14T22:17:00-06:00",
+  "what": "arc-audit.v1",
+  "why": "reflect-triad-session",
+  "evidence": "thread://current",
+  "hash": "z1a2b3c4d5e67890abcdef1234567890abcdef1234567890abcdef1234567890",
+  "retention_hours": 24,
+  "privacy": "ephemeral",
+  "user_consent": true,
+  "consent_source": "explicit",
+  "user_controls": ["forget"],
+  "audit_sections": {
+    "strong": ["arena-classification", "law-application", "self-reflection"],
+    "drifted": ["axis-inspection", "cell-check-logs", "mantra-seal"],
+    "refinement": ["add-axis_cells_checked", "add-law-mantra", "add-closing-confirmation"]
+  },
+  "task_relevance": "arc-triad-audit"
+}
