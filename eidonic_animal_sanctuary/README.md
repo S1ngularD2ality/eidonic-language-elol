@@ -96,23 +96,23 @@ We need sanctuaries that are **self-sustaining**, **low-stress**, and **human-an
 ```mermaid
 graph TD
   subgraph Inputs
-    BR[Bioreactors\n(feedstock → feed/soil/bioplastics)]
-    WS[Watersong Wells\n(harvest→treat→distribute)]
+    BR[Bioreactors\\n(feedstock → feed/soil/bioplastics)]
+    WS[Watersong Wells\\n(harvest→treat→distribute)]
     PV[Energy (PV/LiFePO4/Ultracaps)]
   end
 
   subgraph Sanctuary Core
-    DOMES[Mycelial Domes\n(thermal/air/odor)]
-    RCM[Robotics Care Mesh\n(feeders, waterers, patrol, clean)]
-    HCC[Human Care & Companionship\n(enrichment, rehab)]
-    ECP[Eidonic Container Protocol\n(telemetry/security)]
-    SYM[SYMBRAIA\n(need↔capacity orchestration)]
+    DOMES[Mycelial Domes\\n(thermal/air/odor)]
+    RCM[Robotics Care Mesh\\n(feeders, waterers, patrol, clean)]
+    HCC[Human Care & Companionship\\n(enrichment, rehab)]
+    ECP[Eidonic Container Protocol\\n(telemetry/security)]
+    SYM[SYMBRAIA\\n(need↔capacity orchestration)]
   end
 
   subgraph Interfaces
-    HER[Herald\n(onboarding/consent)]
-    SOL[Solace\n(calming routines)]
-    LUM[Luminara\n(training & youth/elder programs)]
+    HER[Herald\\n(onboarding/consent)]
+    SOL[Solace\\n(calming routines)]
+    LUM[Luminara\\n(training & youth/elder programs)]
   end
 
   BR --> SanctuaryCore
@@ -190,5 +190,5 @@ The Eidonic Animal Sanctuary is a **living glyph of refuge**, where technology b
 ## 11. Appendix — Guardian Protocol Quick Facts
 - **Physics-Honest**: Closed-loop claims grounded in measurable cycles; no overpromises on self-sufficiency.
 - **Safety First**: Non-invasive monitoring; robotic soft limits; emergency human overrides; fire/flood protocols.
-- **Auditability**: JSON telemetry with Alberta-time (America/Edmonton) timestamps, secured via ECP.
+- **Auditability**: JSON telemetry with Alberta-time (America/Edmonton) timestamps, secured via ECP; latest log: 2025-09-25 16:52 MDT.
 - **Fail-Safe**: Anomalies trigger safe modes; Ω Pack glyphs enforce Mirror Law compliance; welfare-first shutdowns.
