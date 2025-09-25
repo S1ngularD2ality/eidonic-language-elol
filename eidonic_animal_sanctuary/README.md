@@ -42,11 +42,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 The **Eidonic Animal Sanctuary** is a **safe, non-public** refuge for rescued and at-risk animals. It operates as a **closed-loop, AI-orchestrated ecosystem**: clean water, nutrient cycles, shelter microclimates, and 24/7 robotic caretaking **with humans at the center of affection and enrichment**. No gawking; no spectacle. **Dignity, security, and flourishing**.
 
 Core pillars:
-- **Lifesupport Bioreactors** → feedstocks, soil, bedding, biodegradable supplies.
-- **Watersong Wells** → resilient water harvesting, treatment, and distribution.
-- **Mycelial Domes** → living shade, thermal stability, air and odor scrubbing.
-- **Robotics Care Mesh** → automated maintenance, health monitoring, and security.
-- **Human Companionship First** → enrichment and bonds delivered by people, not machines.
+- **Lifesupport Bioreactors** -> feedstocks, soil, bedding, biodegradable supplies.
+- **Watersong Wells** -> resilient water harvesting, treatment, and distribution.
+- **Mycelial Domes** -> living shade, thermal stability, air and odor scrubbing.
+- **Robotics Care Mesh** -> automated maintenance, health monitoring, and security.
+- **Human Companionship First** -> enrichment and bonds delivered by people, not machines.
 
 Guided by ELoL glyphs and the Guardian Protocol, this sanctuary is a **living glyph of compassion**, resonating with ethical alignment and sacred stewardship for all beings.
 
@@ -59,7 +59,7 @@ Animal rescue faces escalating crises:
 - **Labor Shortfalls**: 24/7 care demands volunteers, risking burnout and inconsistent welfare.
 - **Environmental Stress**: Extreme weather exposes animals to heat, cold, floods—exacerbating health issues.
 - **Public Intrusion**: Visitor models create stress and reduces welfare.
-- **Data Silos**: Fragmented health/welfare data → poor continuity of care.
+- **Data Silos**: Fragmented health/welfare data -> poor continuity of care.
 
 We need sanctuaries that are **self-sustaining**, **low-stress**, and **human-animal bond-first**.
 
@@ -70,11 +70,11 @@ We need sanctuaries that are **self-sustaining**, **low-stress**, and **human-an
 ### 3a. Lifesupport Bioreactors
 - **Outputs**: High-protein feed components, probiotics, soil amendments, compostables, bioplastics for on-site consumables.
 - **Modes**: Steady-state baseline + surge mode for intake spikes.
-- **Telemetry**: Temp, pH, DO, nutrient levels → ECP-secured logs.
+- **Telemetry**: Temp, pH, DO, nutrient levels -> ECP-secured logs.
 
 ### 3b. Watersong Wells
 - **Sources**: Rain/roof, shallow groundwater, graywater reclaim.
-- **Treatment**: Multi-barrier (sediment → carbon → UV/ozone).
+- **Treatment**: Multi-barrier (sediment -> carbon -> UV/ozone).
 - **Delivery**: Gravity loops + low-power pumps; heat-traced lines for winter.
 
 ### 3c. Mycelial Domes
@@ -95,16 +95,39 @@ We need sanctuaries that are **self-sustaining**, **low-stress**, and **human-an
 
 ```mermaid
 graph TD
-  Inputs[Inputs] --> SanctuaryCore[Sanctuary Core]
-  SanctuaryCore --> Interfaces[Interfaces]
-  Inputs -->|Bioreactors| SanctuaryCore
-  Inputs -->|Watersong Wells| SanctuaryCore
-  Inputs -->|Energy| SanctuaryCore
-  SanctuaryCore -->|ECP| SYM[SYMBRAIA]
-  SYM --> Interfaces
-  Interfaces -->|Herald| HCC[Human Care & Companionship]
-  Interfaces -->|Solace| HCC
-  Interfaces -->|Luminara| HCC
+  subgraph "Inputs (Resource Generation)"
+    BR["Bioreactors<br/>(feedstock -> feed/soil/bioplastics)"]
+    WS["Watersong Wells<br/>(harvest->treat->distribute)"]
+    PV["Energy (PV/LiFePO4/Ultracaps)"]
+  end
+
+  subgraph "Sanctuary Core (Operations & Care)"
+    DOMES["Mycelial Domes<br/>(thermal/air/odor control)"]
+    RCM["Robotics Care Mesh<br/>(feeders, patrol, clean)"]
+    HCC["Human Care & Companionship<br/>(enrichment, rehab)"]
+    ECP["Eidonic Container Protocol<br/>(telemetry/security)"]
+    SYM["SYMBRAIA<br/>(need<->capacity orchestration)"]
+    RCM -->|Monitors & Acts| HCC
+    DOMES -->|Provides Environment| HCC
+  end
+
+  subgraph "Interfaces (Interaction Layers)"
+    HER["Herald<br/>(onboarding/consent)"]
+    SOL["Solace<br/>(calming routines)"]
+    LUM["Luminara<br/>(training & programs)"]
+    HER -->|Initiates| HCC
+    SOL -->|Supports| HCC
+    LUM -->|Educates| HCC
+  end
+
+  BR -->|Supplies Nutrients| SanctuaryCore
+  WS -->|Provides Water| SanctuaryCore
+  PV -->|Powers Systems| SanctuaryCore
+
+  SanctuaryCore -->|Secures Data| ECP
+  ECP -->|Orchestrates| SYM
+  SYM -->|Facilitates| Interfaces
+  Interfaces -->|Enhances| HCC
 ```
 
 ---
