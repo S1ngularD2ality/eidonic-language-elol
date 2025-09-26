@@ -75,46 +75,47 @@
 ```mermaid
 flowchart LR
   subgraph App
-    HM["Home"]
-    PWR["Power Orchestration"]
-    FLD["Field Tuning"]
-    HRV["Harvest"]
-    AUD["Audit"]
+    HM[Home];
+    PWR[PowerOrchestration];
+    FLD[FieldTuning];
+    HRV[Harvest];
+    AUD[Audit];
   end
 
   subgraph Core
-    IR["Intent Router"]
-    SK["Skills"]
-    MF["Memory Fabric"]
-    PE["Policy Engine"]
+    IR[IntentRouter];
+    SK[Skills];
+    MF[MemoryFabric];
+    PE[PolicyEngine];
   end
 
   subgraph Services
-    SEN["Sensors (Voltage/Current/Temp/Vibration)"]
-    PWR_SRC["Power Sources (EverSource)"]
-    THM["Thermal"]
-    MOD["Modal Detect"]
-    DB["Encrypted SQLite"]
+    SEN[Sensors];
+    PWR_SRC[PowerSources];
+    THM[Thermal];
+    MOD[ModalDetect];
+    DB[EncryptedSQLite];
   end
 
-  HM --> IR --> SK
-  PWR --> SK
-  FLD --> SK
-  HRV --> SK
-  AUD --> SK
-  SK --> MF
-  SK --> DB
-  SK --> SEN
-  SK --> PWR_SRC
-  SK --> THM
-  SK --> MOD
-  IR --> PE
+  HM --> IR;
+  IR --> SK;
+  PWR --> SK;
+  FLD --> SK;
+  HRV --> SK;
+  AUD --> SK;
+  SK --> MF;
+  SK --> DB;
+  SK --> SEN;
+  SK --> PWR_SRC;
+  SK --> THM;
+  SK --> MOD;
+  IR --> PE;
 
 
 
 
 
-Shell: embedded MCU/DSP (STM32H7/M33) or RT-Linux daemon; CAN-FD primary, UART/BLE debug.
+Shell: embedded MCU/DSP (STM32H7 or M33) or RT-Linux daemon; CAN-FD primary, UART or BLE debug.
 
 
 
