@@ -97,19 +97,19 @@ flowchart LR
     DB[EncryptedSQLite]
   end
 
-  HM --> IR;
-  IR --> SK;
-  PWR --> SK;
-  FLD --> SK;
-  HRV --> SK;
-  AUD --> SK;
-  SK --> MF;
-  SK --> DB;
-  SK --> SEN;
-  SK --> PWR_SRC;
-  SK --> THM;
-  SK --> MOD;
-  IR --> PE;
+  HM --> IR
+  IR --> SK
+  PWR --> SK
+  FLD --> SK
+  HRV --> SK
+  AUD --> SK
+  SK --> MF
+  SK --> DB
+  SK --> SEN
+  SK --> PWR_SRC
+  SK --> THM
+  SK --> MOD
+  IR --> PE
 
 Shell: embedded MCU DSP STM32H7 or M33 or RT-Linux daemon; CAN-FD primary, UART or BLE debug.
 Storage: SQLCipher-backed SQLite; anonymized telemetry cache.
