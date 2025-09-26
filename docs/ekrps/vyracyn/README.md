@@ -74,6 +74,7 @@
 
 ```mermaid
 flowchart LR
+ flowchart LR
   subgraph App
     HM[Home]
     PWR[PowerOrchestration]
