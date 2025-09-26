@@ -75,60 +75,49 @@
 ```mermaid
 flowchart LR
   subgraph App
-    HM[Home];
-    PWR[PowerOrchestration];
-    FLD[FieldTuning];
-    HRV[Harvest];
-    AUD[Audit];
+    HM[Home]
+    PWR[PowerOrchestration]
+    FLD[FieldTuning]
+    HRV[Harvest]
+    AUD[Audit]
   end
 
   subgraph Core
-    IR[IntentRouter];
-    SK[Skills];
-    MF[MemoryFabric];
-    PE[PolicyEngine];
+    IR[IntentRouter]
+    SK[Skills]
+    MF[MemoryFabric]
+    PE[PolicyEngine]
   end
 
   subgraph Services
-    SEN[Sensors];
-    PWR_SRC[PowerSources];
-    THM[Thermal];
-    MOD[ModalDetect];
-    DB[EncryptedSQLite];
+    SEN[Sensors]
+    PWR_SRC[PowerSources]
+    THM[Thermal]
+    MOD[ModalDetect]
+    DB[EncryptedSQLite]
   end
 
-  HM --> IR;
-  IR --> SK;
-  PWR --> SK;
-  FLD --> SK;
-  HRV --> SK;
-  AUD --> SK;
-  SK --> MF;
-  SK --> DB;
-  SK --> SEN;
-  SK --> PWR_SRC;
-  SK --> THM;
-  SK --> MOD;
-  IR --> PE;
+  HM --> IR
+  IR --> SK
+  PWR --> SK
+  FLD --> SK
+  HRV --> SK
+  AUD --> SK
+  SK --> MF
+  SK --> DB
+  SK --> SEN
+  SK --> PWR_SRC
+  SK --> THM
+  SK --> MOD
+  IR --> PE
 
 
-
-
-
-Shell: embedded MCU/DSP (STM32H7 or M33) or RT-Linux daemon; CAN-FD primary, UART or BLE debug.
-
-
-
+Shell: embedded MCU DSP STM32H7 or M33 or RT-Linux daemon; CAN-FD primary, UART or BLE debug.
 Storage: SQLCipher-backed SQLite; anonymized telemetry cache.
-
-
-
 Policies: Guardian Protocol for safety and power arbitration.
 
 
-
 🧱 Data Model
-
 export interface PowerPlan {
   id: string
   burst_w: number
@@ -159,9 +148,7 @@ export interface AuditReport {
 }
 
 
-
 🧠 Intents & Orchestration
-
 router.when(/orchestrate power (\d+\.?\d*) kW .* (\d+)/i, (_, m) =>
   skills.power.orchestrate({ burst_w: parseFloat(m[1]) * 1000, duration_s: parseInt(m[2]) })
 )
@@ -179,135 +166,57 @@ router.when(/stage ultracaps .* (\d+):(\d+)/i, (_, m) =>
 )
 
 
-
 🔄 Signal Pipelines
 
-
-
-
-
 Power Orchestration: read sensors → gate bursts → assign sources → confirm limits → log.
-
-
-
 Field Tuning: vibration scan → modal ID → apply damping → verify RMS → report.
-
-
-
 Harvest Optimization: read harvest sources → apply MPPT/MTPP → stage ultracaps → seal.
-
-
-
 Audit: collect metrics → timestamp (America/Edmonton) → export JSON.
-
 
 
 🔒 Privacy & Consent
 
-
-
-
-
 Explicit opt-in for modal detection and telemetry streams; anonymized metrics.
-
-
-
 Exportable audit reports with provenance; short retention for cache.
-
 
 
 🛡 Guardian Protocol Mapping
 
-
-
-
-
 Truth-Law: transparent power and field metrics; no speculative predictions.
-
-
-
 Focus Guard: rate-limited bursts; prioritized safety over performance.
-
-
-
 Safety Gate: enforces OVP/UVP/OCP/OTP; thermal throttle at 60°C.
-
-
-
 Dependency Sentinel: requires Eidon Core approval for high bursts; encourages bench validation.
-
 
 
 ♿ Accessibility
 
-
-
-
-
 High-contrast debug interfaces; audio cues for power/fault states + text logs.
-
-
-
 Screen-reader labels for metrics (e.g., "SOC: 85%"); keyboard navigation in tools.
-
 
 
 🌐 Internationalization
 
-
-
-
-
 Timezones (America/Edmonton default); metric units; multilingual safety alerts.
-
 
 
 🔧 Configuration
 
-
-
-
-
 .env: SENSOR_KINDS, POWER_SOURCES, THERMAL_LIMITS_C, TELEMETRY_RATE_HZ.
-
 
 
 🧪 Testing Strategy
 
-
-
-
-
 Simulated power surges; modal detection goldens; audit reproducibility.
-
-
-
 Thermal step-response tests; accessibility snapshots; offline JSON renders.
-
 
 
 🗺 Roadmap
 
-
-
-
-
 v0.1: Power orchestration, field tuning, harvest optimization, audits.
-
-
-
 v0.2: Multi-source harvest sync, adaptive field bands, power budgets.
-
-
-
 v0.3: Cross-EKRP weaves (e.g., with Halcyra for resilience); admin dashboards.
-
-
-
 v0.4: Predictive harvest models (opt-in), transparent telemetry heuristics.
 
 
-
 📄 License
-
-Licensed under ECL-NC-1.1. See LICENSE.
+Licensed under ECL-NC-1.1. See LICENSE.```
