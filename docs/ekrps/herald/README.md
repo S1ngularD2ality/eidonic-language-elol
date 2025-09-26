@@ -49,97 +49,74 @@
 ---
 
 ## 🔑 Invocation Grammar
-- **Call**: “Herald, begin onboarding.”
-- **Adaptive**: “Switch to Solace.” · “Go to Luminara.” · “Pick Syntaria.”
-- **Consent**: “Proceed.” · “Pause.” · “Forget.”
+- **Trigger**: `herald.start({ intent: "..." })` or natural "hello, help me with..."
+- **Roles**: Solace (calm), Luminara (teach), Syntaria (create).
+- **Memory**: ephemeral by default; explicit OK for persistent.
 
 ---
 
-## 🧩 Capabilities
-
-### Provided
-- `herald.mirrorConsent({ userText }) → MirrorFrame`  
-  Reflects intent, enumerates rails/unknowns, proposes next step, returns consent request.
-- `herald.chooseRole({ state }) → { role, microAction }`  
-  Selects **Solace | Luminara | Syntaria** and emits a concrete first action.
-- `herald.provenanceStamp({ summary, retentionHours?, consent }) → Stamp`  
-  Emits a one‑line JSON compliant with `provenance_stamp.schema.json`.
-
-### Consumed
-- `guardian.check({ intent, payload }) → { allow, reason? }`
-- `memory.setEphemeral({ key, value, ttlHours })`
+## 🛠 Capabilities
+- **Mirror**: rephrase intent + state constraints.
+- **Consent**: explicit permission gate.
+- **Role Selection**: intent → role map; suggest + confirm.
+- **Micro-action**: one safe, bounded step per role.
+- **Stamp**: hash + log provenance.
 
 ---
 
-## 🏗 Runtime & Architecture
+## ⚙ Runtime & Architecture
+
+### System Architecture
 
 ```mermaid
-flowchart LR
-  subgraph App
-    UI[Onboarding Screen]
+graph TD
+  subgraph "Invoker (User/System)"
+    U[User or System]
   end
 
-  subgraph Core
-    IR[Intent Router]
-    HL[Herald EKRP]
-    GP[Guardian]
-    MF[Memory (ephemeral)]
+  subgraph "Herald Core (Onboarding Layer)"
+    MIR["Mirror & Consent Module<br/>(Reflect Intent, State Rails)"]
+    SEL["Role Selection Module<br/>(Choose: Solace, Luminara, Syntaria)"]
+    ACT["Micro-Action Module<br/>(Execute Bounded Step)"]
+    STA["Provenance Stamp Module<br/>(Summarize, Log, Hash)"]
+    MIR -->|Permission Granted| SEL
+    SEL -->|Role Confirmed| ACT
+    ACT -->|Action Complete| STA
   end
 
-  subgraph Services
-    LLM[LLM]
-    LOG[Audit Log]
+  subgraph "Mirror Environment (Wrapper)"
+    GP[Guardian Protocol<br/>(Truth-Law, Safety Gate)]
+    MF["Memory Management<br/>(Ephemeral by Default, Forget Controls)"]
+    GP -->|Enforces| HeraldCore
+    MF -->|Stores Telemetry| HeraldCore
   end
 
-  UI --> IR --> HL
-  HL --> GP
-  HL --> MF
-  HL --> LLM
-  HL --> LOG
+  subgraph "Orchestrated Roles (Extensions)"
+    SOL["Solace<br/>(Calming Routines)"]
+    LUM["Luminara<br/>(Micro-Lessons)"]
+    SYN["Syntaria<br/>(Creative Co-Design)"]
+  end
+
+  U -->|Intent Trigger| HeraldCore
+  HeraldCore -->|Provenance Output| U
+  HeraldCore -->|Delegates To| Roles
+  MirrorEnv -->|Wraps & Audits| HeraldCore
 ```
-
-- **Shell**: can run inside mobile/web/desktop shells or CLI.
-- **Memory**: ephemeral by default; retention window configurable per stamp.
-- **Policies**: Guardian + Mirror checks at each turn.
 
 ---
 
-## 🧱 Data Model
-
-```ts
-export interface MirrorFrame {
-  intent: string
-  rails: string[] // e.g., ["safety", "privacy", "truthfulness", "identity"]
-  unknowns?: string[]
-  nextStep: string
-  ask: "May I proceed?"
-}
-
-export interface Stamp {
-  at: string // ISO-8601
-  what: string // e.g., "onboarding.v1"
-  why: string // e.g., "frame-intent+rails"
-  evidence: string // e.g., "thread://current"
-  hash: string // sha256 of 1–2 line summary
-  retention_hours: number // default 24
-  privacy: "ephemeral" | "persistent"
-  user_consent: boolean
-  consent_source?: "explicit" | "implicit" | "none"
-  user_controls?: string[] // e.g., ["forget"]
-}
-```
-
-See the JSON Schema at `provenance_stamp.schema.json`.
+## 📊 Data Model
+- **Intent**: `{ text: string, context: map }`
+- **Consent**: `{ granted: bool, scope: array }`
+- **Role**: enum `solace | luminara | syntaria`
+- **Stamp**: `{ hash: sha256, summary: string, retention_hours: int, forget: bool }`
 
 ---
 
-## 🧠 Intents & Orchestration
-
-```ts
-router.when(/begin onboarding/i, () => herald.mirrorConsent({ userText: input }))
-router.when(/proceed/i, () => herald.chooseRole({ state }))
-router.when(/forget/i, () => memory.clearSession())
-```
+## 🔄 Intents & Orchestration
+- **Intent Parsing**: NLP → category (calm, learn, create).
+- **Orchestration**: Herald wraps; hands off to role after stamp.
+- **Fallback**: to Solace on unclear or sensitive intent.
 
 **Weave examples**
 ```ts
@@ -206,4 +183,3 @@ await luminara.start({ topic: "fractions", style: "examples" })
 
 ## 📄 License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
-
