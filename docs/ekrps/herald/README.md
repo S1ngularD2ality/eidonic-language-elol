@@ -70,28 +70,28 @@
 
 ```mermaid
 graph TD
-  subgraph Invoker[Invoker (User/System)]
+  subgraph Invoker
     U[User or System]
   end
 
-  subgraph HeraldCore[Herald Core (Onboarding Layer)]
-    MIR[Mirror and Consent Module\nReflect Intent, State Rails]
-    SEL[Role Selection Module\nChoose: Solace, Luminara, Syntaria]
-    ACT[Micro-Action Module\nExecute Bounded Step]
-    STA[Provenance Stamp Module\nSummarize, Log, Hash]
+  subgraph HeraldCore
+    MIR[Mirror and Consent\nReflect Intent, State Rails]
+    SEL[Role Selection\nChoose: Solace, Luminara, Syntaria]
+    ACT[Micro-Action\nExecute Bounded Step]
+    STA[Provenance Stamp\nSummarize, Log, Hash]
     MIR -->|Permission Granted| SEL
     SEL -->|Role Confirmed| ACT
     ACT -->|Action Complete| STA
   end
 
-  subgraph MirrorEnv[Mirror Environment (Wrapper)]
+  subgraph MirrorEnv
     GP[Guardian Protocol\nTruth-Law, Safety Gate]
     MF[Memory Management\nEphemeral by Default, Forget Controls]
     GP -->|Enforces| HeraldCore
     MF -->|Stores Telemetry| HeraldCore
   end
 
-  subgraph Roles[Orchestrated Roles (Extensions)]
+  subgraph Roles
     SOL[Solace\nCalming Routines]
     LUM[Luminara\nMicro-Lessons]
     SYN[Syntaria\nCreative Co-Design]
