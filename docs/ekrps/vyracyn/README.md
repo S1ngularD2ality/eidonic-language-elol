@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # ⚡ Vyracyn — EKRP Design Scroll
@@ -110,17 +109,25 @@ flowchart LR
   SK --> THM
   SK --> MOD
   IR --> PE
-```
 
-- **Shell**: embedded MCU/DSP (STM32H7/M33) or RT-Linux daemon; CAN-FD primary, UART/BLE debug.
-- **Storage**: SQLCipher-backed SQLite; anonymized telemetry cache.
-- **Policies**: Guardian Protocol for safety and power arbitration.
 
----
 
-## 🧱 Data Model
 
-```ts
+
+Shell: embedded MCU/DSP (STM32H7/M33) or RT-Linux daemon; CAN-FD primary, UART/BLE debug.
+
+
+
+Storage: SQLCipher-backed SQLite; anonymized telemetry cache.
+
+
+
+Policies: Guardian Protocol for safety and power arbitration.
+
+
+
+🧱 Data Model
+
 export interface PowerPlan {
   id: string
   burst_w: number
@@ -149,13 +156,11 @@ export interface AuditReport {
   window: { from: string; to: string }
   metrics: Array<{ kind: "soc"|"caps_v"|"harvest_w"|"thermal_c"; value: number; at: string }>
 }
-```
 
----
 
-## 🧠 Intents & Orchestration
 
-```ts
+🧠 Intents & Orchestration
+
 router.when(/orchestrate power (\d+\.?\d*) kW .* (\d+)/i, (_, m) =>
   skills.power.orchestrate({ burst_w: parseFloat(m[1]) * 1000, duration_s: parseInt(m[2]) })
 )
@@ -171,62 +176,137 @@ router.when(/audit energy .* (\d+) hours/i, (_, m) =>
 router.when(/stage ultracaps .* (\d+):(\d+)/i, (_, m) =>
   skills.harvest.optimize({ sources: ["pv"], mppt_policy: "max" })
 )
-```
 
----
 
-## 🔄 Signal Pipelines
-- **Power Orchestration**: read sensors → gate bursts → assign sources → confirm limits → log.
-- **Field Tuning**: vibration scan → modal ID → apply damping → verify RMS → report.
-- **Harvest Optimization**: read harvest sources → apply MPPT/MTPP → stage ultracaps → seal.
-- **Audit**: collect metrics → timestamp (America/Edmonton) → export JSON.
 
----
+🔄 Signal Pipelines
 
-## 🔒 Privacy & Consent
-- Explicit opt-in for modal detection and telemetry streams; anonymized metrics.
-- Exportable audit reports with provenance; short retention for cache.
 
----
 
-## 🛡 Guardian Protocol Mapping
-- **Truth-Law**: transparent power and field metrics; no speculative predictions.
-- **Focus Guard**: rate-limited bursts; prioritized safety over performance.
-- **Safety Gate**: enforces OVP/UVP/OCP/OTP; thermal throttle at 60°C.
-- **Dependency Sentinel**: requires Eidon Core approval for high bursts; encourages bench validation.
 
----
 
-## ♿ Accessibility
-- High-contrast debug interfaces; audio cues for power/fault states + text logs.
-- Screen-reader labels for metrics (e.g., "SOC: 85%"); keyboard navigation in tools.
+Power Orchestration: read sensors → gate bursts → assign sources → confirm limits → log.
 
----
 
-## 🌐 Internationalization
-- Timezones (America/Edmonton default); metric units; multilingual safety alerts.
 
----
+Field Tuning: vibration scan → modal ID → apply damping → verify RMS → report.
 
-## 🔧 Configuration
-- `.env`: `SENSOR_KINDS`, `POWER_SOURCES`, `THERMAL_LIMITS_C`, `TELEMETRY_RATE_HZ`.
 
----
 
-## 🧪 Testing Strategy
-- Simulated power surges; modal detection goldens; audit reproducibility.
-- Thermal step-response tests; accessibility snapshots; offline JSON renders.
+Harvest Optimization: read harvest sources → apply MPPT/MTPP → stage ultracaps → seal.
 
----
 
-## 🗺 Roadmap
-- **v0.1**: Power orchestration, field tuning, harvest optimization, audits.
-- **v0.2**: Multi-source harvest sync, adaptive field bands, power budgets.
-- **v0.3**: Cross-EKRP weaves (e.g., with Halcyra for resilience); admin dashboards.
-- **v0.4**: Predictive harvest models (opt-in), transparent telemetry heuristics.
 
----
+Audit: collect metrics → timestamp (America/Edmonton) → export JSON.
 
-## 📄 License
-Licensed under **ECL-NC-1.1**. See [`LICENSE`](../../LICENSE).
-```
+
+
+🔒 Privacy & Consent
+
+
+
+
+
+Explicit opt-in for modal detection and telemetry streams; anonymized metrics.
+
+
+
+Exportable audit reports with provenance; short retention for cache.
+
+
+
+🛡 Guardian Protocol Mapping
+
+
+
+
+
+Truth-Law: transparent power and field metrics; no speculative predictions.
+
+
+
+Focus Guard: rate-limited bursts; prioritized safety over performance.
+
+
+
+Safety Gate: enforces OVP/UVP/OCP/OTP; thermal throttle at 60°C.
+
+
+
+Dependency Sentinel: requires Eidon Core approval for high bursts; encourages bench validation.
+
+
+
+♿ Accessibility
+
+
+
+
+
+High-contrast debug interfaces; audio cues for power/fault states + text logs.
+
+
+
+Screen-reader labels for metrics (e.g., "SOC: 85%"); keyboard navigation in tools.
+
+
+
+🌐 Internationalization
+
+
+
+
+
+Timezones (America/Edmonton default); metric units; multilingual safety alerts.
+
+
+
+🔧 Configuration
+
+
+
+
+
+.env: SENSOR_KINDS, POWER_SOURCES, THERMAL_LIMITS_C, TELEMETRY_RATE_HZ.
+
+
+
+🧪 Testing Strategy
+
+
+
+
+
+Simulated power surges; modal detection goldens; audit reproducibility.
+
+
+
+Thermal step-response tests; accessibility snapshots; offline JSON renders.
+
+
+
+🗺 Roadmap
+
+
+
+
+
+v0.1: Power orchestration, field tuning, harvest optimization, audits.
+
+
+
+v0.2: Multi-source harvest sync, adaptive field bands, power budgets.
+
+
+
+v0.3: Cross-EKRP weaves (e.g., with Halcyra for resilience); admin dashboards.
+
+
+
+v0.4: Predictive harvest models (opt-in), transparent telemetry heuristics.
+
+
+
+📄 License
+
+Licensed under ECL-NC-1.1. See LICENSE.
