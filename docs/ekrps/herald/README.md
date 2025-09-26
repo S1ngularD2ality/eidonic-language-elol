@@ -70,31 +70,31 @@
 
 ```mermaid
 graph TD
-  subgraph "Invoker (User/System)"
+  subgraph Invoker_User_System[Invoker (User/System)]
     U[User or System]
   end
 
-  subgraph "Herald Core (Onboarding Layer)"
-    MIR["Mirror & Consent Module<br/>(Reflect Intent, State Rails)"]
-    SEL["Role Selection Module<br/>(Choose: Solace, Luminara, Syntaria)"]
-    ACT["Micro-Action Module<br/>(Execute Bounded Step)"]
-    STA["Provenance Stamp Module<br/>(Summarize, Log, Hash)"]
+  subgraph Herald_Core[Herald Core (Onboarding Layer)]
+    MIR[Mirror & Consent Module\n(Reflect Intent, State Rails)]
+    SEL[Role Selection Module\n(Choose: Solace, Luminara, Syntaria)]
+    ACT[Micro-Action Module\n(Execute Bounded Step)]
+    STA[Provenance Stamp Module\n(Summarize, Log, Hash)]
     MIR -->|Permission Granted| SEL
     SEL -->|Role Confirmed| ACT
     ACT -->|Action Complete| STA
   end
 
-  subgraph "Mirror Environment (Wrapper)"
-    GP[Guardian Protocol<br/>(Truth-Law, Safety Gate)]
-    MF["Memory Management<br/>(Ephemeral by Default, Forget Controls)"]
+  subgraph Mirror_Environment[Mirror Environment (Wrapper)]
+    GP[Guardian Protocol\n(Truth-Law, Safety Gate)]
+    MF[Memory Management\n(Ephemeral by Default, Forget Controls)]
     GP -->|Enforces| HeraldCore
     MF -->|Stores Telemetry| HeraldCore
   end
 
-  subgraph "Orchestrated Roles (Extensions)"
-    SOL["Solace<br/>(Calming Routines)"]
-    LUM["Luminara<br/>(Micro-Lessons)"]
-    SYN["Syntaria<br/>(Creative Co-Design)"]
+  subgraph Orchestrated_Roles[Orchestrated Roles (Extensions)]
+    SOL[Solace\n(Calming Routines)]
+    LUM[Luminara\n(Micro-Lessons)]
+    SYN[Syntaria\n(Creative Co-Design)]
   end
 
   U -->|Intent Trigger| HeraldCore
