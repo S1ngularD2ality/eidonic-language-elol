@@ -4,6 +4,12 @@
 
 > *The Resonant Cloak, Guardian of the Eidonic Skin.*
 
+[![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../../LICENSE)
+[![Guardian Protocol](https://img.shields.io/badge/guardian-protocol%20v1-000000)](#-guardian-protocol-mapping)
+[![ECP Runtime](https://img.shields.io/badge/runtime-ECP-4b0082)](#-runtime--architecture)
+
+</div>
+
 ---
 
 ## Title Block
