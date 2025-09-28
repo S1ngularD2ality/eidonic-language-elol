@@ -1,4 +1,6 @@
-# Vyracyn — EKRP Design Scroll  
+<div align="center">
+
+# ⚡ Vyracyn — EKRP Design Scroll  
 
 > *The Resonant Cloak, Guardian of the Eidonic Skin.*
 
