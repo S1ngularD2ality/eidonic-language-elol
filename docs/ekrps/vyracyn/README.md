@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⚡ Vyracyn — EKRP Design Scroll  
+# ⚡ Vyracyn — EKRP Design Scroll
 
-> *The Resonant Cloak, Guardian of the Eidonic Skin.*
+**Heritage Keeper · Story capture · Living lineages**
 
 [![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../../LICENSE)
 [![Guardian Protocol](https://img.shields.io/badge/guardian-protocol%20v1-000000)](#-guardian-protocol-mapping)
