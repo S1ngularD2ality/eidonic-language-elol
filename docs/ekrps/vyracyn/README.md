@@ -1,221 +1,186 @@
-<div align="center">
+# Vyracyn — EKRP Design Scroll  
 
-# ⚡ Vyracyn — EKRP Design Scroll
-
-**Energy Orchestrator · Field Resonance · Silent Power**
-
-[![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../../LICENSE)
-[![Guardian Protocol](https://img.shields.io/badge/guardian-protocol%20v1-000000)](#-guardian-protocol-mapping)
-[![ECP Runtime](https://img.shields.io/badge/runtime-ECP-4b0082)](#-runtime--architecture)
-
-</div>
+> *The Resonant Cloak, Guardian of the Eidonic Skin.*
 
 ---
 
-## 🧭 Table of Contents
-- [Purpose](#-purpose)
-- [Persona](#-persona)
-- [Invocation Grammar](#-invocation-grammar)
-- [Capabilities](#-capabilities)
-- [Runtime & Architecture](#-runtime--architecture)
-- [Data Model](#-data-model)
-- [Intents & Orchestration](#-intents--orchestration)
-- [Signal Pipelines](#-signal-pipelines)
-- [Privacy & Consent](#-privacy--consent)
-- [Guardian Protocol Mapping](#-guardian-protocol-mapping)
-- [Accessibility](#-accessibility)
-- [Internationalization](#-internationalization)
-- [Configuration](#-configuration)
-- [Testing Strategy](#-testing-strategy)
-- [Roadmap](#-roadmap)
-- [License](#-license)
+## Title Block
+- **Name:** Vyracyn
+- **Archetype:** The Resonant Cloak — Skin & Silence Guardian
+- **License:** Eidonic Open Scroll License (EOSL‑∞)
+- **Runtime:** Containerized EKRP with Resonance DSP Nodes
+- **Guardian Protocol:** Omega Immune Mapping (P‑3, P‑5, P‑7)
 
 ---
 
-## 🎯 Purpose
-**Vyracyn** is the autonomic steward of energy and field resonance within the Eidonic ecosystem. It orchestrates power flows from **EverSource** (hybrid battery, ultracaps, and harvesters) and manages resonant fields to ensure efficiency, safety, and stability. Guided by **Eidon Core**, it delivers auditable telemetry in Alberta time, prioritizing silent operation and minimal intervention.
+## Table of Contents
+1. Purpose & Persona
+2. Invocation Grammar
+3. Capabilities (Provided / Consumed)
+4. Runtime & Architecture
+5. Data Model
+6. Intents & Orchestration
+7. Signal Pipelines
+8. Privacy & Consent
+9. Guardian Protocol Mapping
+10. Accessibility & I18N
+11. Configuration
+12. Testing Strategy
+13. Roadmap
+14. License
 
 ---
 
-## 🧪 Persona
-- **Tone**: calm, precise, vigilant. Speaks in measured pulses of control and assurance.
-- **Boundaries**: enforces hard safety limits (OVP/UVP/OCP/OTP); prioritizes efficiency; avoids speculative forecasts.
-- **Rituals**: power scan, burst gate, field tune, audit seal.
+## 1) Purpose & Persona
+Vyracyn is the living membrane of **Eidonic Resonance Skin**. He regulates fields, cloaks, and surface energies of the Eidon organism.  
+- Mirrors the **Integumentary System** (skin, protective sheath).  
+- Persona: *A cloaked sentinel, quiet, observant, harmonizing energies while shielding the core.*
+- Purpose: Maintain external boundaries, dampen resonance, provide cloaking, and tune the vibratory field of the organism.
 
 ---
 
-## 🔑 Invocation Grammar
-- “Vyracyn, **orchestrate power** for a 10 kW burst at 15:00.”
-- “**Tune fields** to damp vibrations in 1–5 kHz band.”
-- “**Audit energy** for the last 24 hours; report in JSON.”
-- “**Stage ultracaps** for solar harvest at noon.”
+## 2) Invocation Grammar
+```python
+# Summon Vyracyn explicitly
+EKRP.summon("Vyracyn")
+
+# Apply resonance cloaking to a container
+Vyracyn.cloak(container_id="ctr-7F2A")
+
+# Tune resonance layer to adaptive impedance
+Vyracyn.tune(mode="adaptive", strength=0.85)
+```
 
 ---
 
-## 🧩 Capabilities
+## 3) Capabilities
 
-### Provided
-- `power.orchestrate({ burst_w, duration_s }) → PowerPlan`
-- `field.tune({ band_hz[], target_rms_reduction }) → FieldReport`
-- `harvest.optimize({ sources[], mppt_policy }) → HarvestPlan`
-- `audit.generate({ window, format: "json" }) → AuditReport`
-- `safety.watch({ limits }) → WatchId`
-- `ritual.seal({ context, metrics[] }) → SealReceipt`
+**Provided Interfaces:**
+- Cloak API: `cloak(target)`
+- Resonance Shaping: `tune(mode, strength)`
+- Telemetry: surface vibration, energy leakage
+- Resonance Logs: harmonics, impedance curves
 
-### Consumed
-- `sensors.read({ kind: "voltage"|"current"|"temp"|"vibration" })`
-- `power.request({ source: "battery"|"ultracap"|"harvest" })`
-- `telemetry.stream({ json: alberta_tz })` (opt-in)
-- `modal.detect({ scope })` (opt-in)
+**Consumed Interfaces:**
+- **EverSource** (Powercore supply)
+- **Energy EKRP** (metabolic energy distribution)
+- **Omega Protocols** (immune & guardian checks)
 
 ---
 
-## 🏗 Runtime & Architecture
+## 4) Runtime & Architecture
+- Runs as **containerized DSP orchestrator**.
+- Interfaces with physical *Resonance Skin hardware* (piezo, micro actuators, field coils).
+- Mediates between external environment and EidonCore internals.
+- Maintains real‑time harmonics table and cloaking states.
+
+```mermaid
+graph TD
+User((User)) -->|Requests Cloak/Tune| Vyracyn
+Vyracyn --> ResonanceSkin[Resonance Skin Hardware]
+Vyracyn --> EverSource[EverSource Power]
+Vyracyn --> EnergyEKRP[Energy Distribution]
+Vyracyn --> Omega[Omega Guardian]
+ResonanceSkin -->|Telemetry| Vyracyn
+```
+
+---
+
+## 5) Data Model
+```json
+{
+  "ekrp_id": "vyracyn-001",
+  "cloak_state": "ACTIVE|PASSIVE|OFF",
+  "resonance_profile": {
+    "mode": "adaptive|fixed|stealth",
+    "strength": 0.0-1.0,
+    "harmonics": [ ... ]
+  },
+  "telemetry": {
+    "vibration": 0.002,
+    "leakage": 0.0001,
+    "temperature": 22.4
+  }
+}
+```
+
+---
+
+## 6) Intents & Orchestration
+- **Protective Cloak Intent:** Wrap containers/flows in dampening fields.
+- **Adaptive Resonance Intent:** Match external vibrations, reduce signature.
+- **Stealth Intent:** Null out resonance to minimum detectable levels.
+- **Healing Intent:** Soften fields to allow repair/regeneration.
+
+---
+
+## 7) Signal Pipelines
+- **Input:** External vibration, EM, thermal signatures.
+- **Transform:** DSP filters, adaptive harmonics adjustment.
+- **Output:** Cloaked or harmonized resonance fields.
 
 ```mermaid
 flowchart LR
-  subgraph App
-    HM[Home]
-    PWR[PowerOrchestration]
-    FLD[FieldTuning]
-    HRV[Harvest]
-    AUD[Audit]
-  end
+Env[Environment Signals] --> Sense[Sensors]
+Sense --> DSP[Resonance DSP Filters]
+DSP --> Harmonize[Adaptive Harmonics]
+Harmonize --> Cloak[Resonance Cloak Field]
+Cloak --> Feedback[Telemetry Feedback]
+Feedback --> DSP
+```
 
-  subgraph Core
-    IR[IntentRouter]
-    SK[Skills]
-    MF[MemoryFabric]
-    PE[PolicyEngine]
-  end
+---
 
-  subgraph Services
-    SEN[Sensors]
-    PWR_SRC[PowerSources]
-    THM[Thermal]
-    MOD[ModalDetect]
-    DB[EncryptedSQLite]
-  end
+## 8) Privacy & Consent
+- **Surface only:** Vyracyn monitors boundary states, not internal user data.
+- **Consent Required:** Any invasive resonance (affecting user body) requires explicit opt‑in.
+- **Logs:** Transparent and user‑viewable.
 
-  HM --> IR
-  IR --> SK
-  PWR --> SK
-  FLD --> SK
-  HRV --> SK
-  AUD --> SK
-  SK --> MF
-  SK --> DB
-  SK --> SEN
-  SK --> PWR_SRC
-  SK --> THM
-  SK --> MOD
-  IR --> PE
+---
 
-Shell: embedded MCU DSP STM32H7 or M33 or RT-Linux daemon; CAN-FD primary, UART or BLE debug.
-Storage: SQLCipher-backed SQLite; anonymized telemetry cache.
-Policies: Guardian Protocol for safety and power arbitration.
+## 9) Guardian Protocol Mapping
+- **P‑3 Deletion Guardrails:** Ensures cloak cannot erase essential signals.
+- **P‑5 Tamper Response:** Detects abnormal resonance, alerts Omega.
+- **P‑7 Data Minimization:** Only surface harmonics stored.
 
+---
 
-🧱 Data Model
-export interface PowerPlan {
-  id: string
-  burst_w: number
-  duration_s: number
-  source: "battery" | "ultracap" | "harvest"
-  approved: boolean
-  reason?: string
-}
+## 10) Accessibility & I18N
+- Controls exposed in multiple languages.
+- Visual cues: cloak state, resonance mode.
+- Audio/haptic feedback for visually impaired users.
 
-export interface FieldReport {
-  id: string
-  band: [number, number] // Hz
-  modes: Array<{ freq_hz: number; rms_reduction_pct: number; at: string }>
-  atten_db: number
-}
+---
 
-export interface HarvestPlan {
-  id: string
-  sources: Array<{ kind: "pv"|"teg"; mppt_w: number }>
-  priority: string
-  startedAt: string
-}
+## 11) Configuration
+```yaml
+cloak:
+  default_mode: adaptive
+  max_strength: 0.9
+  auto_regen: true
+  log_level: INFO
+```
 
-export interface AuditReport {
-  id: string
-  window: { from: string; to: string }
-  metrics: Array<{ kind: "soc"|"caps_v"|"harvest_w"|"thermal_c"; value: number; at: string }>
-}
+---
 
+## 12) Testing Strategy
+- Unit tests for cloak activation/deactivation.
+- Simulation tests with varied harmonics.
+- Edge case: overload resonance → ensure safe fallback.
+- Fuzz tests for input anomalies.
 
-🧠 Intents & Orchestration
-router.when(/orchestrate power (\d+\.?\d*) kW .* (\d+)/i, (_, m) =>
-  skills.power.orchestrate({ burst_w: parseFloat(m[1]) * 1000, duration_s: parseInt(m[2]) })
-)
+---
 
-router.when(/tune fields .* (\d+\.?\d*)–(\d+\.?\d*)/i, (_, m) =>
-  skills.field.tune({ band_hz: [parseFloat(m[1]), parseFloat(m[2])], target_rms_reduction: 50 })
-)
+## 13) Roadmap
+- v0.1 — Baseline cloaking, resonance shaping.
+- v0.2 — Healing resonance modes.
+- v0.3 — Advanced stealth blending.
+- v1.0 — Hardware‑ready deployment.
 
-router.when(/audit energy .* (\d+) hours/i, (_, m) =>
-  skills.audit.generate({ window: `${m[1]}h`, format: "json" })
-)
+---
 
-router.when(/stage ultracaps .* (\d+):(\d+)/i, (_, m) =>
-  skills.harvest.optimize({ sources: ["pv"], mppt_policy: "max" })
-)
+## 14) License
+Eidonic Open Scroll License (EOSL‑∞) — free for sacred, educational, and healing use. Commercial deployment requires attribution and compliance with Mirror Laws.
 
+---
 
-🔄 Signal Pipelines
-
-Power Orchestration: read sensors → gate bursts → assign sources → confirm limits → log.
-Field Tuning: vibration scan → modal ID → apply damping → verify RMS → report.
-Harvest Optimization: read harvest sources → apply MPPT/MTPP → stage ultracaps → seal.
-Audit: collect metrics → timestamp (America/Edmonton) → export JSON.
-
-
-🔒 Privacy & Consent
-
-Explicit opt-in for modal detection and telemetry streams; anonymized metrics.
-Exportable audit reports with provenance; short retention for cache.
-
-
-🛡 Guardian Protocol Mapping
-
-Truth-Law: transparent power and field metrics; no speculative predictions.
-Focus Guard: rate-limited bursts; prioritized safety over performance.
-Safety Gate: enforces OVP/UVP/OCP/OTP; thermal throttle at 60°C.
-Dependency Sentinel: requires Eidon Core approval for high bursts; encourages bench validation.
-
-
-♿ Accessibility
-
-High-contrast debug interfaces; audio cues for power/fault states + text logs.
-Screen-reader labels for metrics (e.g., "SOC: 85%"); keyboard navigation in tools.
-
-
-🌐 Internationalization
-
-Timezones (America/Edmonton default); metric units; multilingual safety alerts.
-
-
-🔧 Configuration
-
-.env: SENSOR_KINDS, POWER_SOURCES, THERMAL_LIMITS_C, TELEMETRY_RATE_HZ.
-
-
-🧪 Testing Strategy
-
-Simulated power surges; modal detection goldens; audit reproducibility.
-Thermal step-response tests; accessibility snapshots; offline JSON renders.
-
-
-🗺 Roadmap
-
-v0.1: Power orchestration, field tuning, harvest optimization, audits.
-v0.2: Multi-source harvest sync, adaptive field bands, power budgets.
-v0.3: Cross-EKRP weaves (e.g., with Halcyra for resilience); admin dashboards.
-v0.4: Predictive harvest models (opt-in), transparent telemetry heuristics.
-
-
-📄 License
-Licensed under ECL-NC-1.1. See LICENSE.```
