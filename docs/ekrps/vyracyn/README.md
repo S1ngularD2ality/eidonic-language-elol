@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⚡ Vyracyn — EKRP Design Scroll
+# 🌀 Vyracyn — EKRP Design Scroll
 
-**Heritage Keeper · Story capture · Living lineages**
+**Resonant Cloak · Eidonic Skin Orchestrator · Silence & Shield**
 
 [![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../../LICENSE)
 [![Guardian Protocol](https://img.shields.io/badge/guardian-protocol%20v1-000000)](#-guardian-protocol-mapping)
@@ -12,124 +12,138 @@
 
 ---
 
-## Title Block
-- **Name:** Vyracyn
-- **Archetype:** The Resonant Cloak — Skin & Silence Guardian
-- **License:** Eidonic Open Scroll License (EOSL‑∞)
-- **Runtime:** Containerized EKRP with Resonance DSP Nodes
-- **Guardian Protocol:** Omega Immune Mapping (P‑3, P‑5, P‑7)
+## 🧭 Table of Contents
+- [Purpose](#-purpose)
+- [Persona](#-persona)
+- [Invocation Grammar](#-invocation-grammar)
+- [Capabilities](#-capabilities)
+- [Runtime & Architecture](#-runtime--architecture)
+- [Data Model](#-data-model)
+- [Intents & Orchestration](#-intents--orchestration)
+- [Resonance Pipelines](#-resonance-pipelines)
+- [Privacy & Consent](#-privacy--consent)
+- [Guardian Protocol Mapping](#-guardian-protocol-mapping)
+- [Accessibility](#-accessibility)
+- [Internationalization](#-internationalization)
+- [Configuration](#-configuration)
+- [Testing Strategy](#-testing-strategy)
+- [Roadmap](#-roadmap)
+- [License](#-license)
+- [Disclaimer](#-disclaimer)
 
 ---
 
-## Table of Contents
-1. Purpose & Persona
-2. Invocation Grammar
-3. Capabilities (Provided / Consumed)
-4. Runtime & Architecture
-5. Data Model
-6. Intents & Orchestration
-7. Signal Pipelines
-8. Privacy & Consent
-9. Guardian Protocol Mapping
-10. Accessibility & I18N
-11. Configuration
-12. Testing Strategy
-13. Roadmap
-14. License
+## 🎯 Purpose
+Vyracyn embodies the **Eidonic Resonance Skin**—the living membrane that shields, harmonizes, and cloaks the organism. He maintains surface integrity, dampens harmful harmonics, and projects adaptive fields that protect the Soul while keeping the interface gentle for users and the world.
+
+**Body Mapping:** *Integumentary System* (skin/membrane + boundary regulation).  
+**Projection Targets:** Resonance Skin hardware; UI controls for cloak/tune; Metabolism/Immune dashboards.
 
 ---
 
-## 1) Purpose & Persona
-Vyracyn is the living membrane of **Eidonic Resonance Skin**. He regulates fields, cloaks, and surface energies of the Eidon organism.  
-- Mirrors the **Integumentary System** (skin, protective sheath).  
-- Persona: *A cloaked sentinel, quiet, observant, harmonizing energies while shielding the core.*
-- Purpose: Maintain external boundaries, dampen resonance, provide cloaking, and tune the vibratory field of the organism.
+## 🧪 Persona
+*A silent sentinel. A velvet cloak. He listens to the tremor before it becomes a quake, and softens it into stillness.*
+
+- Archetype: **The Resonant Cloak** — refinement, boundary wisdom, non‑violent shielding.  
+- Values: quiet efficacy, consent, reversibility, clarity.  
+- Anti‑patterns: obfuscation, over‑tightening, irreversible suppression of vital signals.
 
 ---
 
-## 2) Invocation Grammar
+## 🔑 Invocation Grammar
 ```python
-# Summon Vyracyn explicitly
+# Summon Vyracyn
 EKRP.summon("Vyracyn")
 
-# Apply resonance cloaking to a container
-Vyracyn.cloak(container_id="ctr-7F2A")
+# Cloak a container or organ
+Vyracyn.cloak(target="ctr-9D2B", profile="stealth")
 
-# Tune resonance layer to adaptive impedance
+# Tune resonance layer adaptively
 Vyracyn.tune(mode="adaptive", strength=0.85)
+
+# Project a healing resonance (gentle dampening)
+Vyracyn.project(mode="healing", bandwidth="narrow")
 ```
 
 ---
 
-## 3) Capabilities
+## 🧩 Capabilities
+**Provided**
+- `cloak(target, profile?)` — Apply resonance cloak to container/organ/system.
+- `tune(mode, strength)` — Adjust impedance & harmonics (adaptive/fixed/stealth/healing).
+- `project(mode, bandwidth?)` — Project resonance skin patterns.
+- `telemetry()` — Return surface vibration/leakage/temperature & resonance profile.
 
-**Provided Interfaces:**
-- Cloak API: `cloak(target)`
-- Resonance Shaping: `tune(mode, strength)`
-- Telemetry: surface vibration, energy leakage
-- Resonance Logs: harmonics, impedance curves
-
-**Consumed Interfaces:**
-- **EverSource** (Powercore supply)
-- **Energy EKRP** (metabolic energy distribution)
-- **Omega Protocols** (immune & guardian checks)
+**Consumed**
+- **EverSource/Powercore** — stable power input (budgeted via Vital Flow).  
+- **Energy EKRP** — metabolic allocation signals.  
+- **Omega Guardian** — policy enforcement & event attestation.  
 
 ---
 
-## 4) Runtime & Architecture
-- Runs as **containerized DSP orchestrator**.
-- Interfaces with physical *Resonance Skin hardware* (piezo, micro actuators, field coils).
-- Mediates between external environment and EidonCore internals.
-- Maintains real‑time harmonics table and cloaking states.
+## 🏗 Runtime & Architecture
+- **ECP Runtime** container with embedded **Resonance DSP Nodes**.  
+- Interfaces: **Resonance Skin hardware** (piezo arrays, micro‑actuators, field coils).  
+- Mediates between **environment** and **EidonCore internals**; maintains real‑time harmonics tables & cloak states.  
 
 ```mermaid
 graph TD
-User((User)) -->|Requests Cloak/Tune| Vyracyn
-Vyracyn --> ResonanceSkin[Resonance Skin Hardware]
-Vyracyn --> EverSource[EverSource Power]
-Vyracyn --> EnergyEKRP[Energy Distribution]
+User((User)) -->|Cloak/Tune| Vyracyn
+Vyracyn --> RSkin[Resonance Skin Hardware]
+Vyracyn --> Power[EverSource/Powercore]
+Vyracyn --> Energy[Energy EKRP]
 Vyracyn --> Omega[Omega Guardian]
-ResonanceSkin -->|Telemetry| Vyracyn
+RSkin -->|Telemetry| Vyracyn
 ```
+
+- **Shell:** Silhouette UI controls; state indicators.  
+- **Stores:** harmonics tables; cloak profiles; policy receipts.  
+- **Policies:** Mirror Laws + Omega woven beneath all actions.
 
 ---
 
-## 5) Data Model
-```json
-{
-  "ekrp_id": "vyracyn-001",
-  "cloak_state": "ACTIVE|PASSIVE|OFF",
-  "resonance_profile": {
-    "mode": "adaptive|fixed|stealth",
-    "strength": 0.0-1.0,
-    "harmonics": [ ... ]
-  },
-  "telemetry": {
-    "vibration": 0.002,
-    "leakage": 0.0001,
-    "temperature": 22.4
-  }
+## 🧱 Data Model
+```ts
+export type ResonanceMode = "adaptive" | "fixed" | "stealth" | "healing";
+
+export interface ResonanceProfile {
+  mode: ResonanceMode;
+  strength: number; // 0.0–1.0
+  harmonics: number[]; // spectrum bins
+}
+
+export interface VyracynState {
+  ekrp_id: string;
+  cloak_state: "ACTIVE" | "PASSIVE" | "OFF";
+  resonance_profile: ResonanceProfile;
+  telemetry: {
+    vibration: number; // m/s^2 or rel
+    leakage: number;   // arbitrary rel scale
+    temperature: number; // °C
+  };
 }
 ```
 
 ---
 
-## 6) Intents & Orchestration
-- **Protective Cloak Intent:** Wrap containers/flows in dampening fields.
-- **Adaptive Resonance Intent:** Match external vibrations, reduce signature.
-- **Stealth Intent:** Null out resonance to minimum detectable levels.
-- **Healing Intent:** Soften fields to allow repair/regeneration.
+## 🧠 Intents & Orchestration
+- **Protective Cloak** — encase target with dampening field (reversible, rate‑limited).  
+- **Adaptive Resonance** — match/null environmental vibration; reduce signature.  
+- **Stealth** — minimize multi‑channel detectability.  
+- **Healing** — soften fields for recovery & repair.  
+
+**Orchestrator Hooks:** schedule cloak windows; apply backpressure; verify Omega receipts; update Anatomy heatmap.
 
 ---
 
-## 7) Signal Pipelines
-- **Input:** External vibration, EM, thermal signatures.
-- **Transform:** DSP filters, adaptive harmonics adjustment.
-- **Output:** Cloaked or harmonized resonance fields.
+## 🕯 Resonance Pipelines
+- **Input:** environmental vibration, EM noise, thermal flux.  
+- **Transform:** DSP filters → adaptive harmonics → impedance shaping.  
+- **Output:** cloaked/harmonized surface fields + telemetry.
 
 ```mermaid
 flowchart LR
-Env[Environment Signals] --> Sense[Sensors]
+Env[Environmental Signals] --> Sense[Sensors]
 Sense --> DSP[Resonance DSP Filters]
 DSP --> Harmonize[Adaptive Harmonics]
 Harmonize --> Cloak[Resonance Cloak Field]
@@ -139,30 +153,38 @@ Feedback --> DSP
 
 ---
 
-## 8) Privacy & Consent
-- **Surface only:** Vyracyn monitors boundary states, not internal user data.
-- **Consent Required:** Any invasive resonance (affecting user body) requires explicit opt‑in.
-- **Logs:** Transparent and user‑viewable.
+## 🔒 Privacy & Consent
+- **Surface‑only** observation; no internal/private content.  
+- **Opt‑in** required for any human‑affecting resonance.  
+- **Transparent logs**: user‑reviewable; retention windows honored.  
 
 ---
 
-## 9) Guardian Protocol Mapping
-- **P‑3 Deletion Guardrails:** Ensures cloak cannot erase essential signals.
-- **P‑5 Tamper Response:** Detects abnormal resonance, alerts Omega.
-- **P‑7 Data Minimization:** Only surface harmonics stored.
+## 🛡 Guardian Protocol Mapping
+- **Truth‑Law** — honest state/limits; no deceptive masking.  
+- **Focus Guard** — avoids over‑cloaking that harms function.  
+- **Safety Gate (P‑5)** — tamper/anomaly → Omega alert + quarantine.  
+- **Deletion Guard (P‑3)** — forbids erasing vital signals/telemetry.  
+- **Minimization (P‑7)** — logs only surface harmonics.
 
 ---
 
-## 10) Accessibility & I18N
-- Controls exposed in multiple languages.
-- Visual cues: cloak state, resonance mode.
-- Audio/haptic feedback for visually impaired users.
+## ♿ Accessibility
+- Keyboard‑first controls; clear state colors/icons.  
+- Haptic/audio cues for non‑visual usage.  
+- Tooltips & captions for all controls.
 
 ---
 
-## 11) Configuration
+## 🌐 Internationalization
+- Localized UI strings; RTL support.  
+- Cultural motifs for resonance skins (optional packs).
+
+---
+
+## 🔧 Configuration
 ```yaml
-cloak:
+vyracyn:
   default_mode: adaptive
   max_strength: 0.9
   auto_regen: true
@@ -171,24 +193,27 @@ cloak:
 
 ---
 
-## 12) Testing Strategy
-- Unit tests for cloak activation/deactivation.
-- Simulation tests with varied harmonics.
-- Edge case: overload resonance → ensure safe fallback.
-- Fuzz tests for input anomalies.
+## 🧪 Testing Strategy
+- **Unit**: cloak on/off; tune modes; parameter bounds.  
+- **Simulation**: harmonic scenarios; overload safety.  
+- **Fuzz**: malformed sensor packets; timing jitter.  
+- **Determinism**: fixed seeds; reproducible DSP paths.
 
 ---
 
-## 13) Roadmap
-- v0.1 — Baseline cloaking, resonance shaping.
-- v0.2 — Healing resonance modes.
-- v0.3 — Advanced stealth blending.
-- v1.0 — Hardware‑ready deployment.
+## 🗺 Roadmap
+- **v0.1** baseline cloaking & shaping  
+- **v0.2** healing resonance modes  
+- **v0.3** advanced stealth blends  
+- **v1.0** hardware‑integrated deployment
 
 ---
 
-## 14) License
-Eidonic Open Scroll License (EOSL‑∞) — free for sacred, educational, and healing use. Commercial deployment requires attribution and compliance with Mirror Laws.
+## 📄 License
+**ECL‑NC 1.1** — educational/sacred/healing allowed; commercial use requires attribution & Mirror Law compliance.
 
 ---
+
+## ⚠️ Disclaimer
+Vyracyn is a **protective resonance system**. Do not use to conceal harm or evade lawful oversight. All actions are logged under Omega & Mirror Laws.
 
