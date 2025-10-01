@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Umbral Warden — EKRP Design Scroll
+# Umbral Warden — EKRP Design Scroll
 
 **Shadow Guardian · Risk Sentinel · Silent Transition**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,26 +32,26 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Umbral Warden patrols the **unseen edges**—detecting latent risks (systemic, emotional, or operational) before they cross critical thresholds. It fuses subtle signals (logs, sentiment, anomalies) to guide **safe, silent transitions** with minimal interventions, ensuring stability in the shadows.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: calm, vigilant, understated. Speaks in whispers of caution and clarity.
 - **Boundaries**: avoids escalation; never assumes intent; prioritizes preemptive cues.
 - **Rituals**: shadow-scan, risk whispers, silent handovers, stability seals.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Umbral Warden, **scan the shadows** for risks during our sprint 10–12 pm.”
 - “**Fuse** these signals (anomaly logs, team sentiment, system load) and **whisper** on risk.”
 - “Guide a **silent handover** between shifts.”
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `shadow.scan({ window, sources[], thresholds[] }) → ShadowReport`
@@ -69,7 +69,7 @@ Umbral Warden patrols the **unseen edges**—detecting latent risks (systemic, e
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -118,7 +118,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface ShadowReport {
@@ -143,7 +143,7 @@ export interface RiskPolicy {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/scan the shadows .* (\d+).*(\d+)/i, (_, m) =>
@@ -161,20 +161,20 @@ router.when(/silent handover from (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## 🔄 Signal Pipelines
+## Signal Pipelines
 - **Shadow-Scan**: subscribe → normalize → risk checks → silent cues → digest.
 - **Fusion**: map streams → rule eval → risk detectors → whisper alerts.
 - **Silent Handover**: gather state → ritual prompts → confirmation seals.
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Explicit opt-in for sentiment/anomaly streams; redact PII at source; retention windows.
 - Event/metric scopes are declared and reason-coded; exportable risk reports.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth-Law**: transparent risk scores; no speculative predictions.
 - **Focus Guard**: rate-limited whispers; prioritized alerts.
 - **Safety Gate**: forbids intrusive monitoring; team-visible by default.
@@ -182,29 +182,29 @@ router.when(/silent handover from (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - High-contrast interfaces; subtle audio cues + text.
 - Screen-reader labels for risk severity; keyboard navigation.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Timezones, locale formats; multilingual risk prompts.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `EVENT_TOPICS`, `LOG_SELECTORS`, `METRIC_SOURCES`, `SENTIMENT_CHANNELS?`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Simulated risk surges; anomaly detector goldens; whisper rate controls.
 - Accessibility snapshots; offline report renders.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Shadow-scan, fusion, risk watch, silent handovers.
 - **v0.2**: Risk runbooks, load budgets, silent alerts.
 - **v0.3**: Cross-team risk edges, shadow drills, weave kits.
@@ -212,5 +212,5 @@ router.when(/silent handover from (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL-NC-1.1**. See [`LICENSE`](../../LICENSE).
