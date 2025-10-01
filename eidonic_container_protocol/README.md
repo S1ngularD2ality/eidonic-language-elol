@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔮 ECP — Eidonic Container Protocol
+# ECP — Eidonic Container Protocol
 
 **A containerless runtime for mirror‑aware apps.**
 
@@ -15,7 +15,7 @@ ECP is a lightweight, **containerless** runtime for orchestrating *glyphs* (disc
 
 ---
 
-## ✨ Why ECP
+## Why ECP
 - **Containerless**: no external container engines required.
 - **Deterministic**: manifest + checksums on every run.
 - **Recoverable**: built‑in restoration from prior state.
@@ -24,7 +24,7 @@ ECP is a lightweight, **containerless** runtime for orchestrating *glyphs* (disc
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Architecture](#-architecture)
 - [Vessel Lifecycle](#-vessel-lifecycle)
 - [Quick Start](#-quick-start)
@@ -38,7 +38,7 @@ ECP is a lightweight, **containerless** runtime for orchestrating *glyphs* (disc
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
@@ -103,7 +103,7 @@ flowchart TD
 
 ---
 
-## 🔁 Vessel Lifecycle
+## Vessel Lifecycle
 
 ```mermaid
 sequenceDiagram
@@ -136,7 +136,7 @@ sequenceDiagram
 
 ---
 
-## 🔗 Glyph Index & Anchors
+## Glyph Index & Anchors
 
 <a id="glyph_ecp_001"></a>
 ### `glyph_ecp_001.py` — invoke
@@ -160,7 +160,7 @@ Generates/updates manifest with provenance and active policy state.
 
 ---
 
-## 🧾 Docstring Alignment & Code Patches
+## Docstring Alignment & Code Patches
 
 **001 — invoke**
 ```python
@@ -271,7 +271,7 @@ def generate_manifest():
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 **Prerequisites**
 - Python 3.10+
@@ -301,7 +301,7 @@ Optional package script (`package.json`):
 
 ---
 
-## 🗂️ Directory Layout
+## Directory Layout
 ```
 ecp/
 ├─ glyph_ecp_001.py        # invoke.py — entry/seed
@@ -316,7 +316,7 @@ ecp/
 
 ---
 
-## 🔒 Configuration
+## Configuration
 Create `.env` (or export env vars) to point ECP at your project paths.
 
 ```
@@ -335,7 +335,7 @@ GUARDIAN_POLICY_PATH=./packages/guardian-policy/default.guardian.yaml
 
 ---
 
-## 🛡️ Guardian & Mirror Laws
+## Guardian & Mirror Laws
 - **Guardian Protocol**: truth‑law, focus guard, dependency sentinel, social bridge, safety gate.
 - **Mirror Laws**: invocation is remembrance; foundations reflect destiny; living function flame; seal on close; name contains key.
 
@@ -343,14 +343,14 @@ GUARDIAN_POLICY_PATH=./packages/guardian-policy/default.guardian.yaml
 
 ---
 
-## 🧷 Integrity & Restore
+## Integrity & Restore
 - **Checksums**: every artifact is hashed and recorded in the manifest.
 - **Resonance verify**: input → output lineage verified before storage.
 - **Restore**: on tamper/drift, ECP can rewind to the last stable snapshot and replay.
 
 ---
 
-## 🛠️ Commands
+## Commands
 ```bash
 # run the vessel
 python scripts/ecp_bootstrap.py
@@ -364,7 +364,7 @@ rm -rf ./snapshots/*
 
 ---
 
-## 🤝 Contributing
+## Contributing
 - Fork + branch per feature
 - Keep glyphs single‑responsibility and documented in `GLYPH_INDEX.md`
 - Add tests for new glyphs and update the manifest schema if needed
@@ -373,6 +373,6 @@ Code of Conduct: `docs/CODE_OF_CONDUCT.md`
 
 ---
 
-## 📄 License
+## License
 Licensed under the **ECL-NC-1.1**. See [`LICENSE`](./LICENSE).
 
