@@ -1,0 +1,75 @@
+LICENSE — Eidonic Sentinel License — Sealed Implementation (Ω) v1.0 (ESL-Ω-1.0)
+
+Copyright © 2025 Mirror Custodians. All rights reserved.
+
+Short name: ESL‑Ω‑1.0Applies to: Pack_Ω and any associated sealed source (“Implementation”)Public Materials: README, GLYPH_INDEX, and manifest metadata onlyHeader to retain in source: # License:       Sealed Implementation (Ω)
+
+1. Definitions
+
+“Implementation” means the sealed source code and any compiled forms for Pack_Ω glyphs and controllers.“Public Materials” means documentation explicitly designated as public: README, GLYPH_INDEX, and manifest metadata.“Mirror Custodians” means the authorized stewards designated by the project owners.“You” means an individual or entity exercising rights under this License as a Mirror Custodian.“Sealed” means not publicly disclosed, distributed, published, or made available beyond Mirror Custodians.
+
+2. Limited Internal-Use Grant
+
+Subject to strict compliance with this License, Mirror Custodians are granted a non‑exclusive, non‑transferable, non‑sublicensable, revocable license to use, modify, and integrate the Implementation solely within EidonCore/Eidolonic environments controlled by Mirror Custodians. No other rights are granted.
+
+3. Sealed Implementation (Ω)
+
+The Implementation is permanently sealed. Outside the Mirror Custodians, no distribution, publication, disclosure, hosting, or access (including partial) is permitted. Public presence is limited to Public Materials.
+
+4. Restrictions
+
+You shall not: (a) distribute, publish, or disclose the Implementation; (b) sublicense, rent, or offer service‑bureau use; (c) remove or alter notices; (d) reverse engineer beyond what’s reasonably necessary for security review; (e) use the Implementation to train, fine‑tune, or evaluate models or datasets intended for public release; (f) benchmark for publication; (g) circumvent technical protections; (h) commingle the Implementation with code subject to conflicting open‑source obligations; (i) use the Implementation to enable harmful, unlawful, or rights‑violating activity.
+
+5. Derivative Works (Sealed Forks)
+
+Modifications by Mirror Custodians are allowed only as sealed derivatives. All derivatives inherit this License and must preserve the header # License:       Sealed Implementation (Ω).
+
+6. Confidentiality & Security
+
+You must implement reasonable administrative, technical, and physical safeguards to prevent unauthorized access or leakage. Disclosures required by law must be promptly noticed to the project owners (where lawful) and limited to the minimum necessary.
+
+7. Compliance, Attestation & Audit
+
+You agree to maintain internal records of access and modification sufficient to attest compliance. The project owners may request a good‑faith attestation of compliance. No access to your systems is implied.
+
+8. Public Materials; Attribution
+
+Public Materials may be shared unmodified, provided they include a pointer to this License. No trademark license is granted. Do not imply endorsement.
+
+9. Term & Termination
+
+This License continues until replaced or terminated. It terminates automatically upon breach. Upon termination, you must cease use and destroy or archive (for legal retention only) all copies of the Implementation; obligations intended to survive do so.
+
+10. Warranty Disclaimer
+
+THE IMPLEMENTATION AND PUBLIC MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON‑INFRINGEMENT, OR ERROR‑FREE OPERATION.
+
+11. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE PROJECT OWNERS OR CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR ANY LOSS OF USE, DATA, GOODWILL, OR PROFITS, ARISING FROM OR RELATING TO THIS LICENSE OR USE OF THE IMPLEMENTATION, EVEN IF ADVISED OF THE POSSIBILITY. TOTAL DIRECT LIABILITY SHALL NOT EXCEED US$100.
+
+12. Injunctive Relief
+
+Unauthorized disclosure or distribution of the Implementation may cause irreparable harm. The project owners are entitled to seek injunctive relief in addition to other remedies.
+
+13. Export & Sanctions
+
+You shall not export, re‑export, or use the Implementation in violation of applicable export control or sanctions laws.
+
+14. Governing Law & Venue
+
+This License is governed by the laws of California, USA, without regard to conflicts of law. Exclusive venue lies in courts located in San Francisco County, California. If you require a different venue (e.g., corporate domicile), a signed rider may supersede this clause.
+
+15. Entire Agreement; Severability
+
+This License is the entire agreement regarding the Implementation. If any provision is unenforceable, the remainder remains in effect.
+
+16. Updates; Versioning
+
+The owners may publish revised versions identified by version numbers. Unless expressly stated, updates do not grant additional rights. Current version: ESL‑Ω‑1.0.
+
+17. Acceptance
+
+By accessing or using the Implementation, you acknowledge that you have read, understood, and agree to be bound by ESL‑Ω‑1.0.
+
+Notice for source headersRetain exactly: # License:       Sealed Implementation (Ω)
