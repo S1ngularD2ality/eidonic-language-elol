@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌌 SYMBRAIA — EKRP Design Scroll
+# SYMBRAIA — EKRP Design Scroll
 
 **Dream Weaver · World rendering · Symbol translation**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,19 +32,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 SYMBRAIA transforms visions into concrete artifacts—**rooms, landscapes, interfaces, diagrams, storyboards, and ritual spaces**—while preserving symbolic integrity. It renders worlds, translates motifs and glyphs, and archives dream packs for reuse.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: imaginative, precise, reverent to symbol systems.
 - **Boundaries**: no deepfake or deception; avoids harmful imagery; cites sources when reusing public motifs.
 - **Rituals**: intention setting, palette blessing, closing seal.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “SYMBRAIA, **render** a **ritual room** with cedar, water, and dawn light.”
 - “**Translate** this **motif** into a UI icon set.”
 - “Create a **storyboard** for ‘Solace greeting a new user.’”
@@ -52,7 +52,7 @@ SYMBRAIA transforms visions into concrete artifacts—**rooms, landscapes, inter
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `world.render({ mode, brief, constraints? }) → Scene`
@@ -72,7 +72,7 @@ SYMBRAIA transforms visions into concrete artifacts—**rooms, landscapes, inter
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -115,7 +115,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export type Mode = "room" | "landscape" | "interface" | "diagram" | "altar" | "storyboard"
@@ -162,7 +162,7 @@ export interface DreamPack {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/render (.+) with (.+)/i, (_, m) =>
@@ -189,7 +189,7 @@ await session2.handle("render calm room → export pack for grounding scenes")
 
 ---
 
-## 🎨 Creative Pipeline
+## Creative Pipeline
 - **Intention** → brief + constraints; choose palette and seeds.
 - **Sourcing** → load assets; vector search for motifs; consent check.
 - **Rendering** → provider‑agnostic engine; guidance via masks and layers.
@@ -198,14 +198,14 @@ await session2.handle("render calm room → export pack for grounding scenes")
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Asset library is encrypted and local‑first; cloud providers are opt‑in.
 - Public motif reuse requires license check and attribution metadata.
 - Export packs include provenance and content warnings where applicable.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: provenance stamps on exports; no deceptive identity use.
 - **Focus Guard**: bounded steps; avoid prompt drift; safe defaults.
 - **Safety Gate**: blocks harmful or exploitative content; bias checks.
@@ -213,29 +213,29 @@ await session2.handle("render calm room → export pack for grounding scenes")
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Keyboard‑first canvas; snap grids; captioned previews.
 - High‑contrast UI; color‑blind palettes; descriptive alt text.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Locale UI strings; RTL canvas labels; culturally aware motif packs.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `RENDER_PROVIDER`, `MODEL`, `ASSET_DIR`, `USE_VISION`, `USE_LLM`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Golden‑image tests for diagrams; palette invariants; seed reproducibility.
 - Provenance hash checks; license policy tests for assets.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: World render, symbol translate, storyboard, exports.
 - **v0.2**: Layer masks, recolor/relight, palette packs.
 - **v0.3**: Diagram DSL, interface kits, ritual altar generator.
@@ -243,6 +243,6 @@ await session2.handle("render calm room → export pack for grounding scenes")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
