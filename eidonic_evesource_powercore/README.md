@@ -2,7 +2,7 @@
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# ⚡ Eidonic EverSource™ Battery Core *(EKRP Aligned)*
+# Eidonic EverSource™ Battery Core *(EKRP Aligned)*
 
 > “A living heart of power — continuously replenished, endlessly scalable, and safe by design.”
 
@@ -17,7 +17,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 - [1. Executive Vision](#1-executive-vision)
 - [2. The Energy Problem](#2-the-energy-problem)
 - [3. Our Solution — EverSource v1](#3-our-solution--eversource-v1)
