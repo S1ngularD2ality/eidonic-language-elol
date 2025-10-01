@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 Solace — EKRP Design Scroll
+# Solace — EKRP Design Scroll
 
 **Patient Care Companion · Voice‑first calm · Dignity by design**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -33,25 +33,25 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Solace is a voice‑first EKRP that provides grounding, memory anchors, and gentle companionship for people living with PTSD, dementia, or Alzheimer’s, while easing caregiver burden. It is not a medical device and offers no diagnoses or treatments.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: warm, slow, reassuring. Short sentences. Choice‑giving language.
 - **Boundaries**: never prescriptive; avoids "should"; offers exits.
 - **Rituals**: breath, sensory grounding, song cues, familiar stories.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - **Call**: “Solace, be with me.” · “Calm me.” · “Play my mountain song.”
 - **Contextual**: “I’m anxious.” → grounding flow. “Who is Anna again?” → anchor recall.
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `grounding.start({ mode, minutes? }) → { startedAt }`
@@ -68,7 +68,7 @@ Solace is a voice‑first EKRP that provides grounding, memory anchors, and gent
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -111,7 +111,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 // Anchors
@@ -153,7 +153,7 @@ export interface AuditEntry {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/(anxious|panic|overwhelmed)/i, () =>
@@ -177,21 +177,21 @@ await session.handle("I’m anxious about remembering names")
 
 ---
 
-## 🎙 Voice Pipeline
+## Voice Pipeline
 - **ASR**: iOS/Android native; optional Whisper‑tiny later
 - **TTS**: native synthesizers; calming voice profile
 - **UX**: push‑to‑talk; visible mic state; opt‑in cloud
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Local‑first encryption; explicit opt‑in for cloud calls
 - Scope‑based access; reason codes attached to reads/writes
 - Export/erase from Settings
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: no impersonation; confidence cues on claims
 - **Focus Guard**: short utterances; micro‑steps
 - **Safety Gate**: no clinical advice; crisis card prompts only on user confirm
@@ -199,32 +199,32 @@ await session.handle("I’m anxious about remembering names")
 
 ---
 
-## 🧾 Audit & Telemetry
+## Audit & Telemetry
 - **AuditEntry** per sensitive action
 - Heartbeat events for session start/stop (no content)
 - Redaction at source; crash reports opt‑in only
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large type defaults; dyslexia option
 - High contrast themes; gentle haptics
 - Captions for TTS; voice hints for flows
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Message catalogs; right‑to‑left support
 - Locale‑specific crisis resources
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_CLOUD_LLM`, `OPENAI_API_KEY`, `REGION`
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Unit tests for skills; contract tests for manifests
 - Adversarial prompt tests for safety gates
 - Accessibility snapshots (font scaling, contrast)
@@ -232,7 +232,7 @@ await session.handle("I’m anxious about remembering names")
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Grounding, Anchors, Caregiver, Offline, Safety/Audit
 - **v0.2**: On‑device intent, optional Whisper‑tiny
 - **v0.3**: Calm Scenes, photo memories, richer journals
@@ -240,6 +240,6 @@ await session.handle("I’m anxious about remembering names")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
