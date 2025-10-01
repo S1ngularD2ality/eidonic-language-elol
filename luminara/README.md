@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ Luminara
+# Luminara
 
 **Light the way. Learn your way.**
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 🚀 Highlights
+## Highlights
 - **Modular**: add subjects/units via signed **Packs** (Subject, Unit, ItemBank, ActivityTemplates, AdaptationRecipes, Standards, Locale, Integrations, UIWidgets).
 - **Authorable**: low‑code **LuminaScript** (YAML/JSON) + visual authoring UI for teachers/curriculum teams.
 - **Personalized**: an evidence‑grounded **LSP** adapts *per concept* (not fixed “styles”), with spaced retrieval & knowledge tracing.
@@ -28,7 +28,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Architecture](#-architecture)
 - [Monorepo Layout](#-monorepo-layout)
 - [Quick Start](#-quick-start)
@@ -45,7 +45,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -117,7 +117,7 @@ runpy.run_path(ECP_ENTRY, run_name='__main__')
 
 ---
 
-## 🗂️ Monorepo Layout
+## Monorepo Layout
 ```
 luminara/
 ├─ apps/
@@ -143,7 +143,7 @@ luminara/
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node 20+, PNPM 9+
@@ -180,7 +180,7 @@ pnpm seed:guardian
 
 ---
 
-## 🔧 Configuration
+## Configuration
 Key environment variables (see `.env.example`):
 
 ```
@@ -209,7 +209,7 @@ GUARDIAN_TELEMETRY=true
 
 ---
 
-## 📝 LuminaScript (Authoring DSL)
+## LuminaScript (Authoring DSL)
 Teachers & designers can author in a visual editor that outputs **LuminaScript**.
 
 ```yaml
@@ -251,7 +251,7 @@ adaptation:
 
 ---
 
-## 🧩 Extension SDK
+## Extension SDK
 Build plugins for activities, mappers, and adaptation policies.
 
 ```ts
@@ -284,7 +284,7 @@ export const ConceptModalityPolicy: AdaptivePolicy = {
 
 ---
 
-## 🔗 REST/GraphQL API
+## REST/GraphQL API
 Examples (REST):
 
 ```http
@@ -306,7 +306,7 @@ type Query {
 
 ---
 
-## 🔌 Integrations
+## Integrations
 - **SSO**: federated identity (education context)
 - **Roster Sync**: roster interoperability standard
 - **LMS**: learning tools interoperability standard (deep‑linking, grade passback)
@@ -314,7 +314,7 @@ type Query {
 
 ---
 
-## ♿ Accessibility & Equity
+## Accessibility & Equity
 - UDL‑aligned variants; font scaling, dyslexia‑friendly fonts, captions, narration
 - Language support (bilingual prompts, localized examples)
 - Low‑bandwidth mode & offline content packs
@@ -322,7 +322,7 @@ type Query {
 
 ---
 
-## 🔒 Privacy & Safety
+## Privacy & Safety
 - **Data minimization**; local processing where possible; encrypted sync
 - **COPPA/FERPA‑aligned** consent & data lifecycle
 - **Student guardrails**: curated item banks, template‑based generation, age filters
@@ -330,7 +330,7 @@ type Query {
 
 ---
 
-## 🛡️ Guardian Protocol
+## Guardian Protocol
 Luminara ships with the **Guardian Protocol v1** enabled by default—implemented via the **Elol Guardian** enforcement layer.
 
 **Core Behaviors**
@@ -395,7 +395,7 @@ export async function guardedGenerate(userMsg, ctx) {
 
 ---
 
-## 🪞 Mirror Laws
+## Mirror Laws
 **Status:** Enabled at the substrate. Luminara enforces Mirror Laws I–VIII across generation, storage, and sync.
 
 **Operational Encodings (examples)**
@@ -419,14 +419,14 @@ mirror_laws:
 
 ---
 
-## 🛣️ Roadmap
+## Roadmap
 - **MVP**: Fractions SubjectPack, diagnostics, concept map, auto small‑groups, spaced retrieval
 - **Pilot**: ELA reading comp, locale pack (EN/ES), policy‑driven integrations
 - **Scale**: Family portal, analytics for districts, pack marketplace, research API
 
 ---
 
-## 🤝 Contributing
+## Contributing
 We welcome issues, PRs, and district partnerships.
 1. Read `docs/contributing.md`
 2. Follow commit conventions (`feat:`, `fix:`, `docs:`)
@@ -436,12 +436,12 @@ Code of Conduct: `docs/CODE_OF_CONDUCT.md`
 
 ---
 
-## 📄 License
+## License
 Licensed under the **ECL-NC-1.1**. See [`LICENSE`](./LICENSE).
 
 ---
 
-## 🌱 Acknowledgements
+## Acknowledgements
 Educators, learners, and families who co‑design this journey. And the open‑source community whose tools make this possible.
 
 > *“Illuminate without illusion, adapt without erasing, and always keep the teacher’s wisdom at the helm.”*
