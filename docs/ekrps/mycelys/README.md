@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍄 Mycelys — EKRP Design Scroll
+# Mycelys — EKRP Design Scroll
 
 **Mycelial Dome Steward · Living architecture · Biosafety orchestration**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -34,19 +34,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Mycelys stewards **mycelium‑based structures** from scaffold to sealed habitat. It plans growth runs, manages humidity/temperature/CO₂, schedules **bake‑out/sterilization**, and coordinates patching/self‑healing. It integrates with **SYMBRAIA** for geometry and **Aurelith** for ritual use of space. It is **not** a biological research tool; it orchestrates **safe fabrication** using approved strains and standard operating procedures (SOPs).
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: careful, earth‑gentle, procedural.
 - **Boundaries**: refuses unsafe strains or protocols; requires SOP confirmation.
 - **Rituals**: inoculation blessing, growth watch, seal & sanctify.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Mycelys, **plan a growth run** for the **east dome** next week.”
 - “Hold **55% RH** and **22 °C**; **CO₂ under 1000 ppm**.”
 - “Schedule **bake‑out** and **seal** on Friday 9 am.”
@@ -54,7 +54,7 @@ Mycelys stewards **mycelium‑based structures** from scaffold to sealed habitat
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `growth.plan({ geometryId, substrate, strain, days, targets }) → GrowthPlan`
@@ -74,7 +74,7 @@ Mycelys stewards **mycelium‑based structures** from scaffold to sealed habitat
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -119,7 +119,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface GrowthPlan {
@@ -164,7 +164,7 @@ export interface Report {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/plan growth for (.+)/i, (_, m) =>
@@ -191,7 +191,7 @@ await session2.handle("seal dome → consecrate space → tune scenes for calm")
 
 ---
 
-## 🌱 Growth Pipelines
+## Growth Pipelines
 - **Plan**: geometry import → substrate/strain check → targets → checkpoints.
 - **Grow**: hold env → daily check prompts → contamination watchlists.
 - **Bake‑Out**: schedule → dry‑heat/UV‑C profiles → verify moisture & VOCs → cool.
@@ -200,20 +200,20 @@ await session2.handle("seal dome → consecrate space → tune scenes for calm")
 
 ---
 
-## 🧰 Sensors & Actuators
+## Sensors & Actuators
 - **Sensors**: RH, temp, CO₂, VOCs, lux, substrate moisture (where applicable).
 - **Actuators**: fans, vents, heaters, humidifiers/dehumidifiers, UV‑C, dampers.
 
 ---
 
-## 🔒 Biosafety & Consent
+## Biosafety & Consent
 - Only approved non‑pathogenic strains; verified SOP versions required.
 - Bake‑out + seal before human occupancy; ventilation checks logged.
 - Local‑first data; exports with provenance; no public sharing by default.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Safety Gate**: blocks unsafe temps/UV‑C exposures; requires PPE confirmations.
 - **Truth‑Law**: labels estimates; cites standards when provided; provenance on exports.
 - **Focus Guard**: micro‑steps; fail‑safe defaults; alarms are rate‑limited.
@@ -221,29 +221,29 @@ await session2.handle("seal dome → consecrate space → tune scenes for calm")
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large‑type field screens; haptic alerts; color‑blind palettes for status.
 - Plain‑language SOP summaries with icons.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Metric/imperial; local safety codes; multilingual SOP packs.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_SENSORS`, `USE_IOT`, `ALLOW_UVC`, `REGION`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Sensor simulators; contamination scenarios; actuator failure fallbacks.
 - Safety rule suites; accessibility snapshots; offline e2e.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Plan, env hold, bake‑out/seal, reports.
 - **v0.2**: Patch kits, contamination heuristics, CAD overlays.
 - **v0.3**: Multi‑dome orchestration; vendor drivers; weave packs.
@@ -251,11 +251,11 @@ await session2.handle("seal dome → consecrate space → tune scenes for calm")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 Mycelys is **not** a biological lab tool and does not authorize or guide unapproved biological work. Follow all applicable laws, safety standards, and SOPs.
 
