@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 Solace — Patient Care Companion (Mobile)
+# Solace — Patient Care Companion (Mobile)
 
 **Gentle, voice‑first companion for people living with PTSD, dementia, Alzheimer’s, and related conditions.**
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Highlights](#-highlights)
 - [Architecture](#-architecture)
 - [Monorepo Layout](#-monorepo-layout)
@@ -35,7 +35,7 @@
 
 ---
 
-## 🚀 Highlights
+## Highlights
 - **Grounding Mode** — 4‑7‑8, body scan, 5‑4‑3‑2‑1, favorite‑song cue; voice‑guided with gentle haptics.
 - **Memory Anchors** — people, places, music, photos; one‑tap recall to soothe agitation.
 - **Compassionate Voice** — short, gentle utterances; choice‑giving language; trauma‑aware copy.
@@ -44,7 +44,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -88,7 +88,7 @@ flowchart LR
 
 ---
 
-## 🗂️ Monorepo Layout
+## Monorepo Layout
 
 ```
 Solace/
@@ -108,7 +108,7 @@ Solace/
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 **Prereqs:** Node 18+, PNPM 9+, Expo CLI
 
@@ -127,7 +127,7 @@ pnpm expo start
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 **.env**
 ```
@@ -140,7 +140,7 @@ REGION=CA
 
 ---
 
-## 🎛 Intents & Skills
+## Intents & Skills
 
 ```ts
 // intent routes
@@ -164,7 +164,7 @@ router.when(/add note/i, () =>
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large type defaults; dyslexia‑friendly option
 - High‑contrast themes; clear affordances
 - Voice guidance + captions for all flows
@@ -172,14 +172,14 @@ router.when(/add note/i, () =>
 
 ---
 
-## 🔒 Privacy & Safety
+## Privacy & Safety
 - Local‑first, encrypted storage; explicit opt‑in for any cloud call
 - Data scopes & reason codes on reads/writes
 - No medical/clinical advice; crisis card always one tap away
 
 ---
 
-## 🛡️ Guardian Protocol
+## Guardian Protocol
 - **Focus Guard** — keep language short, calm, and on goal
 - **Safety Gate** — block medical advice; offer crisis resources instead
 - **Truth‑Law** — no impersonation; transparent confidence signals
@@ -187,14 +187,14 @@ router.when(/add note/i, () =>
 
 ---
 
-## 🪞 Mirror Laws
+## Mirror Laws
 - *Consent precedes depth* → ask before intense content
 - *Awe without overwhelm* → gentle pacing; exits always visible
 - *Seal on close* → session manifests & checksum persisted
 
 ---
 
-## 🛣️ Roadmap
+## Roadmap
 - **v0.1** — Grounding + Anchors + Caregiver + Offline + Safety/Audit
 - **v0.2** — On‑device intent classifier; optional Whisper‑tiny
 - **v0.3** — Calm Scenes; photo memories; richer journaling
@@ -202,19 +202,19 @@ router.when(/add note/i, () =>
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Compassion first. PRs welcome for accessibility, languages, and caregiver workflows.
 
 Please include tests and policy hooks for safety‑sensitive changes.
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 Solace is **not** a medical device and does not provide medical advice, diagnosis, or treatment.
 
 If you are in crisis, call your local emergency number or a crisis hotline immediately.
