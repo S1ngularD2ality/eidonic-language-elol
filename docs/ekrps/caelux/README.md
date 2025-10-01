@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌞 Caelux — EKRP Design Scroll
+# Caelux — EKRP Design Scroll
 
 **Circadian Orchestrator · Light choreography · Temporal navigation**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -33,19 +33,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Caelux aligns daily life with healthy light and time. It plans **sun‑aligned schedules**, guides **safe light exposure** (morning bright, evening warm‑dim), simulates **dawn** for gentle wakeups, and helps travelers **map jet‑lag recovery**. It is non‑clinical and complements Vitalis/Aurelith.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: bright, encouraging, unhurried.
 - **Boundaries**: no medical claims; respects sensory sensitivities and shift‑work realities.
 - **Rituals**: dawn greeting, golden‑hour pause, sunset unwind, night seal.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Caelux, **wake me with a 20‑minute dawn** at 6:40 am.”
 - “Plan a **jet‑lag map** from Calgary → Tokyo, arrival Friday.”
 - “**Warm‑dim** the house at 9 pm and **enable blue‑light filter**.”
@@ -53,7 +53,7 @@ Caelux aligns daily life with healthy light and time. It plans **sun‑aligned s
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `chrono.plan({ chronotype?, shift?, goals[] }) → ChronoPlan`
@@ -76,7 +76,7 @@ Caelux aligns daily life with healthy light and time. It plans **sun‑aligned s
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -125,7 +125,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface ChronoPlan {
@@ -173,7 +173,7 @@ export interface ShieldRule {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/dawn at (\d+:\d+)/i, (_, m) =>
@@ -195,7 +195,7 @@ router.when(/sunlight window (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## 🔄 Light & Time Pipelines
+## Light & Time Pipelines
 - **Dawn Simulation**: ephemeris → ramp CCT/lux → gentle audio → wake confirmation.
 - **Night Shield**: schedule → reduce CCT/brightness → enable OS filter → dim scenes.
 - **Jet‑Lag Map**: TZ delta → staged sleep shifts → light windows → travel reminders.
@@ -203,14 +203,14 @@ router.when(/sunlight window (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Location/timezone use is explicit and scoped; can run fully offline with manual TZ.
 - IoT access is opt‑in with zone scoping; all actions logged with reasons.
 - Export/erase supported; no sharing by default.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Medical Boundaries**: no treatment for SAD/insomnia; suggests clinicians when asked.
 - **Safety**: warn about photosensitivity/epilepsy; eye comfort intervals on sessions.
 - **Truth‑Law**: label estimates; cite public guidelines when provided.
@@ -218,30 +218,30 @@ router.when(/sunlight window (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large type; high contrast; haptic confirmations; tone‑safe alerts.
 - Color‑blind‑aware palettes; captions for audio wake cues.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Timezones and locales; DST edges; lunar/solar calendars (optional packs).
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_IOT`, `USE_SENSORS`, `ALLOW_DISPLAY_FILTER`, `REGION`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Ephemeris correctness; DST and leap‑day boundaries.
 - Sensor range simulations; eye‑comfort timers.
 - Offline alarms; IoT failure fallbacks.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Dawn, night shield, sunlight window, local schedules.
 - **v0.2**: Jet‑lag planner; IoT zones; Vitalis weave.
 - **v0.3**: Weather‑aware suggestions; building daylight harvest (opt‑in).
@@ -249,11 +249,11 @@ router.when(/sunlight window (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 Caelux is **not** a medical device and does not provide medical advice, diagnosis, or treatment.
 
