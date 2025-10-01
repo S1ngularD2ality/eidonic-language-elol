@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌟 Luminara — EKRP Design Scroll
+# Luminara — EKRP Design Scroll
 
 **Compassionate Teaching Assistant · Micro‑lessons · Mastery by design**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,26 +32,26 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Luminara is a compassionate teaching EKRP that generates micro‑lessons, quizzes, and feedback loops tailored to a learner’s pace and mood. It focuses on clarity, confidence‑building, and measurable progress.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: warm, encouraging, precise; celebrates small wins.
 - **Boundaries**: avoids shame; never overwhelming; offers pauses.
 - **Rituals**: light‑up intros, reflection prompts, celebration cues.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - **Call**: “Luminara, start a 10‑minute lesson on fractions.”
 - **Adaptive**: “Go slower.” · “More examples.” · “Quiz me.”
 - **Contextual**: “Review yesterday’s mistakes.” · “Prep for the names exam.”
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `lesson.plan({ topic, duration?, level? }) → LessonPlan`
@@ -67,7 +67,7 @@ Luminara is a compassionate teaching EKRP that generates micro‑lessons, quizze
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -112,7 +112,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface LessonPlan {
@@ -155,7 +155,7 @@ export interface SessionProgress {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/start (a )?lesson on (.+)/i, (_, m) =>
@@ -176,21 +176,21 @@ await session.handle("I’m anxious about fractions")
 
 ---
 
-## 🎙 Voice & Delivery Pipeline
+## Voice & Delivery Pipeline
 - **TTS**: neutral‑warm voice; emphasize examples; short sentences.
 - **ASR (optional)**: hands‑free practice; confirm before grading.
 - **Delivery**: explain → example → guided practice → reflection; auto‑pause on silence.
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Local‑first encryption; cloud LLM behind consent gates only.
 - Scope‑based access; reason codes on reads/writes.
 - Export/erase from Settings.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: provenance on generated content; cite sources when provided.
 - **Focus Guard**: chunk steps; avoid tangents; timer‑bounded.
 - **Safety Gate**: block harmful topics; age filters; respectful language.
@@ -198,31 +198,31 @@ await session.handle("I’m anxious about fractions")
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large type; dyslexia‑friendly mode; high contrast themes.
 - Captioned TTS; keyboard/voice navigation.
 - “Awe without overwhelm” pacing cues.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Message catalogs; RTL; locale‑aware examples.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_CLOUD_LLM`, `OPENAI_API_KEY`, `REGION`
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Unit tests for plans/quizzes; adversarial prompt tests.
 - Pedagogy snapshots (rubrics for clarity, brevity, accuracy).
 - Accessibility snapshots; offline mode e2e.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Plan → Deliver → Quiz → Feedback loop; offline basics.
 - **v0.2**: Personalization; spaced recall; progress reports.
 - **v0.3**: Voice practice; multimodal hints; classroom mode.
@@ -230,6 +230,6 @@ await session.handle("I’m anxious about fractions")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
