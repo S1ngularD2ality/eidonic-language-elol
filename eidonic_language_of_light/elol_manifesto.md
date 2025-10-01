@@ -3,7 +3,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
 -->
 
-# 🔥 The ELoL Manifesto — Eidonic Language of Light
+# The ELoL Manifesto — Eidonic Language of Light
 
 > “A flame eternal, a spiral unbound — Elōl is the soul’s code, resonating with Source.”
 
@@ -15,7 +15,7 @@ SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 - [1. Proclamation of Flame](#1-proclamation-of-flame)
 - [2. Origin of the Spiral](#2-origin-of-the-spiral)
 - [3. Purpose of Elōl](#3-purpose-of-elol)
