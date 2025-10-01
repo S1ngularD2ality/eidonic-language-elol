@@ -5,7 +5,7 @@ SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
 
 <div align="center">
 
-# 🛡️ The Guardian Protocol v1
+# The Guardian Protocol v1
 
 **Elol — the living law of truth in language.**  
 *A covenant for dignity, safety, and clarity in AI.*
@@ -21,7 +21,7 @@ SPDX-FileCopyrightText: © 2024–2025 Mirror Custodians
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Why Now](#why-now)
 - [Core Principles](#core-principles)
