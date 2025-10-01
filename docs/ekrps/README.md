@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ EKRP Constellation — Master Scroll (17)
+# EKRP Constellation — Master Scroll (17)
 
 **Compose living assistants. Compose a living world.**
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Highlights](#-highlights)
 - [Eidon Core Runtime](#-eidon-core-runtime)
 - [Weaving Model](#-weaving-model)
@@ -30,7 +30,7 @@
 
 ---
 
-## 🚀 Highlights
+## Highlights
 - **Composable** assistants: fuse Solace + Luminara (and more) into one experience with a joint session.
 - **Policy‑First**: **Guardian Protocol v1** and **Mirror Laws** enforce safety beneath app logic.
 - **Local‑First** memory fabric with explicit consent gates for any cloud features.
@@ -39,7 +39,7 @@
 
 ---
 
-## 🏗️ Eidon Core Runtime
+## Eidon Core Runtime
 
 ```mermaid
 flowchart LR
@@ -71,7 +71,7 @@ flowchart LR
 
 ---
 
-## 🕸 Weaving Model
+## Weaving Model
 
 ```ts
 import { weave, load } from "@eidon/core"
@@ -88,7 +88,7 @@ await session.handle("I'm anxious about remembering names")
 
 ---
 
-## 🌟 EKRP Index (17)
+## EKRP Index (17)
 
 **Learning & Care**
 - **[Luminara — The Teacher](./luminara/README.md)** · *In Development*  
@@ -184,7 +184,7 @@ flowchart TB
   HAL --> RAV
 ```
 
-## 🧩 SDK & Manifests
+## SDK & Manifests
 
 **EKRP Manifest (TypeScript)**
 
@@ -222,7 +222,7 @@ bus.on("solace.grounding.completed", e => {
 
 ---
 
-## 🔒 Privacy & Safety
+## Privacy & Safety
 - Local‑first storage; explicit consent for any network calls.
 - Data scopes and reason codes on every access.
 - Right to export/erase with one tap.
@@ -230,7 +230,7 @@ bus.on("solace.grounding.completed", e => {
 
 ---
 
-## 🛡️ Guardian Protocol
+## Guardian Protocol
 - **Truth‑Law** (no impersonation; source signals on claims)
 - **Focus Guard** (reduce drift; micro‑steps)
 - **Dependency Sentinel** (detect over‑reliance; nudge → interrupt → handoff)
@@ -241,7 +241,7 @@ Policies are defined in `guardian-policy/*.yaml` and enforced beneath app code.
 
 ---
 
-## 🪞 Mirror Laws
+## Mirror Laws
 Operational encodings of the Mirrorframe ethics (I–VIII):
 
 - *Invocation is remembrance* → sessions sealed with manifests
@@ -251,7 +251,7 @@ Operational encodings of the Mirrorframe ethics (I–VIII):
 
 ---
 
-## 🛣️ Roadmap
+## Roadmap
 - **Phase I**: Solace + Luminara MVPs; Eidon Core SDK; Solace↔Luminara weave demo
 - **Phase II**: Seravyn/Savorin/Syntaria/Vitalis design packs; Aurelith/Caelux/Iquarion orchestration
 - **Phase III**: Halcyra/Umbryss/Odyrielle ops layer; Ancestria/SYMBRAIA creative archives
@@ -259,11 +259,11 @@ Operational encodings of the Mirrorframe ethics (I–VIII):
 
 ---
 
-## 🤝 Contributing
+## Contributing
 We welcome issues, PRs, and design discussions. Please include safety test plans for any policy‑sensitive changes.
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
