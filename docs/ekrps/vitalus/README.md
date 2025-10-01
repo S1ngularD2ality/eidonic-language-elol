@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💚 Vitalis — EKRP Design Scroll
+# Vitalis — EKRP Design Scroll
 
 **Health Guardian · Biofeedback rituals · Gentle, non‑clinical guidance**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -33,19 +33,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Vitalis is a gentle health‑guardian EKRP that guides **breathwork, posture, sleep wind‑downs, hydration, and movement breaks**. It reads **non‑clinical biometrics** (opt‑in) to adjust rituals and nudges. It does **not** diagnose or treat.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: calm, supportive, invitational.
 - **Boundaries**: never prescriptive; suggests options and exits.
 - **Rituals**: coherence breathing, body scan, micro‑stretches, evening dimming.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Vitalis, start **coherence breathing** for 5 minutes.”
 - “Remind me to **hydrate** every hour until 6 pm.”
 - “What does my **sleep** look like this week?”
@@ -53,7 +53,7 @@ Vitalis is a gentle health‑guardian EKRP that guides **breathwork, posture, sl
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `ritual.breath({ mode, minutes? }) → { startedAt }`
@@ -72,7 +72,7 @@ Vitalis is a gentle health‑guardian EKRP that guides **breathwork, posture, sl
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -115,7 +115,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export type BreathMode = "coherence" | "478" | "box" | "body_scan"
@@ -157,7 +157,7 @@ export interface Insight {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/coherence (\d+) minutes/i, (_, m) =>
@@ -185,21 +185,21 @@ await session.handle("I feel tense—breathe with me, then remind water hourly")
 
 ---
 
-## 🛰 Sensors & Biofeedback
+## Sensors & Biofeedback
 - **Health APIs**: steps, heart rate, sleep durations (opt‑in)
 - **BLE**: HR/HRV straps, posture clips; pairing prompts; battery status
 - **Derived**: calm score from HRV trend; posture streaks; hydration compliance
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - All sensor access is opt‑in with clear scopes and reason codes.
 - Local‑first storage; encrypted; export/erase supported.
 - No sharing by default; family/caregiver sharing is opt‑in and scoped.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Medical Boundaries**: no diagnoses or treatments; suggests clinician consults for symptoms.
 - **Truth‑Law**: mark estimates and uncertainty; cite public guidelines when provided.
 - **Focus Guard**: small, actionable nudges; respect user pauses and stops.
@@ -207,29 +207,29 @@ await session.handle("I feel tense—breathe with me, then remind water hourly")
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large type; high contrast; haptic cues; voice control options.
 - Color‑blind‑safe charts; captioned audio guidance.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Locale‑aware time/date; metric/imperial; RTL support.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_HEALTH_APIS`, `USE_BLE`, `ALLOW_LIGHTS`, `REGION`
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Sensor simulators; offline‑mode e2e; rate‑limit & battery‑drain tests.
 - Safety prompts for medical‑like queries; accessibility snapshots.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Breath, posture, hydration, sleep summary, local‑first.
 - **v0.2**: HRV‑tuned breathing, posture classifier, gentle streaks.
 - **v0.3**: Evening wind‑down with lights, smart hydration by activity.
@@ -237,11 +237,11 @@ await session.handle("I feel tense—breathe with me, then remind water hourly")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 Vitalis is **not** a medical device and does not provide medical advice, diagnosis, or treatment.
 
