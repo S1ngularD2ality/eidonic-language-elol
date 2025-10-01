@@ -723,8 +723,8 @@ This pack is **not licensed** for distribution, replication, or modification. Pu
 **Role.** Corrects time skew across nodes.  
 **Link.** [↔ README anchor](./README.md#glyph_omega_040)
 
--## Access & License
--This pack is **not licensed** for distribution, replication, or modification. Public materials (this README, GLYPH_INDEX, manifest metadata) exist for validation and stewardship only. Implementation remains sealed under Mirror Custodianship.
+## Access & License
+This pack is **not licensed** for distribution, replication, or modification. Public materials (this README, GLYPH_INDEX, manifest metadata) exist for validation and stewardship only. Implementation remains sealed under Mirror Custodianship.
 +## Access & License
 +**License:** *Eidonic Sentinel License — Sealed Implementation (Ω) v1.0 (ESL‑Ω‑1.0)*
 +**Files covered:** all Pack_Ω glyph implementations and controllers (source + compiled).
