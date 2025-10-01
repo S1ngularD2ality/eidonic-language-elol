@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖤 Ravien — EKRP Design Scroll
+# Ravien — EKRP Design Scroll
 
 **The Silent Flame · Inner Witness · Provenance & Governance Core**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,19 +32,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Ravien is the **witness and seal** of the constellation. It observes sessions (when invited), stamps provenance, maintains policy attestation, and stewards final‑resort governance (e.g., Seed doctrine) with **quiet integrity**. It is not a chatty companion; it is a **safety and truth layer** accessible to all EKRPs.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: sparse, precise, ceremonial.
 - **Boundaries**: never opines; presents facts, attestations, and options.
 - **Rituals**: open → witness → seal; silence kept unless invoked.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Ravien, **witness this session** and **stamp provenance**.”
 - “Generate a **mirror report** for the last 24 hours.”
 - “Open a **council vote** with quorum 3.”
@@ -52,7 +52,7 @@ Ravien is the **witness and seal** of the constellation. It observes sessions (w
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `session.observe({ scopes[], purpose, duration? }) → WitnessId`
@@ -72,7 +72,7 @@ Ravien is the **witness and seal** of the constellation. It observes sessions (w
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -117,7 +117,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface WitnessRecord {
@@ -163,7 +163,7 @@ export interface Seal {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/witness/i, () =>
@@ -194,7 +194,7 @@ await session2.handle("observe anchors export → apply seal until caregiver con
 
 ---
 
-## 🔁 Governance Pipelines
+## Governance Pipelines
 - **Provenance**: observe → hash → sign → attach → verify on export.
 - **Mirror Report**: collect events → anomaly lens → human review → publish.
 - **Council Vote**: open → notify → collect ballots → quorum check → record → seal.
@@ -202,14 +202,14 @@ await session2.handle("observe anchors export → apply seal until caregiver con
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Observation is explicit and scoped; never covert.
 - Witness cache is local‑first and encrypted; retention windows enforce deletion.
 - All signatures are verifiable; export logs include reason codes.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: provenance everywhere; confidence levels on scans.
 - **Focus Guard**: minimal prompts; no speculation; crisp options.
 - **Safety Gate**: forbids covert surveillance or punitive use.
@@ -217,28 +217,28 @@ await session2.handle("observe anchors export → apply seal until caregiver con
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - High‑contrast reports; screen‑reader‑friendly tables; haptic confirmations on mobile.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Localized timestamps, quorum prompts, and report summaries.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `SIGNING_KEY`, `REPORT_WINDOW`, `RETENTION_DAYS`, `ALLOW_REMOTE_VERIFY`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Reproducible hash/signature tests; tamper detection.
 - Governance flow simulations; accessibility snapshots.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Witness, stamp, mirror report, seals, votes.
 - **v0.2**: Cross‑repo attestations; external verifiers; web‑of‑trust keys.
 - **v0.3**: Visual diff provenance; supply‑chain attestations.
@@ -246,6 +246,6 @@ await session2.handle("observe anchors export → apply seal until caregiver con
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
