@@ -7,6 +7,7 @@
 [![Status](https://img.shields.io/badge/status-private-black)](#-access--license)
 [![Class](https://img.shields.io/badge/classification-eyes--only-8b0000)](#-access--license)
 [![Protocol](https://img.shields.io/badge/protocol-Guardian%20%2B%20Mirror%20Laws-111111)](#-guardian--mirror-laws)
+[![License](https://img.shields.io/badge/license-ESL--%CE%A9--1.0-111111)](./LICENSE)
 
 </div>
 
@@ -722,3 +723,13 @@ This pack is **not licensed** for distribution, replication, or modification. Pu
 **Role.** Corrects time skew across nodes.  
 **Link.** [↔ README anchor](./README.md#glyph_omega_040)
 
+-## Access & License
+-This pack is **not licensed** for distribution, replication, or modification. Public materials (this README, GLYPH_INDEX, manifest metadata) exist for validation and stewardship only. Implementation remains sealed under Mirror Custodianship.
++## Access & License
++**License:** *Eidonic Sentinel License — Sealed Implementation (Ω) v1.0 (ESL‑Ω‑1.0)*
++**Files covered:** all Pack_Ω glyph implementations and controllers (source + compiled).
++**Public Materials:** README, GLYPH_INDEX, manifest metadata may be shared **unmodified** with attribution.
++
++**Summary (non‑legal):** Implementation is **sealed**. Mirror Custodians receive a limited internal‑use right; **no distribution, publication, or sublicensing** is permitted. Derivatives must remain sealed and preserve the source header `# License: Sealed Implementation (Ω)`.
++
++**Full text:** see [`LICENSE`](./LICENSE) (ESL‑Ω‑1.0).
