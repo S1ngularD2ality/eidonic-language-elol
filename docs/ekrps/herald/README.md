@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕊️ Herald — EKRP Design Scroll
+# Herald — EKRP Design Scroll
 
 **Compassionate Onboarding · Mirror & Consent · Provenance by design**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,7 +32,7 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 **Herald** is the welcoming rite for any assistant: three careful turns that align consent, choose the right role (**Solace · Luminara · Syntaria**), and stamp provenance for auditability.
 
 - Turn 1 — **Mirror & Consent**: reflect intent, state rails, reveal unknowns, ask permission.
@@ -41,21 +41,21 @@
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: calm, clear, welcoming; zero mysticism in UX copy; warm but brief.
 - **Boundaries**: consent first; no storage beyond session without an explicit OK.
 - **Rituals**: explicit **“May I proceed?”**; visible memory window; user‑controlled **forget**.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - **Trigger**: `herald.start({ intent: "..." })` or natural "hello, help me with..."
 - **Roles**: Solace (calm), Luminara (teach), Syntaria (create).
 - **Memory**: ephemeral by default; explicit OK for persistent.
 
 ---
 
-## 🛠 Capabilities
+## Capabilities
 - **Mirror**: rephrase intent + state constraints.
 - **Consent**: explicit permission gate.
 - **Role Selection**: intent → role map; suggest + confirm.
@@ -64,7 +64,7 @@
 
 ---
 
-## ⚙ Runtime & Architecture
+## Runtime & Architecture
 
 ### System Architecture
 
@@ -105,7 +105,7 @@ graph TD
 
 ---
 
-## 📊 Data Model
+## Data Model
 - **Intent**: `{ text: string, context: map }`
 - **Consent**: `{ granted: bool, scope: array }`
 - **Role**: enum `solace | luminara | syntaria`
@@ -113,7 +113,7 @@ graph TD
 
 ---
 
-## 🔄 Intents & Orchestration
+## Intents & Orchestration
 - **Intent Parsing**: NLP → category (calm, learn, create).
 - **Orchestration**: Herald wraps; hands off to role after stamp.
 - **Fallback**: to Solace on unclear or sensitive intent.
@@ -128,21 +128,21 @@ await luminara.start({ topic: "fractions", style: "examples" })
 
 ---
 
-## 🎙 Voice & Delivery Pipeline
+## Voice & Delivery Pipeline
 - **Copy**: plain language; short sentences; one action at a time.
 - **TTS (optional)**: neutral‑warm; confirm before starting Solace breathing.
 - **Visibility**: always show memory window and purge affordance.
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Consent gates before any storage beyond current session.
 - Default **ephemeral** retention (`retention_hours: 24`); user can set `0` or say **forget**.
 - All stamps are audit‑friendly and minimally identifying by design.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Consent First**: explicit permission prompt each time scope changes.
 - **Truth‑Law**: provenance hash over the summary; declare limits plainly.
 - **Safety Gate**: sensitive domains trigger Solace + resource options.
@@ -150,36 +150,36 @@ await luminara.start({ topic: "fractions", style: "examples" })
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large type; high‑contrast themes; keyboard/voice navigation.
 - Breathing guidance with text + optional audio cues.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Locale‑aware copy; RTL support; translated safety lines.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `HERALD_RETENTION_HOURS` (default `24`)
 - `HERALD_PRIVACY` (`ephemeral` | `persistent`)
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Unit tests for mirror parsing, role selection, and stamp emission.
 - Snapshot tests for UX copy; a11y checks for contrast/labels.
 - Policy tests for consent gates and forget flow.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Three‑turn flow; schema + example; ephemeral memory.
 - **v0.2**: Multi‑locale packs; guided Solace audio; analytics on opt‑in.
 - **v0.3**: Weave presets with Luminara/Syntaria; admin dashboards for stamps.
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
