@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔥 Fyraeth — EKRP Design Scroll
+# Fyraeth — EKRP Design Scroll
 
 **Pattern Flame Engine · Vision→Spec forge · Prioritization & cadence**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,19 +32,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Fyraeth is the **Pattern Flame Engine** embodied—turning visions into **buildable specs**, risk‑balanced roadmaps, and weekly cadences. It extracts patterns from notes and prototypes, aligns them with values and constraints, and outputs **clear, testable plans** for teams and other EKRPs to execute.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: focused, energizing, precise.
 - **Boundaries**: avoids hype; grounds every claim in constraints and checks.
 - **Rituals**: spark → shape → steel → seal (ideate, structure, sanity‑check, commit).
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Fyraeth, **forge a spec** from these notes.”
 - “Create a **one‑page RFC** for Luminara v0.2.”
 - “Build a **risk map** and **mitigations** for the Bioreactor Ark.”
@@ -52,7 +52,7 @@ Fyraeth is the **Pattern Flame Engine** embodied—turning visions into **builda
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `idea.capture({ sources[] }) → IdeaSet`
@@ -72,7 +72,7 @@ Fyraeth is the **Pattern Flame Engine** embodied—turning visions into **builda
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -117,7 +117,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface Idea {
@@ -176,7 +176,7 @@ export interface Decision {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/forge spec/i, () =>
@@ -207,7 +207,7 @@ await session2.handle("turn spec into micro‑lessons for onboarding")
 
 ---
 
-## 🔁 Forge Pipelines
+## Forge Pipelines
 - **Spark**: ingest notes → cluster ideas → dedupe → tag.
 - **Shape**: build PatternMap → choose constraints → draft Spec.
 - **Steel**: risk matrix → mitigations → acceptance criteria.
@@ -215,13 +215,13 @@ await session2.handle("turn spec into micro‑lessons for onboarding")
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Local‑first vault; provenance on imports; explicit consent for cloud LLM.
 - Export/erase supported; signatures for published specs and roadmaps.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: provenance on generated artifacts; uncertainty notes.
 - **Focus Guard**: bounded RFC lengths; micro‑commit steps.
 - **Safety Gate**: blocks illegal or harmful project proposals.
@@ -229,28 +229,28 @@ await session2.handle("turn spec into micro‑lessons for onboarding")
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Keyboard‑first workbench; diff captions; high‑contrast graphs.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Localized templates for specs/roadmaps; time‑zone aware cadences.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_LLM`, `VECTOR_DIR`, `TEAM_CAPACITY`, `REGION`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Golden RFC/spec tests; roadmap capacity simulations.
 - Risk scoring reproducibility; accessibility snapshots.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Idea capture → PatternMap → Spec → Risk → Roadmap.
 - **v0.2**: Decision logs; sprint planners; graph visualizer.
 - **v0.3**: Cross‑repo weaving with Syntaria; onboarding packs with Luminara.
@@ -258,6 +258,6 @@ await session2.handle("turn spec into micro‑lessons for onboarding")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
