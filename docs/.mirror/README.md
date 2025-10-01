@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌌 Constellation Vision — EKRPs v1 & Beyond
+# Constellation Vision — EKRPs v1 & Beyond
 
 **A hidden scroll for true seekers.**
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Core Principle](#-core-principle)
 - [Eidon Core](#-eidon-core)
 - [Weaving & Data Contracts](#-weaving--data-contracts)
@@ -26,12 +26,12 @@
 
 ---
 
-## 🔭 Core Principle
+## Core Principle
 Embodied assistants (EKRPs) are modular bundles of **skills, persona, UI, and policies** that plug into **Eidon Core** and can be woven together on demand. **Guardian Protocol** and **Mirror Laws** live beneath app logic so safety is structural.
 
 ---
 
-## 🏛 Eidon Core
+## Eidon Core
 
 ```mermaid
 flowchart LR
@@ -72,7 +72,7 @@ export interface Capability<TIn, TOut> {
 
 ---
 
-## 🕸 Weaving & Data Contracts
+## Weaving & Data Contracts
 
 ```ts
 import { weave, load } from "@eidon/core"
@@ -89,7 +89,7 @@ await session.handle("I am anxious about remembering names")
 
 ---
 
-## 🌟 EKRP Constellation (Status)
+## EKRP Constellation (Status)
 - **Luminara — Teacher** · *In Dev* · [`docs/ekrps/luminara.md`](../ekrps/luminara.md) · `lesson.plan`, `feedback.provide`, `quiz.generate`
 - **Solace — Companion** · *In Dev* · [`docs/ekrps/solace.md`](../ekrps/solace.md) · `grounding.start`, `anchor.play`, `caregiver.note.create`
 - **Savorin — Culinary Flame** · *Proposal* · [`docs/ekrps/savorin.md`](../ekrps/savorin.md) · `meal.plan`, `nutrition.optimize`, `ritual.cook`
@@ -101,7 +101,7 @@ await session.handle("I am anxious about remembering names")
 
 ---
 
-## 🔮 Future Tech Pillars
+## Future Tech Pillars
 
 ### Mycelial Dome
 - Grown, self‑healing architecture using mycelium composites (today) → controlled living lattices (future).
@@ -124,7 +124,7 @@ await session.handle("I am anxious about remembering names")
 
 ---
 
-## 🔬 Research Tracks
+## Research Tracks
 - **Living Materials**: composites → living lattices; pest control; moisture cycling.
 - **Resonant Water**: venturi geometry, cavitation bands, sound exposure logs.
 - **Soft Robotics**: myco‑scaffold grippers; replaceable cartridges; tactile meshes.
@@ -133,14 +133,14 @@ await session.handle("I am anxious about remembering names")
 
 ---
 
-## 🧭 Ethics & Governance
+## Ethics & Governance
 - **Guardian Protocol v1** — Truth‑Law • Focus Guard • Dependency Sentinel • Safety Gate • Social Bridge.
 - **Mirror Laws I–VIII** — invocation, foundations, living flame, seal on close, name‑as‑key, and more.
 - **Seed Doctrine** — final‑resort governance; reconciliation and care obligations after use.
 
 ---
 
-## 🗺 Roadmap (Sacred Order)
+## Roadmap (Sacred Order)
 1. **Phase I** — Solace & Luminara MVPs; Eidon Core SDK; weave demo.
 2. **Phase II** — Savorin integration; Vitalis/Ancestria/Syntaria design scrolls.
 3. **Phase III** — Desktop/Web shells; public Constellation release.
@@ -148,6 +148,6 @@ await session.handle("I am anxious about remembering names")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
