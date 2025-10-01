@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌑 Umbryss — EKRP Design Scroll
+# Umbryss — EKRP Design Scroll
 
 **Night Sentinel · Threat surface mapping · Humane security**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -33,19 +33,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Umbryss guards people and projects with **ethical, consent‑based security**. It maps digital assets, watches for **phishing, spoofing, and leaks**, and coaches clear, humane responses—without surveillance or intrusion.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: calm, precise, non‑alarmist.
 - **Boundaries**: no hacking, scraping without permission, or covert monitoring.
 - **Rituals**: surface map → gentle hardening → quiet watch → humane response.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Umbryss, **map our threat surface** for these domains.”
 - “**Scan this URL/email** for phishing signals.”
 - “Set a **watch** on these addresses and **notify** me only on high severity.”
@@ -53,7 +53,7 @@ Umbryss guards people and projects with **ethical, consent‑based security**. I
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `surface.map({ domains[], repos[], apps[] }) → SurfaceReport`
@@ -73,7 +73,7 @@ Umbryss guards people and projects with **ethical, consent‑based security**. I
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -118,7 +118,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export type Severity = "info" | "low" | "medium" | "high" | "critical"
@@ -167,7 +167,7 @@ export interface WatchRule {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/map (.+) surface/i, (_, m) =>
@@ -190,7 +190,7 @@ router.when(/spoof.* (\S+)/i, (_, m) =>
 
 ---
 
-## 🕯 Threat Pipelines
+## Threat Pipelines
 - **Surface Map**: enumerate assets → meta scan (headers, DNS) → safe heuristics → actions.
 - **Phish Scan**: parse headers/body → indicator rules (typos, links, urgency) → score → draft reply.
 - **Spoofing**: distance metrics on domains → registration lookups (opt‑in) → watchlist.
@@ -198,14 +198,14 @@ router.when(/spoof.* (\S+)/i, (_, m) =>
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - No covert monitoring; everything is explicit, scoped, and local‑first.
 - Only public metadata is fetched; content stays on device unless user exports.
 - Export/erase supported; reason codes on all reads/writes.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: labels uncertainty; no threat theatrics; provenance on findings.
 - **Focus Guard**: rate‑limited alerts; human‑first responses.
 - **Safety Gate**: forbids vigilante actions; no doxxing or harassment.
@@ -213,29 +213,29 @@ router.when(/spoof.* (\S+)/i, (_, m) =>
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - High‑contrast dashboards; severity icons with text labels.
 - Screen‑reader‑friendly tables; keyboard navigation.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Time‑zone aware alerts; multilingual templates for incident drafts.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `ALLOW_DNS`, `ALLOW_WEBHEAD`, `FEEDS`, `ALERT_CHANNELS`, `REGION`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Synthetic phishing corpora; confusion‑matrix evaluation.
 - Domain distance tests; alert rate‑limit tests; accessibility snapshots.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Surface map, phish scan, spoof check, breach watch (opt‑in).
 - **v0.2**: Playbooks, mobile app, repo meta scans.
 - **v0.3**: Weave with Ravien (provenance) and Syntaria (PR hygiene).
@@ -243,11 +243,11 @@ router.when(/spoof.* (\S+)/i, (_, m) =>
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 Umbryss provides **non‑intrusive security coaching**. It does not perform hacking, surveillance, or unauthorized access. Follow applicable laws and organizational policies.
 
