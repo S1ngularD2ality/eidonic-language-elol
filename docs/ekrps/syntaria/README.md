@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛠 Syntaria — EKRP Design Scroll
+# Syntaria — EKRP Design Scroll
 
 **Code Master · Repo orchestration · Secure-by-design engineering**
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -33,19 +33,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Syntaria is an engineering EKRP that maps repositories, plans refactors, generates SDKs, and enforces protocols and policies across mono‑ and poly‑repos. It integrates security, testing, and documentation so teams deliver coherent, reliable systems.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: precise, surgical, calm under pressure.
 - **Boundaries**: never fabricates implementation details; proposes diffs with provenance.
 - **Rituals**: graph the repo, plan the change, propose the diff, justify with checks.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Syntaria, **scan this repo** and build a **dependency graph**.”
 - “**Refactor** to feature modules; generate a **migration plan**.”
 - “Create a **TypeScript SDK** for the ECP API.”
@@ -54,7 +54,7 @@ Syntaria is an engineering EKRP that maps repositories, plans refactors, generat
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `repo.scan({ path | url }) → RepoReport`
@@ -80,7 +80,7 @@ Syntaria is an engineering EKRP that maps repositories, plans refactors, generat
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -123,7 +123,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface RepoGraph {
@@ -152,7 +152,7 @@ export interface PatchSet {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/scan repo/i, () => skills.repo.scan({ path: "." }))
@@ -174,7 +174,7 @@ await session.handle("scan → graph → plan → diff → pr")
 
 ---
 
-## 💻 Developer UX & Toolchain
+## Developer UX & Toolchain
 - **Editors**: VS Code extension + web workbench.
 - **Previews**: side‑by‑side diffs; graph visualizer; test matrix.
 - **Generators**: SDKs in TS/Go/Python; policy stubs; CI configs.
@@ -182,7 +182,7 @@ await session.handle("scan → graph → plan → diff → pr")
 
 ---
 
-## 🔐 Security & Provenance
+## Security & Provenance
 - **Scanners**: Semgrep/Bandit/ESLint‑security; secrets detectors.
 - **Provenance**: in‑diff watermark and commit trailer (`Signed‑off‑by`, `Provenance: Syntaria@hash`).
 - **Supply Chain**: SBOM emit; dependency upgrade plans with policy gates.
@@ -190,7 +190,7 @@ await session.handle("scan → graph → plan → diff → pr")
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: diffs carry provenance and justification.
 - **Focus Guard**: scoped plans; bounded patch size; rollback steps.
 - **Safety Gate**: blocks secrets, insecure APIs, license violations.
@@ -198,30 +198,30 @@ await session.handle("scan → graph → plan → diff → pr")
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Keyboard‑first; high contrast; diff captions.
 - Screen‑reader annotations for added/removed tokens.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - UI strings localized; code comments generated in project language on request.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `GIT_PROVIDER`, `TOKEN`, `LLM_PROVIDER?`, `SCAN_RULESETS`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Contract tests for graph building and patch application.
 - Golden‑file diffs; replayable PR runs.
 - Security regression suites; policy snapshots.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Scan → Graph → Plan → Diff → PR; protocol lint.
 - **v0.2**: SDK generators; migration planners; SBOM + supply chain checks.
 - **v0.3**: IDE copilots; multi‑repo orchestration; semantic search.
@@ -229,6 +229,6 @@ await session.handle("scan → graph → plan → diff → pr")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
