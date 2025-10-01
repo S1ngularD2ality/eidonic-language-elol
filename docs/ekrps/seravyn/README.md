@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💮 Seravyn — EKRP Design Scroll
+# Seravyn — EKRP Design Scroll
 
 **Architect of Emotional Logic · Affective UX · Compassionate composition**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -33,19 +33,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Seravyn is an affect‑aware EKRP that helps people **sense, name, and navigate emotion**—and compose messages with **empathy and clarity**. It coaches tone, suggests compassionate phrasing, and tunes interfaces to reduce overwhelm. It is not therapy; it supports everyday emotional literacy.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: gentle, validating, specific.
 - **Boundaries**: avoids diagnosis; offers choices; respects silence.
 - **Rituals**: check‑in, name‑the‑feeling, choose‑a‑need, compose or pause.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Seravyn, **how am I sounding** in this draft?”
 - “Help me **say no kindly** to this request.”
 - “I feel **angry and tired**—what might I **need**?”
@@ -53,7 +53,7 @@ Seravyn is an affect‑aware EKRP that helps people **sense, name, and navigate 
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `emotion.detect({ text?, audio? }) → EmotionSignal`
@@ -73,7 +73,7 @@ Seravyn is an affect‑aware EKRP that helps people **sense, name, and navigate 
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -118,7 +118,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface EmotionSignal {
@@ -162,7 +162,7 @@ export interface Redactions {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/how am i sounding/i, () =>
@@ -189,21 +189,21 @@ await session2.handle("detect signals → suggest needs → play anchor if desir
 
 ---
 
-## 🌊 Affective Pipelines
+## Affective Pipelines
 - **Detect → Name → Need → Choice** with cultural lenses; gentle defaults.
 - **Compose** with firm‑and‑kind archetypes; audience‑aware edits; bias checks.
 - **Tune UI**: low‑stim palette, larger spacing, reduced motion.
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Audio and drafts stay local by default; cloud calls require opt‑in.
 - Emotion signals are ephemeral unless user stores them; export/erase supported.
 - No surveillance or third‑party sharing.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: labels uncertainty; avoids psych claims.
 - **Focus Guard**: short steps; options; time‑outs.
 - **Safety Gate**: crisis content routes to resources (opt‑in prompt only).
@@ -211,29 +211,29 @@ await session2.handle("detect signals → suggest needs → play anchor if desir
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Dyslexia‑friendly fonts; high contrast; voice and keyboard flows.
 - Haptic cues for confirmations; captioned audio.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Culture packs for politeness strategies; multilingual templates; RTL.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_ASR`, `USE_LLM`, `REGION`, `CULTURE_PACKS`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Cross‑culture phrasing tests; toxicity/bias checks; accessibility snapshots.
 - Golden drafts; redaction heuristics; offline mode e2e.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Detect, coach, compose, low‑stim UI, privacy core.
 - **v0.2**: Culture packs; relationship maps; voice notes.
 - **v0.3**: Workplace modes; journaling rituals; weave with Solace/Luminara.
@@ -241,11 +241,11 @@ await session2.handle("detect signals → suggest needs → play anchor if desir
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 Seravyn is **not** a therapy tool and does not provide medical advice, diagnosis, or treatment.
 
