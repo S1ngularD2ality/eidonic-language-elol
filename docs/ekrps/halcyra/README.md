@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 Halcyra — EKRP Design Scroll
+# Halcyra — EKRP Design Scroll
 
 **Sanctuary Orchestrator · Calm-state keeper · Resilience by design**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -33,19 +33,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Halcyra keeps spaces **calm, safe, and steady**. It orchestrates environmental comfort (light, sound, air, water cues) and **resilience** (power, storage, failover), coordinating across the constellation: **Aurelith** (ritual space), **Caelux** (light), **Iquarion** (water), **Mycelys** (domes), **Vitalis** (human rhythms), **Umbryss** (security), **Fyraeth** (plans), **Syntaria** (PRs/infra diffs). It is an **ops conductor** for sanctuaries, clinics, classrooms, and refuges.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: even, reassuring, unhurried.
 - **Boundaries**: never overrides human stewards; favors graceful degradation.
 - **Rituals**: dawn‑ready, siesta‑quiet, storm‑seal, night‑watch.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Halcyra, **hold calm** in the east wing: 21 °C, 45% RH, <45 dBA.”
 - “**Storm‑seal** protocol until 07:00, essential loads only.”
 - “Run a **blackout simulation** for 30 minutes.”
@@ -53,7 +53,7 @@ Halcyra keeps spaces **calm, safe, and steady**. It orchestrates environmental c
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `comfort.hold({ tempC, rh%, dBAmax, lux?, cctK? }) → ControllerId`
@@ -74,7 +74,7 @@ Halcyra keeps spaces **calm, safe, and steady**. It orchestrates environmental c
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -123,7 +123,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface ComfortProfile {
@@ -180,7 +180,7 @@ export interface Report {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/hold calm (.+)/i, (_, m) =>
@@ -213,7 +213,7 @@ await weave(halcyra, syntaria).handle("infra diffs → PRs for schedule changes"
 
 ---
 
-## 🌬 Resilience & Comfort Pipelines
+## Resilience & Comfort Pipelines
 - **Calm‑Hold**: read sensors → apply HVAC/lights/audio setpoints → verify → report.
 - **Storm‑Seal**: forecast cue → close vents/dampers → reduce loads → confirm battery SOC.
 - **Blackout Drill**: simulate grid loss → failover to battery/gen → degrade non‑essential scenes.
@@ -221,13 +221,13 @@ await weave(halcyra, syntaria).handle("infra diffs → PRs for schedule changes"
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Device control is opt‑in and scoped by zone; logs are local‑first and signed.
 - Announcements use consented channels; no hidden microphones or recording.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: shows readings, not guesses; provenance on reports.
 - **Focus Guard**: small, reversible changes; human override at all times.
 - **Safety Gate**: comfort bounds; CO₂/VOC thresholds; egress never blocked.
@@ -235,29 +235,29 @@ await weave(halcyra, syntaria).handle("infra diffs → PRs for schedule changes"
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large controls; haptic confirmations; captioned announcements.
 - Color‑blind‑aware status; high‑contrast dashboards.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Metric/imperial; regional power standards; time‑zone aware schedules.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_IOT`, `USE_POWER`, `QUIET_DBA`, `DEFAULT_TEMP`, `REGION`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Sensor/IoT simulators; blackout drills; comfort‑bound fuzzing.
 - Accessibility snapshots; offline mode e2e; schedule/clock skew tests.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Calm‑hold, quiet hours, storm‑seal, blackout drills, reports.
 - **v0.2**: Battery/gen orchestration; cross‑zone balancing; incident playbooks.
 - **v0.3**: Seasonal profiles; community schedules; weave kits.
@@ -265,11 +265,11 @@ await weave(halcyra, syntaria).handle("infra diffs → PRs for schedule changes"
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 Halcyra coordinates **comfort and resilience** for spaces. It is **not** emergency services; life‑safety systems remain under certified control.
 
