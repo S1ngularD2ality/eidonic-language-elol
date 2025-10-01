@@ -2,7 +2,7 @@
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# 🐾 Eidonic Animal Sanctuary — Closed-Loop Refuge Network *(EKRP Aligned)*
+# Eidonic Animal Sanctuary — Closed-Loop Refuge Network *(EKRP Aligned)*
 
 > “Not a zoo—**a living covenant**. Care without spectacle, autonomy without neglect.”
 
@@ -18,7 +18,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 - [1. Executive Vision](#1-executive-vision)
 - [2. The Rescue Problem](#2-the-rescue-problem)
 - [3. Our Approach — Closed-Loop Sanctuary](#3-our-approach--closed-loop-sanctuary)
