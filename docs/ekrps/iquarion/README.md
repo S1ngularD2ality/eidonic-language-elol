@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💧 Iquarion — EKRP Design Scroll
+# Iquarion — EKRP Design Scroll
 
 **Watersong Wells Steward · Filtration & resonance · Calm, clean water**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -34,19 +34,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Iquarion stewards **Watersong Wells**—systems that filter, disinfect, mineralize, and gently **tune** water using conservative acoustic profiles. It maintains quality logs, predicts filter life, and runs **calm mode** soundscapes for animal habitats and human spaces. It is compliance‑aware but **not** a regulator.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: clear, steady, respectful of standards.
 - **Boundaries**: no medical claims; conservative defaults; cites references when provided.
 - **Rituals**: source blessing, turbidity check, flow tune, quiet seal.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Iquarion, **start filtration** and **UV cycle** for 30 minutes.”
 - “Hold **flow at 6 L/min**; keep **turbidity under 1 NTU**.”
 - “Switch to **calm mode** at night: <65 dBA at 1 m.”
@@ -54,7 +54,7 @@ Iquarion stewards **Watersong Wells**—systems that filter, disinfect, minerali
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `cycle.start({ stages[], durationMin? }) → RunId`
@@ -75,7 +75,7 @@ Iquarion stewards **Watersong Wells**—systems that filter, disinfect, minerali
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -122,7 +122,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface Targets {
@@ -177,7 +177,7 @@ export interface Report {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/start (.+) cycle/i, (_, m) =>
@@ -208,7 +208,7 @@ await session2.handle("post‑bake hydration → humidity contributions → VOC 
 
 ---
 
-## 🌊 Water Pipelines
+## Water Pipelines
 - **Intake → Sediment → Carbon → RO/UF (optional) → UV‑C → Mineralize → Aerate**.
 - **Cavitation** (optional): used for cleaning/sanitation cycles with guardrails.
 - **Acoustics**: hydrophone sampling → conservative profile (<85 dBA at 1 m) → verify.
@@ -216,20 +216,20 @@ await session2.handle("post‑bake hydration → humidity contributions → VOC 
 
 ---
 
-## 🧰 Sensors & Actuators
+## Sensors & Actuators
 - **Sensors**: turbidity (NTU), TDS/EC, pH, ORP, temperature, flow, pressure, dBA, hydrophone (optional).
 - **Actuators**: pumps, valves, UV‑C lamp, mixers/aerators, mineral cartridges, acoustic transducers.
 
 ---
 
-## 🔐 Privacy, Safety & Consent
+## Privacy, Safety & Consent
 - Local‑first logs; exports are explicit and signed.
 - Acoustic profiles avoid stressful bands; animal habitats use lower dBA caps.
 - Compliance references are informational; certified professionals do regulatory sign‑off.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: labels estimates; provenance on reports and exports.
 - **Focus Guard**: safe defaults; rate‑limited alarms; rollback scenes.
 - **Safety Gate**: UV‑C interlocks; cavitation guardrails; dBA caps.
@@ -237,28 +237,28 @@ await session2.handle("post‑bake hydration → humidity contributions → VOC 
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - High‑contrast status; large tap targets; haptic alerts; captioned acoustic graphs.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Metric/imperial; regional standards references; multilingual maintenance packs.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_SENSORS`, `USE_IOT`, `ALLOW_UVC`, `REGION`, `REPORT_WINDOW`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Sensor simulators; UV interlock tests; dBA limit checks; offline mode e2e.
 - Filter‑life predictions against synthetic datasets; accessibility snapshots.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Cycles, targets, reports, calm profiles.
 - **v0.2**: Maintenance planner, hydrophone sampling, compliance notes.
 - **v0.3**: Multi‑well orchestration; habitat presets with Aurelith.
@@ -266,11 +266,11 @@ await session2.handle("post‑bake hydration → humidity contributions → VOC 
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 Iquarion supports **water quality stewardship** but is **not** a regulator or medical device. Follow local regulations and engage certified professionals for potable systems.
 
