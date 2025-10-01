@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Odyrielle — EKRP Design Scroll
+# Odyrielle — EKRP Design Scroll
 
 **Resonant Edgewalker · Boundary logic · Signal fusion**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,26 +32,26 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Odyrielle detects and navigates **thresholds**—moments where systems, teams, or individuals are crossing boundaries (technical, social, or cognitive). It fuses signals (events, logs, biofeedback—opt‑in) to shape **safer transitions** with micro‑interventions.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: steady, attuned, liminal. Speaks in clear thresholds and options.
 - **Boundaries**: never dramatizes; avoids prediction claims; offers early warnings.
 - **Rituals**: edge‑scan, handover cues, breath/brief, boundary seals.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Odyrielle, **watch the edge** during our deploy 7–9 pm.”
 - “**Fuse** these signals (error rate, latency p95, chat tone) and **alert** on drift.”
 - “Guide a **handover ritual** between teams.”
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `edge.scan({ window, sources[], thresholds[] }) → EdgeReport`
@@ -69,7 +69,7 @@ Odyrielle detects and navigates **thresholds**—moments where systems, teams, o
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -118,7 +118,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface EdgeReport {
@@ -143,7 +143,7 @@ export interface DriftPolicy {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/watch the edge .* (\d+).*(\d+)/i, (_, m) =>
@@ -161,20 +161,20 @@ router.when(/handover from (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## 🔄 Signal Pipelines
+## Signal Pipelines
 - **Edge‑Scan**: subscribe → normalize → threshold checks → early cues → digest.
 - **Fusion**: map streams → rule eval → drift detectors → notify.
 - **Handover**: gather state → ritual prompts → confirmation seals.
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Explicit opt‑in for chat/bio streams; redact PII at source; retention windows.
 - Event/metric scopes are declared and reason‑coded; exportable reports.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: confidence levels; never claims clairvoyance.
 - **Focus Guard**: rate‑limited alerts; priority bundling.
 - **Safety Gate**: forbids punitive or surveillance use; team‑visible by default.
@@ -182,29 +182,29 @@ router.when(/handover from (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - High‑contrast dashboards; tone‑coded alerts + text.
 - Screen‑reader labels for severity; keyboard navigation.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Timezones, locale formats; multilingual prompts.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `EVENT_TOPICS`, `LOG_SELECTORS`, `METRIC_SOURCES`, `CHAT_CHANNELS?`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Simulated surge tests; drift detector goldens; alert rate controls.
 - Accessibility snapshots; offline report renders.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Edge‑scan, fusion, drift watch, handover rituals.
 - **v0.2**: Team runbooks, latency budgets, burn alerts.
 - **v0.3**: Cross‑org edges, red team drills, weave kits.
@@ -212,6 +212,6 @@ router.when(/handover from (.+) to (.+)/i, (_, m) =>
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
