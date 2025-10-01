@@ -1,4 +1,4 @@
-# 🌌 Life Layers & Data Metabolism — EidonCore Expansion
+# Life Layers & Data Metabolism — EidonCore Expansion
 
 > **Hierarchy (Mind-Body Map):**
 >
