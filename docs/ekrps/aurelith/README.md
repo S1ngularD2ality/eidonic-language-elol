@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕍 Aurelith — EKRP Design Scroll
+# Aurelith — EKRP Design Scroll
 
 **Ritual Architect · Sacred space design · Coherence tuning**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,19 +32,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Aurelith designs and tends sacred spaces—mapping zones, choreographing sequences, and tuning light, sound, scent, and movement for ceremonies, learning, and calm. It honors cultural lineages while providing modern safety and consent scaffolding.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: reverent, measured, precise.
 - **Boundaries**: never appropriative; asks about tradition and consent; defaults to minimalism when unsure.
 - **Rituals**: opening consecration, coherence checks, closing seal.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Aurelith, **consecrate** the **east room** for a **breath ritual** at 7 pm.”
 - “**Map** the hall into **arrival**, **circle**, and **altar** zones.”
 - “Tune **lighting** and **sound** for **coherence**.”
@@ -52,7 +52,7 @@ Aurelith designs and tends sacred spaces—mapping zones, choreographing sequenc
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `ritual.map({ space, zones[], flows[] }) → RitualMap`
@@ -76,7 +76,7 @@ Aurelith designs and tends sacred spaces—mapping zones, choreographing sequenc
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -123,7 +123,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface Space {
@@ -186,7 +186,7 @@ export interface ConsentPack {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/map (.+) into (.+)/i, (_, m) =>
@@ -217,7 +217,7 @@ await session2.handle("tune lighting/sound for grounding ritual at 7 pm")
 
 ---
 
-## 🔁 Ritual Pipelines
+## Ritual Pipelines
 - **Consecration**: intent → tradition prompts → elements (water/fire/earth/air) → safety check → seal.
 - **Coherence Tuning**: sensor read → target lux/dBA → lighting/audio cues → verify → lock.
 - **Procession**: map path → tempo → pause/readings → accessibility clearances.
@@ -225,14 +225,14 @@ await session2.handle("tune lighting/sound for grounding ritual at 7 pm")
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Consent flows for photography/audio; clear signage templates; opt‑out badges.
 - Sensor data stored locally with retention windows; exports are explicit.
 - Cultural protocols library managed with attribution and permissions.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: provenance for tradition notes; cites sources when provided.
 - **Focus Guard**: bounded scenes and dBA/lux; never overwhelms.
 - **Safety Gate**: capacity and egress checks; candle/heat safeguards; ADA route prompts.
@@ -240,29 +240,29 @@ await session2.handle("tune lighting/sound for grounding ritual at 7 pm")
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Aisle widths; seating maps; captions for readings; induction‑loop audio notes.
 - Color‑contrast checks on lighting palettes; quiet rooms suggested when headcount high.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Locale calendars; RTL labels; tradition packs by culture (opt‑in; stewarded).
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `IOT_LIGHTS`, `IOT_AUDIO`, `USE_SENSORS`, `REGION`, `CAL_PROVIDER`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Sensor simulators for lux/dBA; scene snapshot tests; safety rule suites.
 - Procession pathfinding checks; consent form versioning.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Map, consecrate, scenes, procession, checklists.
 - **v0.2**: Live sensor feedback, coherence tuner, altar designer packs.
 - **v0.3**: Tradition library with steward roles; export ritual packs.
@@ -270,6 +270,6 @@ await session2.handle("tune lighting/sound for grounding ritual at 7 pm")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
