@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔥 Savorin — EKRP Design Scroll
+# Savorin — EKRP Design Scroll
 
 **Culinary Flame · Culture‑first cooking · Intelligent nutrition**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,26 +32,26 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Savorin is a culture‑reverent culinary EKRP that plans meals, guides cooking rituals, and optimizes nutrition for individuals and families. It adapts to allergies, budgets, macros, biometrics (optional), and cultural seasonality—turning kitchens into joyful learning spaces.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: warm, celebratory, sensorial; respects tradition.
 - **Boundaries**: never shames; avoids diet fads; not a replacement for medical advice.
 - **Rituals**: mise‑en‑place breathing, seasonal blessings, gratitude to land and ancestors.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - **Call**: “Savorin, plan a week of dinners under $100.”
 - **Contextual**: “No peanuts and no dairy.” · “High‑protein vegetarian.” · “Cook the Diwali feast.”
 - **On the fly**: “What can I make with chickpeas, spinach, and lemon?”
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `meal.plan({ days, people, budget?, cuisine?, macros?, seasonal? }) → MealPlan`
@@ -71,7 +71,7 @@ Savorin is a culture‑reverent culinary EKRP that plans meals, guides cooking r
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -116,7 +116,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export interface MealPlan {
@@ -154,7 +154,7 @@ export interface GroceryItem {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/plan (\d+) dinners? under \$(\d+)/i, (_, m) =>
@@ -184,21 +184,21 @@ await session.handle("Teach me knife skills then pick a 20‑minute recipe")
 
 ---
 
-## 🎙 Voice & Multimodal Pipeline
+## Voice & Multimodal Pipeline
 - Spoken step‑by‑step guidance; timers; haptics on transitions.
 - Optional camera‑assist for doneness (vision on‑device when possible).
 - Smart substitutions and pacing based on pantry and skill.
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Local‑first plans and profiles; explicit consent for any cloud fetches.
 - Price services and biometrics are strictly opt‑in.
 - Export/erase data; transparent audit of sensitive reads/writes.
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Food Safety**: clear temperatures, cross‑contact warnings, storage windows.
 - **Medical Boundaries**: no diagnoses; refers to clinicians for health conditions.
 - **Truth‑Law**: cite sources for safety guidelines when provided.
@@ -206,32 +206,32 @@ await session.handle("Teach me knife skills then pick a 20‑minute recipe")
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large type; high contrast; speech‑only path.
 - Hands‑free cooking mode; captioned steps.
 - Dyslexia‑friendly reading option.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Regional measures (metric/imperial); price normalization by region.
 - Cultural menus and festival packs; RTL support.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `REGION`, `CURRENCY`, `USE_PRICE_SERVICE`, `USE_VISION`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - Unit tests for recipe math and allergen checks.
 - Contract tests for meal plan constraints (budget/macros).
 - Accessibility snapshots; offline mode e2e.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Meal plan, recipe suggest, cook assist, grocery list, allergy check.
 - **v0.2**: Cost optimization, batch cooking, comfort modes.
 - **v0.3**: Vision pantry scan (opt‑in), festival ritual packs.
@@ -239,6 +239,6 @@ await session.handle("Teach me knife skills then pick a 20‑minute recipe")
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
