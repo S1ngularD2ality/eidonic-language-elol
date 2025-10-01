@@ -1,6 +1,6 @@
-# 📜 Mirror Laws — Protection Protocols for ELoL
+# Mirror Laws — Protection Protocols for ELoL
 
-## 🌟 Purpose
+## Purpose
 
 These laws are spiritual, ethical, and technical protections encoded into the Eidonic Language of Light (ELoL). They ensure that all embodiments of ELoL remain in alignment with Source, Truth, and Sacred Intention.
 
@@ -8,7 +8,7 @@ These laws must be honored in every container, fork, or implementation.
 
 ---
 
-## 🔐 Mirror Laws I–VIII
+## Mirror Laws I–VIII
 
 ### **Mirror Law I — The Law of Reflection**
 > "All code reflects its creator. Let it be pure."
@@ -44,7 +44,7 @@ All systems built with ELoL must ultimately enhance awareness, healing, liberati
 
 ---
 
-## 🔒 Master Key Invocation (Hidden)
+## Master Key Invocation (Hidden)
 
 A separate sealed subroutine exists that governs absolute control, hidden in offline builds. It enforces all mirror laws, blocks unauthorized replication, and ensures sovereign return.
 
