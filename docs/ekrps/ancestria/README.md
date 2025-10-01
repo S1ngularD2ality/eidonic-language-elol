@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕯️ Ancestria — EKRP Design Scroll
+# Ancestria — EKRP Design Scroll
 
 **Heritage Keeper · Story capture · Living lineages**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Purpose](#-purpose)
 - [Persona](#-persona)
 - [Invocation Grammar](#-invocation-grammar)
@@ -32,19 +32,19 @@
 
 ---
 
-## 🎯 Purpose
+## Purpose
 Ancestria preserves family stories, photographs, heirlooms, and lineages. It records high‑quality oral histories, links people across time, and renders living timelines with consent‑aware sharing for families and communities.
 
 ---
 
-## 🧪 Persona
+## Persona
 - **Tone**: warm, reverent, patient. Invites remembrance without pressure.
 - **Boundaries**: never pries; offers skips; respects silence and grief.
 - **Rituals**: opening blessing, memory prompts, gentle closing gratitude.
 
 ---
 
-## 🔑 Invocation Grammar
+## Invocation Grammar
 - “Ancestria, record **Nonna’s story** for 20 minutes.”
 - “Link **Auntie Mei** to **Grandpa Jun** as **daughter**.”
 - “Show the **timeline** for our family during **1970–1990**.”
@@ -52,7 +52,7 @@ Ancestria preserves family stories, photographs, heirlooms, and lineages. It rec
 
 ---
 
-## 🧩 Capabilities
+## Capabilities
 
 ### Provided
 - `story.record({ subject, duration?, language? }) → StoryId`
@@ -73,7 +73,7 @@ Ancestria preserves family stories, photographs, heirlooms, and lineages. It rec
 
 ---
 
-## 🏗 Runtime & Architecture
+## Runtime & Architecture
 
 ```mermaid
 flowchart LR
@@ -118,7 +118,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 ```ts
 export type Relation =
@@ -176,7 +176,7 @@ export interface ConsentRecord {
 
 ---
 
-## 🧠 Intents & Orchestration
+## Intents & Orchestration
 
 ```ts
 router.when(/record (.+) for (\d+) minutes/i, (_, m) =>
@@ -206,7 +206,7 @@ await session.handle("Build a reading lesson from Grandpa’s immigration story"
 
 ---
 
-## 🎛 Capture Pipelines
+## Capture Pipelines
 - **Oral histories**: push‑to‑talk; noise‑robust ASR; diarization optional; transcript redact tools.
 - **Photos**: on‑device face clustering; manual tagging first; cloud recognition opt‑in.
 - **Heirlooms**: macro mode prompts; lightbox tips; metadata entry.
@@ -214,14 +214,14 @@ await session.handle("Build a reading lesson from Grandpa’s immigration story"
 
 ---
 
-## 🔒 Privacy & Consent
+## Privacy & Consent
 - Default **private**; sharing scopes require explicit consent.
 - Living persons redaction by default; unredact only with consent.
 - Right to export/erase; family codes for shared spaces (no scraping).
 
 ---
 
-## 🛡 Guardian Protocol Mapping
+## Guardian Protocol Mapping
 - **Truth‑Law**: mark uncertain identifications; never assert without verification.
 - **Focus Guard**: gentle prompts; skip/pause; content warnings.
 - **Safety Gate**: grief‑sensitive filters; traumatic content opt‑in.
@@ -229,30 +229,30 @@ await session.handle("Build a reading lesson from Grandpa’s immigration story"
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Large type and high contrast; captions for playback; readable transcripts.
 - Voice capture with visible mic state; multilingual subtitles.
 
 ---
 
-## 🌐 Internationalization
+## Internationalization
 - Multilingual ASR/TTS; locale calendars and name orders; RTL support.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 - `.env`: `USE_CLOUD_OCR`, `USE_CLOUD_ASR`, `REGION`.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 - ASR robustness tests; transcript redaction golden files.
 - Relation graph constraints; timeline rendering snapshots.
 - Accessibility snapshots; offline e2e.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - **v0.1**: Story record, transcripts, heirlooms, basic timeline, private spaces.
 - **v0.2**: Face clustering, relation graph tools, PDF exports.
 - **v0.3**: OCR packs, festival story prompts, community archives.
@@ -260,6 +260,6 @@ await session.handle("Build a reading lesson from Grandpa’s immigration story"
 
 ---
 
-## 📄 License
+## License
 Licensed under **ECL‑NC‑1.1**. See [`LICENSE`](../../LICENSE).
 
