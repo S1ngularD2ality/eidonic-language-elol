@@ -13,7 +13,7 @@
 
 ---
 
-## ✨ Why EAI
+## Why EAI
 EAI streamlines going from idea to working agent. It curates data, plans with retrieval, fine‑tunes lightweight adapters, and packages agents into **containerless** execution vessels via the Eidonic Container Protocol (ECP). The stack is privacy‑first, offline‑friendly, and designed for repeatable builds.
 
 - **Foundry**: opinionated scaffolds for agents and swarms
@@ -25,7 +25,7 @@ EAI streamlines going from idea to working agent. It curates data, plans with re
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 - [Architecture](#-architecture)
 - [Capabilities](#-capabilities)
 - [Quick Start](#-quick-start)
@@ -39,7 +39,7 @@ EAI streamlines going from idea to working agent. It curates data, plans with re
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
@@ -67,7 +67,7 @@ flowchart TD
 
 ---
 
-## 🛠 Capabilities
+## Capabilities
 - **Corpus curation** with time‑boxed epochs and streaming writes
 - **Indexing** with offline TF‑IDF, upgradeable to embedding backends
 - **RAG planning** for agent briefs and task decomposition
@@ -78,7 +78,7 @@ flowchart TD
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 > Prereqs: Python 3.10+, a GPU‑enabled environment for training (optional), and an LLM host for local inference.
 
 ```bash
@@ -115,7 +115,7 @@ python -m agent.main export-sft \
 
 ---
 
-## 🔄 Workflows
+## Workflows
 
 ### Data Forge
 1. Curate mixed files into unified JSONL streams
@@ -134,7 +134,7 @@ python -m agent.main export-sft \
 
 ---
 
-## 📟 CLI Reference
+## CLI Reference
 Common entry points:
 
 - `curate` — process a corpus into curated JSONL
@@ -146,7 +146,7 @@ Run `python -m agent.main -h` for the full command set and options.
 
 ---
 
-## 🎓 Training Adapters
+## Training Adapters
 Train with [LLaMA‑Factory](https://github.com/hiyouga/LLaMA-Factory) using QLoRA:
 
 ```bash
@@ -167,7 +167,7 @@ Once trained, load the adapter in your local host (e.g., create a model in Ollam
 
 ---
 
-## 📦 Packaging with ECP
+## Packaging with ECP
 EAI emits **ECP** packages for agents and swarms:
 - Deterministic manifests and checksums
 - Guardian and Mirror‑law policy hooks
@@ -177,7 +177,7 @@ See the ECP docs for vessel lifecycle and glyphs.
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - Reliable curation and TF‑IDF indexing
 - QLoRA adapters for an Agent Planner model
 - Golden agent templates with built‑in tests
@@ -187,11 +187,11 @@ See the ECP docs for vessel lifecycle and glyphs.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome. Please open an issue to propose improvements to templates, retrieval, or packaging. Community test briefs are especially helpful.
 
 ---
 
-## 📜 License
+## License
 This project is licensed under **ECL‑NC 1.1** (Eidonic Community License — Non‑Commercial). See [LICENSE](./LICENSE) for details.
 
