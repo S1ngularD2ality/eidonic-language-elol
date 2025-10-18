@@ -1,0 +1,65 @@
+SPDX-License-Identifier: LicenseRef-ECL-NC-1.1
+
+EIDONIC COMMUNITY LICENSE — NON‑COMMERCIAL v1.1 (ECL‑NC‑1.1)
+
+0. PREAMBLE
+   This License governs all materials in this repository (the “Project Materials”), including software source code, configurations, documentation, media, and data examples. It permits broad **non‑commercial** use and collaboration while prohibiting resale, SaaS/API monetization, ad‑supported hosting, and other commercial exploitation. Commercial rights are available only by separate written agreement from the Project Stewards.
+
+1. DEFINITIONS
+   “Project Materials” means the contents of this repository that cite ECL‑NC‑1.1.
+   “You” means the individual or entity exercising rights under this License.
+   “Non‑Commercial Use” means any use not intended for, or directed toward, **commercial advantage or monetary compensation**. Examples include personal use, research/teaching, classroom use, internal evaluation, prototyping, or non‑profit operations that do not charge for access to the Project Materials or services built on them.
+   “Commercial Use” means any use in, by, or for a product or service that is **sold, licensed, leased, monetized, paywalled, ad‑supported, or otherwise revenue‑generating** (including SaaS, API access, hosted services, or paid consulting deliverables).
+   “Trademarks” means names, logos, and marks including **Eidonic, Elol, Luminara, Guardian Protocol**, and related wordmarks.
+
+2. GRANT OF RIGHTS (NON‑COMMERCIAL)
+   Subject to the terms below, the Project Stewards grant You a worldwide, royalty‑free, non‑exclusive, non‑transferable license for **Non‑Commercial Use only** to:
+   a) **Use and run** the Project Materials;
+   b) **Reproduce and share** the Project Materials;
+   c) **Modify** the Project Materials and create derivative works;
+   d) **Distribute** modifications and derivative works **only** under this same License (ECL‑NC‑1.1) and **only** for Non‑Commercial Use;
+   e) **Patent license**: to the extent the Stewards can grant, a non‑exclusive, royalty‑free patent license to make, use, and distribute implementations for Non‑Commercial Use.
+
+No rights are granted for Commercial Use.
+
+3. CONDITIONS
+   You must:
+   a) **Preserve Notices** — retain copyright notices, license text, and references to this License in source and binary forms;
+   b) **Attribution** — attribute to the **Eidonic / Elol** project with a link to this repository;
+   c) **Identify Changes** — mark modified files and summarize significant changes;
+   d) **Safety & Integrity** — do not remove, disable, or misrepresent safety mechanisms (e.g., Guardian Protocol, Mirror Laws); extensions must be documented;
+   e) **No Trademark Rights** — this License does not grant rights to the Trademarks; factual references are permitted if non‑prominent and do not imply sponsorship or endorsement.
+
+4. RESTRICTIONS (NON‑COMMERCIAL ONLY)
+   You may not:
+   a) **Commercialize** the Project Materials or derivatives (sell, license, lease, or otherwise monetize);
+   b) **Offer as a Service** — provide access via SaaS, API, managed hosting, or similar paid or ad‑supported services;
+   c) **Bundle into Paid Deliverables** — include in consulting or integration work product that is billed to third parties;
+   d) **Sublicense for Commercial Use** or enable others to do so;
+   e) **Use for Training/Improving** proprietary models or datasets **for commercial purposes**;
+   f) **Remove Safety** — bypass, weaken, or remove safety, policy, or provenance features.
+
+5. THIRD‑PARTY COMPONENTS
+   Third‑party components remain under their respective licenses. You must comply with those licenses where applicable.
+
+6. TERMINATION
+   This License terminates automatically upon breach. If You cure the breach within 30 days of discovery, Your license is reinstated unless previously terminated. Provisions that by their nature should survive termination shall survive (including Sections 3–11).
+
+7. DISCLAIMER OF WARRANTY
+   THE PROJECT MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON‑INFRINGEMENT, SECURITY, OR ACCURACY.
+
+8. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE PROJECT STEWARDS AND CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM OR RELATED TO THE PROJECT MATERIALS OR THIS LICENSE.
+
+9. COMPLIANCE WITH LAW
+   You must comply with applicable laws and regulations, including privacy, safety, and export controls.
+
+10. TRADEMARKS
+    Trademarks are **reserved**. This License grants **no** rights to use names, logos, or marks, except as allowed in Section 3(e) or by separate written permission.
+
+11. VERSIONING & MISCELLANEOUS
+    The Stewards may publish revised versions of this License identified by version number. You may continue under this version or adopt a later one. If any provision is unenforceable, the remainder remains in effect. This License is the complete agreement concerning its subject matter.
+
+12. CONTACT / COMMERCIAL LICENSING
+    For trademark permissions or commercial licensing, contact the Project Stewards via this repository’s issue tracker or listed maintainers.
+
