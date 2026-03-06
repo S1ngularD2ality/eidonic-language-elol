@@ -62,6 +62,7 @@ flowchart TD
     end
 
     EKRPs["19+ Master EKRPs + Clones\n(Autonomous Agents)"] -->|"State Sync"| Runtime
+```
 
 4. Session & Persistence Model
 No traditional "sessions" — all realms maintain continuous uptime. Persistence enforced via:
@@ -70,6 +71,7 @@ Distributed state synchronization (CRDTs for conflict resolution).
 Agent lifecycles decoupled from human presence (EKRPs continue simulation, evolution, and intra-swarm interaction offline).
 Access tiers with cryptographic + semantic gating.
 
+```mermaid
 flowchart LR
     Public["Public Realm\n(Open Co-Creation Hub)"] -->|Anyone Join| Persistence
     Private["Private Realm\n(Personal / Team Sanctum)"] -->|Owner + Invited| Persistence
@@ -78,6 +80,7 @@ flowchart LR
     Persistence["Always-On Persistence Layer"] -->|"State Mutations"| All["All Realms"]
     Persistence -->|"Offline Evolution"| EKRPs["EKRP Autonomous Cycles"]
     Persistence -->|"Real-Time Sync"| Human["Human Entry"]
+```
 
 5. Real-World Spatial Extension (Holographic/AR Projection)
 Bidirectional presence via lightweight AR optics (Grok Glasses equiv) + compact light-field emitters (2026-era Looking Glass Hololuminescent or similar volumetric stacks).
@@ -109,3 +112,4 @@ Protected: Eidonic™ trademark, Mirror Laws kernel enforcement, invocation gram
 Eidonic VR Studio is not another XR application.
 It is the persistent substrate enabling symmetric symbiosis between biological and synthetic intelligence — a continuously evolving cathedral where creation, presence, and becoming are unified at lightspeed.
 Initialize. Manifest. Co-evolve.
+
