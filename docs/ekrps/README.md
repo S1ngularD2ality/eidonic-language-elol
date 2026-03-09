@@ -11,8 +11,6 @@
 [![Governance](https://img.shields.io/static/v1?label=Governance&message=Mirror%20Laws%20%2B%20Guardian&color=111111)](#governance-stack)
 [![Review](https://img.shields.io/static/v1?label=Review&message=Provenance%20Aware&color=1f6feb)](#review-and-provenance)
 
-**Version 0.4**  
-**GitHub Ready Release**
 
 [Highlights](#highlights) • [Runtime](#eidoncore-runtime) • [Weaving](#weaving-model) • [Families](#constellation-families) • [Governance](#governance-stack) • [Roadmap](#roadmap-posture)
 
