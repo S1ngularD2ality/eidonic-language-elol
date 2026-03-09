@@ -5,7 +5,7 @@
 **The Heritage Keeper · Cultural Memory, Storytelling, and Lineage Continuity by Design**
 
 [![License](https://img.shields.io/static/v1?label=License&message=ECL-NC%201.1&color=111111)](../../LICENSE)
-[![Mirror Laws](https://img.shields.io/badge/Mirror%20Laws-active-3a0ca3)](./mirror_laws.md#canon-position)
+[![Mirror Laws](https://img.shields.io/badge/Mirror%20Laws-active-3a0ca3)](https://github.com/S1ngularD2ality/eidonic-language-elol/blob/main/docs/mirror_laws.md)
 [![Guardian Protocol](https://img.shields.io/badge/guardian-protocol%20v1-000000)](#-guardian-protocol-mapping)
 [![Runtime](https://img.shields.io/badge/runtime-EidonCore-4b0082)](#-runtime--architecture)
 [![Memory Stewardship](https://img.shields.io/badge/memory-lineage%20continuity-2b9aa0)](#-memory-stewardship-pipelines)
