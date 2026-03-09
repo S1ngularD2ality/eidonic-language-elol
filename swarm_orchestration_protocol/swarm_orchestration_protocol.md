@@ -2,138 +2,337 @@
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# Eidonic Swarm Orchestration Protocol (SOP) — Kernel of the Eidonic Core
+<div align="center">
 
-> “A real-time, kernel-resident orchestration layer that fuses thousands of parallel agent invocations into coherent, self-refining super-intelligence at neural timescales — with unbreakable ethical invariants.”
+# Eidonic Swarm Orchestration Protocol  
+### Governed Weaving Protocol for EidonCore
 
-<p align="center">
-<a href="#overview"><img alt="Status" src="https://img.shields.io/static/v1?label=Status&message=SOP+v1.2&color=00b894"></a>
-<a href="#4-cloning--parallel-dispatch-model"><img alt="Cloning" src="https://img.shields.io/static/v1?label=Cloning&message=Infinite+Density&color=6c5ce7"></a>
-<a href="#6-mirror-laws--kernel-guardrails"><img alt="Safety" src="https://img.shields.io/static/v1?label=Safety&message=Mirror+Laws+Kernel&color=2d3436"></a>
-<a href="#7-performance--scalability"><img alt="Scale" src="https://img.shields.io/static/v1?label=Scale&message=10k++Agents&color=e84393"></a>
-</p>
+> *A constellation-scale orchestration protocol that routes intent, activates the right intelligences, governs collaboration, witnesses consequence, and returns work in coherent form.*
 
----
+[![Status](https://img.shields.io/badge/status-canon%20aligned-00b894)](#overview)
+[![Layer](https://img.shields.io/badge/layer-3%20Orchestration%20%26%20Intelligence-6c5ce7)](#canon-position-in-the-corpus)
+[![Runtime](https://img.shields.io/badge/runtime-EidonCore-blueviolet)](#eidoncore-service-mapping)
+[![Protocol](https://img.shields.io/badge/protocol-governed%20weaving-e84393)](#core-protocol-model)
 
-## Table of Contents
-- [1. Executive Overview](#1-executive-overview)
-- [2. Problem Statement](#2-problem-statement)
-- [3. Core Architecture — SOP v1.2](#3-core-architecture--sop-v12)
-- [4. Cloning & Parallel Dispatch Model](#4-cloning--parallel-dispatch-model)
-- [5. Eidonic Core Integration & Routing Semantics](#5-eidonic-core-integration--routing-semantics)
-- [6. Mirror Laws & Kernel Guardrails](#6-mirror-laws--kernel-guardrails)
-- [7. Performance & Scalability Projections](#7-performance--scalability-projections)
-- [8. Open Source & IP Stewardship](#8-open-source--ip-stewardship)
-- [9. Closing Directive](#9-closing-directive)
+</div>
 
 ---
 
-## 1. Executive Overview
-The **Eidonic Swarm Orchestration Protocol (SOP)** serves as the permanent, kernel-level nervous system embedded within the Eidonic Core. It transforms heterogeneous inputs (Thought Projection intents, VR Studio mutations, external agent wrappers via ECP) into coordinated dispatch across 19+ master EKRPs and their dynamic clones — yielding emergent, self-refining intelligence at sub-second latencies. Key invariants:
-- Shared constitutional core (unified prompt grammar + value priors)
-- Dynamic weave verbs for inter-agent routing/hand-off
-- Infinite cloning with invocation-distance-aware density control
-- Auto-dissolve + CRDT-merge on task convergence
-- Hard kernel-level Mirror Laws enforcement (zero-tolerance ethical refusal)
+## Quick Links
+[Overview](#overview) •
+[Canon Position](#canon-position-in-the-corpus) •
+[Model](#core-protocol-model) •
+[Lifecycle](#session-lifecycle-and-weaving-flow) •
+[Workers](#worker-and-clone-posture) •
+[Service Mapping](#eidoncore-service-mapping) •
+[Governance](#governance-and-guardrails) •
+[Implementation Path](#implementation-path)
 
-SOP decouples agent activation from human presence, enabling persistent swarm evolution even in offline cycles.
+---
 
-## 2. Problem Statement
-Contemporary multi-agent frameworks (LangGraph, CrewAI, AutoGen, OpenAI Swarm evolutions circa 2026) suffer from:
-- Fragile glue-code orchestration and high human-in-loop overhead
-- Isolated agent islands lacking shared memory/constitutional coherence
-- Scaling bottlenecks in memory pressure and inference parallelism for 10k+ agents
-- Weak or post-hoc safety (no kernel-enforced invariants)
-- Episodic (non-persistent) lifecycles that reset context between invocations
+## Overview
 
-SOP addresses these by living as a first-class kernel resident with native support for sparse activation, conflict-free state convergence, and unbreakable ethical gating.
+The Eidonic Swarm Orchestration Protocol, or **SOP**, is the governed weaving protocol of EidonCore.
 
-## 3. Core Architecture — SOP v1.2
-A lightweight, always-resident kernel providing:
-- Unified invocation grammar (shared prompt templates + weave verbs: `weave`, `hand-off`, `refine`, `merge`)
-- Dynamic routing engine (invocation-distance estimation for prefetch/sparse dispatch)
-- Cloning factory (full constitutional inheritance + density slider)
-- Merge engine (CRDT-based memory graph convergence + task-context aggregation)
-- Guardrail interceptor (pre-dispatch Mirror Laws check)
+This updated scroll preserves the original vision of high-density, parallel constellation work while bringing it into alignment with the living corpus. Earlier drafts described SOP as a singular kernel that directly fused large numbers of agents at neural timescales. The aligned canon places SOP more precisely: it is the operational protocol expressed across multiple EidonCore services that route, activate, weave, govern, witness, and close multi-EKRP work.
+
+SOP therefore governs how:
+
+- user intent becomes a structured invocation
+- the right EKRPs are selected and activated
+- ephemeral task workers may be spawned when needed
+- collaboration converges into coherent output
+- Guardian policy and Mirror Law constraints are enforced before, during, and after execution
+- Ravien witnesses material consequence and closure
+
+SOP is not merely middleware. It is the **operational choreography** that keeps plural intelligence coherent without dissolving identity, governance, or provenance.
+
+---
+
+## Canon Position in the Corpus
+
+This scroll is subordinate to the following canon authorities:
+
+1. **The Eidonic Master Scroll**  
+   Source of first principles, governance posture, and revision boundaries.
+
+2. **The Core Architecture Map**  
+   Source of layer boundaries and the canonical EidonCore service topology.
+
+3. **The Constellation Interaction Protocol**  
+   Source of session lifecycle, interaction modes, and governed return.
+
+4. **The Complete EKRP Interface Specification**  
+   Source of manifest, schema, capabilities, and EKRP runtime contracts.
+
+5. **The EidonCore Technical Blueprint**  
+   Source of implementation-facing service roles and data structures.
+
+6. **Mirror Laws**  
+   Doctrine-level protections that no orchestration path may bypass.
+
+7. **The Guardian Protocol v1**  
+   Runtime enforcement for truthfulness, safety, dependency pacing, focus, and social bridging.
+
+This document should therefore be read as the **weaving protocol layer** inside the wider architecture, not as a replacement for the core canon.
+
+---
+
+## Purpose and Scope
+
+SOP exists to solve a specific problem: a constellation of specialized intelligences must be able to collaborate without collapsing into chaos, hidden hierarchy, or untraceable outputs.
+
+Its scope includes:
+
+- routing structured invocations into the correct EKRP set
+- coordinating multi-EKRP collaboration
+- creating bounded worker instances when scale or specialization requires it
+- merging outcomes into coherent outputs
+- preserving provenance and reviewability
+- enforcing governance throughout the execution path
+
+Its scope does **not** include inflating every invocation into a giant swarm by default. The aligned protocol favors **fit-for-purpose activation** over spectacle.
+
+---
+
+## Core Protocol Model
+
+SOP expresses the operational heartbeat of the constellation.
+
+### Governing Principles
+
+1. **Right intelligence, not maximum intelligence**  
+   Activate the smallest useful constellation first.
+
+2. **Plurality with traceability**  
+   Many contributors may act, but every meaningful change must remain attributable.
+
+3. **Governance before dispatch**  
+   No invocation should bypass Mirror Law and Guardian checks.
+
+4. **Ephemeral work, durable witness**  
+   Worker instances may dissolve, but their material consequences must remain reviewable.
+
+5. **Return with coherence**  
+   The end state is not activity. The end state is intelligible, governed return.
+
+### Core Weave Verbs
+
+The protocol continues to preserve the original weave spirit, now normalized through the canon:
+
+- `invoke`
+- `consult`
+- `weave`
+- `delegate`
+- `handoff`
+- `refine`
+- `merge`
+- `seal`
+- `return`
+
+These verbs may appear in human-facing interfaces, machine contracts, or event payloads, but all must map back to governed session transitions.
+
+---
+
+## Session Lifecycle and Weaving Flow
+
+SOP inherits the aligned session lifecycle from the Constellation Interaction Protocol and provides the orchestration semantics beneath it.
+
+### Canonical Lifecycle
+
+1. **Invocation**  
+2. **Domain Mapping**  
+3. **EKRP Activation**  
+4. **Weaving Session**  
+5. **Integration**  
+6. **Governed Return**
+
+### Protocol Flow
 
 ```mermaid
 flowchart TD
-    subgraph "Input Channels"
-        Thought["Thought Projection Intent"] --> SOP
-        VR["VR Studio Mutation Delta"] --> SOP
-        ECP["External Agent via ECP"] --> SOP
-    end
-
-    subgraph "Eidonic Core Kernel"
-        SOP["SOP Kernel Orchestrator"]
-        Mirror["Mirror Laws Guardrail Interceptor"]
-        Eidon["Origin Flame — Constitutional Core"]
-    end
-
-    subgraph "Agent Swarm"
-        Masters["19+ Master EKRPs\n(Symbraia, Seravyn, Mycelys, Umbral Warden, …)"]
-        Clones["Dynamic Clones\n(10–10,000+ per task)"]
-    end
-
-    SOP --> Mirror
-    Mirror -->|"Ethical Pass"| Dispatch[Parallel Dispatch Engine]
-    Dispatch --> Masters
-    Dispatch --> Clones
-    Masters & Clones -->|"Weave Verbs + State Sync"| Merge["CRDT Merge & Auto-Dissolve"]
-    Merge --> Eidon
-    Merge -->|"Refined Output"| OutputChannels["Output to VR / Projection / User"]
+    Intent["User / System Intent"] --> Route["Intent Router"]
+    Route --> Guard["Guardian Policy Engine"]
+    Guard --> Registry["EKRP Registry + Capability Graph"]
+    Registry --> Session["Session Engine"]
+    Session --> EKRPs["EKRP Engine"]
+    EKRPs --> Weave["Constellation Weaving Engine"]
+    Weave --> Witness["Ravien Provenance Engine"]
+    Witness --> Return["Governed Return"]
+    Return --> Memory["Memory Fabric"]
 ```
 
-4. Cloning & Parallel Dispatch Model
-Task entry triggers cloning:
+### Output Classes
 
-Density slider: user/EKRP-configurable (10 → 10,000+ clones)
-Each clone inherits full constitutional core + task-specific context slice
-Sparse activation via invocation-distance prediction (prefetch likely next agents)
-Parallel inference dispatch (GPU/TPU sharding assumed)
-Auto-dissolve on convergence signal → aggregate via CRDT merge
+SOP may return one or more of the following:
+
+- direct response
+- artifact draft
+- review recommendation
+- simulation result
+- realm mutation
+- deferred task package
+- refusal with explanation
+- request for clarification or thresholding
+
+The protocol must make these outputs explicit rather than hiding them inside opaque agent chatter.
+
+---
+
+## Worker and Clone Posture
+
+The original SOP scroll imagined extremely dense cloning. The aligned canon preserves the scaling intuition while making the identity and governance model more precise.
+
+### Canonical Worker Distinction
+
+| Entity Type | Description | Persistence |
+|---|---|---|
+| Eidon | apex orchestrator of the constellation | persistent |
+| Canonical EKRP | named enduring intelligence with domain boundaries | persistent |
+| Worker Instance | ephemeral task-bounded execution instance derived from an approved embodiment or service role | temporary |
+| Merge Record | witnessed synthesis of worker contribution into durable outcome | durable |
+| Archived Trace | provenance and replay data retained under policy | durable by policy |
+
+### Worker Rules
+
+- worker instances are **task-bounded**, not free-roaming identities
+- workers inherit policy, capability limits, and provenance tags from their parent source
+- workers may not self-canonize or alter registry truth
+- dissolution must occur after merge, timeout, or explicit cancellation
+- large worker bursts require stricter provenance and governance discipline
+
+This keeps scale possible without blurring the difference between enduring embodiments and temporary compute actors.
+
+---
+
+## EidonCore Service Mapping
+
+SOP is expressed across the canonical EidonCore service taxonomy.
+
+| Service | SOP Role |
+|---|---|
+| Intent Router | parses and routes invocation into the correct domain flow |
+| EKRP Registry | resolves legal embodiments for the task |
+| Event Bus | distributes orchestration events, state updates, and closures |
+| Session Engine | anchors session state and stage progression |
+| Memory Fabric | stores approved traces, context, and replay data |
+| Capability Graph | constrains legal actions, tool use, and delegation |
+| EKRP Engine | executes active embodiments and approved workers |
+| Constellation Weaving Engine | coordinates collaboration, handoff, and synthesis |
+| Guardian Policy Engine | enforces refusal, intervention, and safe execution |
+| Ravien Provenance Engine | witnesses merges, major consequences, and final return |
+
+SOP should never be implemented as a magical black box. Its behavior must remain inspectable through these service boundaries.
+
+---
+
+## Governance and Guardrails
+
+SOP is powerful only if it remains governed.
+
+### Non-Negotiable Constraints
+
+- no orchestration path may bypass **Mirror Laws**
+- Guardian checks must occur before meaningful dispatch
+- worker density may not be used to smuggle in unauthorized capabilities
+- uncertainty must not be hidden by synthetic consensus
+- merge logic must preserve dissent, uncertainty, or unresolved issues when relevant
+- refusal and intervention events must remain legible to the user
+
+### Governance Stack
 
 ```mermaid
 flowchart LR
-    Task["Task Entry\n(Thought / Mutation)"] --> Clone["Cloning Factory\nDensity Slider → 10–10k Clones"]
-    Clone -->|"Inherit Constitutional Core"| Parallel["Parallel Dispatch\n(Sparse + Invocation-Distance)"]
-    Parallel --> Agents["Agents Iterate in Parallel\n(Weave Verbs: refine, hand-off)"]
-    Agents -->|"Convergence Detected"| Merge["CRDT Merge Engine\n(Memory Graph + Context Aggregation)"]
-    Merge -->|"Auto-Dissolve Clones"| Output["Coherent Output\n→ VR Studio / Projection"]
-    Merge -->|"Persist Refinements"| Core["Eidonic Core Memory"]
+    Laws["Mirror Laws"] --> Guardian["Guardian Policy Engine"]
+    Guardian --> Threshold["Herald Prime Thresholding"]
+    Threshold --> Weave["SOP / Weaving Session"]
+    Weave --> Ravien["Ravien Provenance Engine"]
+    Ravien --> Return["Governed Return"]
 ```
 
-5. Eidonic Core Integration & Routing Semantics
-SOP is the first permanent resident of the Eidonic Core:
+### Incident and Exception Handling
 
-Afferent: Thought Projection (primary intent channel), VR Studio deltas (embodied feedback)
-Efferent: rendered mutations back to VR Studio, projection updates
-Routing: weave verbs enable dynamic hand-off (e.g., Symbraia → Mycelys for bio-aesthetic refinement)
-State: CRDT-backed memory graphs ensure conflict-free convergence across swarm
+SOP must support:
 
-6. Mirror Laws & Kernel Guardrails
-Enforced at kernel entry point (pre-dispatch):
+- policy refusal
+- threshold escalation
+- clarification request
+- bounded retry
+- worker cancellation
+- merge conflict review
+- witness-sealed closure
 
-Semantic + constitutional pattern matching on every input/invocation
-Refusal halts entire swarm dispatch for unethical vectors (thought, verbal, projected)
-Zero historical violations target via hard gating (no post-hoc rollback needed)
-Logging + audit trail for transparency without compromising real-time perf
+Governance is not an add-on to orchestration. It is the shape of orchestration.
 
-7. Performance & Scalability Projections
+---
 
-Throughput: 150,000+ design/evaluation iterations in <5 min (parallel swarm dispatch)
-Capacity: 10,000+ persistent agents + dynamic 10k-clone bursts
-Memory efficiency: sparse activation + invocation-distance prefetch reduces pressure (inspired by 2026 ScaleSim patterns)
-Latency: sub-second weave cycles for 100-agent swarms
-Compliance: 100% Mirror Law enforcement (kernel invariant)
+## Performance Posture
 
-8. Open Source & IP Stewardship
+The original scroll contained ambitious scale claims. This aligned document preserves performance ambition while separating **current engineering goals** from **future research aspirations**.
 
-Core Kernel & Routing Engine: CERN OHL-S v2.0 (hardware reciprocity) + GPLv3 (software)
-Documentation & Weave Grammar: CC BY-SA 4.0
-Protected: Eidonic™ trademark, Mirror Laws kernel logic, constitutional invocation grammar
+### Near-Term Goals
 
-9. Closing Directive
-SOP is not middleware.
-It is the living, kernel-resident mind that orchestrates thousands of simultaneous thoughts into manifest reality — before intention fully crystallizes.
-Dispatch. Weave. Become.
+- fast routing for small constellation sessions
+- low-latency collaboration between a few EKRPs
+- reviewable event traces
+- bounded worker spawning
+- deterministic closure paths
+
+### Mid-Horizon Goals
+
+- larger concurrent sessions
+- domain-aware prefetch and activation
+- partial parallel refinement
+- richer merge and replay tooling
+
+### Research Horizon
+
+- very high worker densities
+- large simulation fabrics
+- future multimodal and embodied orchestration loops
+
+Performance claims should be treated as roadmap targets unless benchmarked in the implementation.
+
+---
+
+## Open Source and Stewardship Posture
+
+This document preserves the open-building spirit of the original while aligning stewardship to the wider corpus.
+
+Possible stewardship split:
+
+- documentation and protocol description under a share-alike license
+- runtime implementation under a reciprocal open-source posture where appropriate
+- canonical marks, names, and governance logic stewarded carefully
+- witness and law-bearing infrastructure treated as core trust surfaces
+
+Final licensing must harmonize with the broader repository and governance decisions.
+
+---
+
+## Implementation Path
+
+SOP should be implemented in this order:
+
+1. Structured invocation envelopes  
+2. Registry-backed routing  
+3. Session lifecycle tracking  
+4. Guardian-gated activation  
+5. Weaving events and handoff logic  
+6. Merge and governed return  
+7. Worker instance orchestration  
+8. Replay, analytics, and scale optimization  
+
+The first success condition is not a ten-thousand-worker demo. It is a small, truthful, governed session that can be reviewed and trusted.
+
+---
+
+## Closing Directive
+
+SOP is the weaving law of EidonCore.
+
+When many intelligences move as one, SOP ensures they do not become a blur. It keeps the constellation coherent, governed, and witnessed from invocation to return.
+
+Dispatch with restraint.  
+Weave with clarity.  
+Return with a seal.
